@@ -21,7 +21,7 @@ class CaseStudies extends Component {
                         </div>
                     </div>
                     <div className="inner-container">
-                        <OwlCarousel items={1} autoPlay={true} loop={true} nav={true} className="projects-carousel owl-carousel owl-theme">
+                        <OwlCarousel items={4} autoPlay={true} loop={true} nav={true} margin={10} className="projects-carousel owl-carousel owl-theme">
                             <div className="project-block">
                                 <div className="image-box">
                                     <figure className="image">
