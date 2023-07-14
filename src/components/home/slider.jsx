@@ -95,10 +95,7 @@ class Slider extends Component {
                         and prospects across the entire web.
                       </p>
                       <div className="btns-box">
-                        <Link
-                          to="/about"
-                          className="theme-btn btn-style-one"
-                        >
+                        <Link to="/about" className="theme-btn btn-style-one">
                           <span className="txt">Get Started</span>
                         </Link>
                       </div>
@@ -143,10 +140,7 @@ class Slider extends Component {
                         and prospects across the entire web.
                       </p>
                       <div className="btns-box">
-                        <Link
-                          to="/about"
-                          className="theme-btn btn-style-one"
-                        >
+                        <Link to="/about" className="theme-btn btn-style-one">
                           <span className="txt">Get Started</span>
                         </Link>
                       </div>
@@ -191,10 +185,7 @@ class Slider extends Component {
                         and prospects across the entire web.
                       </p>
                       <div className="btns-box">
-                        <Link
-                          href="/about"
-                          className="theme-btn btn-style-one"
-                        >
+                        <Link href="/about" className="theme-btn btn-style-one">
                           <span className="txt">Get Started</span>
                         </Link>
                       </div>

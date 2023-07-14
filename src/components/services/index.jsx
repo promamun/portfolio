@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import Solutions from "../home/Solutions";
-import {Link} from "react-router-dom";
 import AllService from "../home/AllService";
+import BroadCamp from '../broadCamp/BroadCamp';
 
 class Index extends Component {
     render() {
@@ -10,25 +10,7 @@ class Index extends Component {
         };
         return (
             <div>
-                <section
-                    className="page-title"
-                    style={BgImage}
-                >
-                    <div id="stars"/>
-                    <div id="stars2"/>
-                    <div id="stars3"/>
-                    <div className="auto-container">
-                        <div className="inner-container clearfix">
-                            <div className="title-box">
-                                <h1>Services</h1>
-                                <ul className="bread-crumb clearfix">
-                                    <li><Link to="/">Home</Link></li>
-                                    <li>Services</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </section>
+                <BroadCamp name="Service" bgImageStyle={BgImage} />
                 <Solutions/>
                 <AllService/>
             </div>
