@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import OwlCarousel from 'react-owl-carousel2';
+import OwlCarousel from 'react-owl-carousel';
 import MainBanner18 from '../../assets/images/main-banner/18.png'
 
 class Slider extends Component {
@@ -94,7 +94,7 @@ class Slider extends Component {
                         className="pattern-layer-tweleve"
                         style={BannerIcon4}
                     />
-                    <OwlCarousel options={options} className="main-slider-carousel owl-carousel owl-theme" >
+                    <OwlCarousel items={1} autoPlay={true} loop={true} nav={true} className="main-slider-carousel owl-carousel owl-theme" >
                         <div className="slide">
                             <div className="auto-container">
                                 <div className="row clearfix">

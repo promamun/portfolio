@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import OwlCarousel from 'react-owl-carousel2';
+import OwlCarousel from 'react-owl-carousel';
 
 class AllService extends Component {
     render() {
@@ -9,14 +9,7 @@ class AllService extends Component {
         const padding = {
             padding:'10px',
         };
-        const options = {
-            items: 4,
-            navText:true,
-            dots: true,
-            autoplay: true,
-            autoplayTimeout: 3000,
-            autoplayHoverPause: true
-        };
+       
         return (
             <div>
                 <section
@@ -36,7 +29,7 @@ class AllService extends Component {
                     </div>
                     <div className="services-box">
                         <div className="auto-container">
-                            <OwlCarousel options={options} className="services-carousel owl-carousel owl-theme">
+                            <OwlCarousel items={3} autoPlay={true} loop={true} nav={true} className="services-carousel owl-carousel owl-theme">
                                 <div className="service-block-five" style={padding}>
                                     <div className="inner-box">
                                         <div className="image-box">

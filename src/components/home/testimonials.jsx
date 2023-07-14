@@ -1,15 +1,10 @@
 import React, {Component} from 'react';
-import OwlCarousel from 'react-owl-carousel2';
+import OwlCarousel from 'react-owl-carousel';
+import TSIMG1 from "../../assets/images/resource/"
 
 class Testimonials extends Component {
     render() {
-        const options = {
-            items: 1,
-            dots: true,
-            autoplay: true,
-            autoplayTimeout: 3000,
-            autoplayHoverPause: true
-        };
+       
         return (
             <div>
                 <section className="testimonial-section">
@@ -33,7 +28,7 @@ class Testimonials extends Component {
                                         for our work
                                     </h2>
                                 </div>
-                                <OwlCarousel options={options} className="testimonial-carousel owl-carousel owl-theme">
+                                <OwlCarousel items={1} autoPlay={true} loop={true} nav={true} className="testimonial-carousel owl-carousel owl-theme">
                                     <div className="testimonial-block">
                                         <div className="inner-box">
                                             <div className="text">

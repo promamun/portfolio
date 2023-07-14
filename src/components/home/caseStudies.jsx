@@ -1,15 +1,13 @@
 import React, {Component} from 'react';
-import OwlCarousel from 'react-owl-carousel2';
+import OwlCarousel from 'react-owl-carousel'; 
+import CASEIMG1 from "../../assets/images/gallery/1.jpg";
+import CASEIMG2 from "../../assets/images/gallery/2.jpg";
+import CASEIMG3 from "../../assets/images/gallery/3.jpg";
+import CASEIMG4 from "../../assets/images/gallery/4.jpg"
 
 class CaseStudies extends Component {
     render() {
-        const options = {
-            items: 4,
-            dots: true,
-            autoplay: true,
-            autoplayTimeout: 3000,
-            autoplayHoverPause: true
-        };
+       
         return (
             <div>
                 <section className="projects-section">
@@ -23,11 +21,11 @@ class CaseStudies extends Component {
                         </div>
                     </div>
                     <div className="inner-container">
-                        <OwlCarousel options={options} className="projects-carousel owl-carousel owl-theme">
+                        <OwlCarousel items={1} autoPlay={true} loop={true} nav={true} className="projects-carousel owl-carousel owl-theme">
                             <div className="project-block">
                                 <div className="image-box">
                                     <figure className="image">
-                                        <img src="images/gallery/1.jpg" alt=""/>
+                                        <img src={CASEIMG1} alt=""/>
                                     </figure>
                                     <div className="overlay-box">
                                         <a href="project-detail.html"><i className="fa fa-link"/></a>
@@ -41,7 +39,7 @@ class CaseStudies extends Component {
                             <div className="project-block">
                                 <div className="image-box">
                                     <figure className="image">
-                                        <img src="images/gallery/2.jpg" alt=""/>
+                                        <img src={CASEIMG2} alt=""/>
                                     </figure>
                                     <div className="overlay-box">
                                         <a href="project-detail.html"><i className="fa fa-link"/></a>
@@ -55,7 +53,7 @@ class CaseStudies extends Component {
                             <div className="project-block">
                                 <div className="image-box">
                                     <figure className="image">
-                                        <img src="images/gallery/3.jpg" alt=""/>
+                                        <img src={CASEIMG3} alt=""/>
                                     </figure>
                                     <div className="overlay-box">
                                         <a href="project-detail.html"><i className="fa fa-link"/></a>
@@ -69,7 +67,7 @@ class CaseStudies extends Component {
                             <div className="project-block">
                                 <div className="image-box">
                                     <figure className="image">
-                                        <img src="images/gallery/4.jpg" alt=""/>
+                                        <img src={CASEIMG4} alt=""/>
                                     </figure>
                                     <div className="overlay-box">
                                         <a href="project-detail.html"><i className="fa fa-link"/></a>
