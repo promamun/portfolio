@@ -3,6 +3,7 @@ import Layout from "./components/Layout";
 import Home from "./components/home/home";
 import Error404 from './components/404/NotFound'
 import Projects from "./components/projects/projects";
+import About from "./components/aboutUs/about";
 function App() {
   return (
     <div >
@@ -11,6 +12,7 @@ function App() {
           <Routes>
             <Route exact path="/" Component={Home} />+
             <Route exact path="/projects" Component={Projects} />+
+            <Route exact path="/about" Component={About} />+
             {/* WHEN NO ROUTE FOUND */}
             <Route path="*" Component={Error404} />
           </Routes>

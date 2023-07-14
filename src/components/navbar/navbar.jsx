@@ -26,14 +26,14 @@ class Navbar extends Component {
                                                 <li >
                                                     <Link to="/">Home</Link>
                                                 </li>
-                                                <li >
-                                                    <Link to="/about">About</Link>
-                                                </li>
                                                 <li className="dropdown">
                                                     <Link to="service">Services</Link>
                                                 </li>
                                                 <li >
                                                     <Link to="/projects">Projects</Link>
+                                                </li>
+                                                <li >
+                                                    <Link to="/about">About</Link>
                                                 </li>
                                                 <li><Link to="/contact">Contact</Link></li>
                                             </ul>
@@ -59,9 +59,9 @@ class Navbar extends Component {
                                 <div className="main-box clearfix">
                                     <div className="logo-box">
                                         <div className="logo">
-                                            <a href="index.html"
+                                            <Link to="/"
                                             ><img src="images/logo-2.png" alt="" title=""
-                                            /></a>
+                                            /></Link>
                                         </div>
                                     </div>
                                     <div className="nav-outer clearfix">
@@ -74,14 +74,14 @@ class Navbar extends Component {
                                                     <li >
                                                         <Link to="/">Home</Link>
                                                     </li>
-                                                    <li >
-                                                        <Link to="/about">About</Link>
-                                                    </li>
                                                     <li className="dropdown">
                                                         <Link to="service">Services</Link>
                                                     </li>
                                                     <li >
                                                         <Link to="/projects">Projects</Link>
+                                                    </li>
+                                                    <li >
+                                                        <Link to="/about">About</Link>
                                                     </li>
                                                     <li><Link to="/contact">Contact</Link></li>
                                                 </ul>
