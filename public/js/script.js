@@ -465,7 +465,7 @@
 		});
 	}
 	
-	//Contact Form Validation
+	//ContactFrom Form Validation
 	if($('#contact-form').length){
 		$('#contact-form').validate({
 			rules: {

@@ -5,6 +5,7 @@ import Error404 from './components/404/NotFound'
 import Projects from "./components/projects/projects";
 import About from "./components/aboutUs/about";
 import Services from "./components/services";
+import Contact from "./components/contact";
 function App() {
   return (
     <div >
@@ -15,6 +16,7 @@ function App() {
             <Route exact path="/projects" Component={Projects} />+
             <Route exact path="/about" Component={About} />+
             <Route exact path="/service" Component={Services} />+
+            <Route exact path="/contact" Component={Contact} />+
             {/* WHEN NO ROUTE FOUND */}
             <Route path="*" Component={Error404} />
           </Routes>

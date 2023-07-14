@@ -2,6 +2,8 @@ import React, {Component} from 'react';
 import Solutions from "../home/Solutions";
 import {Link} from "react-router-dom";
 import AllService from "../home/AllService";
+import Analytics from "./Analytics";
+import ContactFrom from "../contact/ContactFrom";
 
 class Index extends Component {
     render() {
@@ -31,6 +33,8 @@ class Index extends Component {
                 </section>
                 <Solutions/>
                 <AllService/>
+                <Analytics/>
+                <ContactFrom/>
             </div>
         );
     }
