@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import OwlCarousel from 'react-owl-carousel2';
+import OwlCarousel from 'react-owl-carousel';
 
 class AllService extends Component {
     render() {

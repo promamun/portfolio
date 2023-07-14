@@ -1,5 +1,19 @@
 import React, {Component} from 'react';
-import OwlCarousel from 'react-owl-carousel2';
+import OwlCarousel from 'react-owl-carousel';
+import TeameImage1 from "../../assets/images/team/3.jpg";
+import TeameImage2 from "../../assets/images/team/4.jpg";
+import TeameImage3 from "../../assets/images/team/1.jpg";
+import TeameImage4 from "../../assets/images/team/2.jpg";
+import TeameImage5 from "../../assets/images/team/3.jpg";
+import TeameImage6 from "../../assets/images/team/4.jpg";
+import TeameImage7 from "../../assets/images/team/1.jpg";
+import TeameImage8 from "../../assets/images/team/2.jpg";
+import TeameImage9 from "../../assets/images/team/3.jpg";
+import TeameImage10 from "../../assets/images/team/4.jpg";
+import TeameImage11 from "../../assets/images/team/1.jpg";
+import TeameImage12 from "../../assets/images/team/2.jpg";
+import TeameImage13 from "../../assets/images/team/3.jpg";
+import TeameImage14 from "../../assets/images/team/4.jpg";
 
 class Team extends Component {
     render() {
@@ -28,7 +42,7 @@ class Team extends Component {
                                 for your business
                             </h2>
                         </div>
-                        <OwlCarousel className="team-carousel owl-carousel owl-theme"  options={options}>
+                        <OwlCarousel className="team-carousel owl-carousel owl-theme"  items={4} autoPlay={true} loop={true} nav={true}>
                             <div className="team-block">
                                 <div className="inner-box">
                                     <div className="image-box">
@@ -86,7 +100,7 @@ class Team extends Component {
                                     <div className="image-box">
                                         <div className="image">
                                             <a href="team.html"
-                                            ><img src="images/team/3.jpg" alt=""
+                                            ><img src={TeameImage1} alt=""
                                             /></a>
                                         </div>
                                     </div>
@@ -112,7 +126,7 @@ class Team extends Component {
                                     <div className="image-box">
                                         <div className="image">
                                             <a href="team.html"
-                                            ><img src="images/team/4.jpg" alt=""
+                                            ><img src={TeameImage2} alt=""
                                             /></a>
                                         </div>
                                     </div>
@@ -138,7 +152,7 @@ class Team extends Component {
                                     <div className="image-box">
                                         <div className="image">
                                             <a href="team.html"
-                                            ><img src="images/team/1.jpg" alt=""
+                                            ><img src={TeameImage3} alt=""
                                             /></a>
                                         </div>
                                     </div>
@@ -164,7 +178,7 @@ class Team extends Component {
                                     <div className="image-box">
                                         <div className="image">
                                             <a href="team.html"
-                                            ><img src="images/team/2.jpg" alt=""
+                                            ><img src={TeameImage4} alt=""
                                             /></a>
                                         </div>
                                     </div>
@@ -190,7 +204,7 @@ class Team extends Component {
                                     <div className="image-box">
                                         <div className="image">
                                             <a href="team.html"
-                                            ><img src="images/team/3.jpg" alt=""
+                                            ><img src={TeameImage5} alt=""
                                             /></a>
                                         </div>
                                     </div>
@@ -216,7 +230,7 @@ class Team extends Component {
                                     <div className="image-box">
                                         <div className="image">
                                             <a href="team.html"
-                                            ><img src="images/team/4.jpg" alt=""
+                                            ><img src={TeameImage6} alt=""
                                             /></a>
                                         </div>
                                     </div>
@@ -242,7 +256,7 @@ class Team extends Component {
                                     <div className="image-box">
                                         <div className="image">
                                             <a href="team.html"
-                                            ><img src="images/team/1.jpg" alt=""
+                                            ><img src={TeameImage7} alt=""
                                             /></a>
                                         </div>
                                     </div>
@@ -268,7 +282,7 @@ class Team extends Component {
                                     <div className="image-box">
                                         <div className="image">
                                             <a href="team.html"
-                                            ><img src="images/team/2.jpg" alt=""
+                                            ><img src={TeameImage8} alt=""
                                             /></a>
                                         </div>
                                     </div>
@@ -294,7 +308,7 @@ class Team extends Component {
                                     <div className="image-box">
                                         <div className="image">
                                             <a href="team.html"
-                                            ><img src="images/team/3.jpg" alt=""
+                                            ><img src={TeameImage9} alt=""
                                             /></a>
                                         </div>
                                     </div>
@@ -320,7 +334,7 @@ class Team extends Component {
                                     <div className="image-box">
                                         <div className="image">
                                             <a href="team.html"
-                                            ><img src="images/team/4.jpg" alt=""
+                                            ><img src={TeameImage10} alt=""
                                             /></a>
                                         </div>
                                     </div>
@@ -346,7 +360,7 @@ class Team extends Component {
                                     <div className="image-box">
                                         <div className="image">
                                             <a href="team.html"
-                                            ><img src="images/team/1.jpg" alt=""
+                                            ><img src={TeameImage11} alt=""
                                             /></a>
                                         </div>
                                     </div>
@@ -372,7 +386,7 @@ class Team extends Component {
                                     <div className="image-box">
                                         <div className="image">
                                             <a href="team.html"
-                                            ><img src="images/team/2.jpg" alt=""
+                                            ><img src={TeameImage12} alt=""
                                             /></a>
                                         </div>
                                     </div>
@@ -398,7 +412,7 @@ class Team extends Component {
                                     <div className="image-box">
                                         <div className="image">
                                             <a href="team.html"
-                                            ><img src="images/team/3.jpg" alt=""
+                                            ><img src={TeameImage13} alt=""
                                             /></a>
                                         </div>
                                     </div>
@@ -424,7 +438,7 @@ class Team extends Component {
                                     <div className="image-box">
                                         <div className="image">
                                             <a href="team.html"
-                                            ><img src="images/team/4.jpg" alt=""
+                                            ><img src={TeameImage14} alt=""
                                             /></a>
                                         </div>
                                     </div>

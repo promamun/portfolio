@@ -1,17 +1,17 @@
 import React, {Component} from 'react';
-import Slider from "./slider";
+import Slider from './slider';
 import Service from "./service";
-import Testimonials from "./testimonials";
-import CaseStudies from "./caseStudies";
-import Progress from "./progress";
-import Team from "./team";
-import Clients from "./clients";
 import AllService from "./AllService";
+import Team from "./team";
+import Progress from "./progress";
+import Clients from "./clients";
 import Traffics from "./Traffics";
 import WhyChooseUs from "./WhyChooseUs";
 import PricingPlans from "./PricingPlans";
 import Solutions from "./Solutions";
 import HappyClients from "./HappyClients";
+import CaseStudies from "./caseStudies";
+import Testimonials from "./testimonials";
 
 class Home extends Component {
     render() {

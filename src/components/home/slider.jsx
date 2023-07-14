@@ -35,22 +35,10 @@ class Slider extends Component {
         };const BannerIcon10 = {
             backgroundImage: `url(images/main-banner/banner-icon-10.png)`
         };
-        const options = {
-            items: 3,
-            nav:true,
-            loop:true,
-            // dots: true,
-            // autoplay: true,
-            // autoplayTimeout: 3000,
-            // autoplayHoverPause: true
-        };
         return (
             <>
                 <section className="banner-section banner-slider" style={MainBanner}>
-                    <div
-                        className="pattern-layer-one"
-                        style={CrossIcon}
-                    />
+                    <div className="pattern-layer-one" style={CrossIcon}/>
                     <div
                         className="pattern-layer-two"
                         style={BannerIcon5}

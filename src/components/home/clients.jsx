@@ -9,10 +9,7 @@ class Clients extends Component {
         };
         return (
             <div>
-                <section
-                    className="clients-section style-two"
-                    style={BgImage}
-                >
+                <section className="clients-section style-two" style={BgImage}>
                     <div className="container-fluid">
                         <div className="sponsors-outer">
                             <OwlCarousel items={5} autoplay={true} loop={true} className="sponsors-carousel owl-carousel owl-theme">
@@ -71,8 +68,8 @@ class Clients extends Component {
                     </div>
                 </section>
             </div>
-        );
-    }
+    );
+  }
 }
 
 export default Clients;
