@@ -14,6 +14,62 @@ class Footer extends Component {
                     <div className="auto-container">
                         <div className="widgets-section">
                             <div className="row">
+                                <div
+                                    className="newslatter-column col-xl-12 col-lg-12 col-md-12 col-sm-12"
+                                >
+                                    <div className="inner-column">
+                                        <div className="row clearfix">
+                                            <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                                                <div className="newslatter-form">
+                                                    <form
+                                                        method="post"
+                                                        action="https://expert-themes.com/html/sola/blog.html"
+                                                    >
+                                                        <div className="form-group">
+                                                            <input
+                                                                type="text"
+                                                                name="getstarted"
+                                                                placeholder="Enter Your Email Address ......."
+                                                            />
+                                                            <button
+                                                                type="submit"
+                                                                className="theme-btn btn-style-one"
+                                                            >
+                                                                <span className="txt">Submit Now</span>
+                                                            </button>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                            <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                                                <div className="contact-box-footer">
+                                                    <div className="content-block">
+                                                        <div className="icon-box">
+                                                            <i className="flaticon flaticon-communication"></i>
+                                                        </div>
+                                                        <div className="text-box">
+                                                            <p>+1 (800) 581 3645 11</p>
+                                                            <a href="mailto:sola.seo@mail.com"
+                                                            >sola.seo@mail.com</a
+                                                            >
+                                                        </div>
+                                                    </div>
+                                                    <div className="content-block">
+                                                        <div className="icon-box">
+                                                            <i className="flaticon flaticon-location"></i>
+                                                        </div>
+                                                        <div className="text-box">
+                                                            <p>
+                                                                28 Green Tower, <br/>
+                                                                Street Name, New York
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                                 <div className="big-column col-xl-6 col-lg-12 col-md-12 col-sm-12">
                                     <div className="row">
                                         <div

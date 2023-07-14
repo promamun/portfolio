@@ -20,13 +20,6 @@ class Team extends Component {
         const BgImage = {
             backgroundImage: `url(images/background/3.png)`
         };
-        const options = {
-            items: 4,
-            dots: true,
-            autoplay: true,
-            autoplayTimeout: 3000,
-            autoplayHoverPause: true
-        };
         return (
             <div>
                 <section className="team-section">
