@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import {Link} from "react-router-dom";
 import OwlCarousel from 'react-owl-carousel'; 
 import CASEIMG1 from "../../assets/images/gallery/1.jpg";
 import CASEIMG2 from "../../assets/images/gallery/2.jpg";
@@ -28,12 +29,12 @@ class CaseStudies extends Component {
                                         <img src={CASEIMG1} alt=""/>
                                     </figure>
                                     <div className="overlay-box">
-                                        <a href="project-detail.html"><i className="fa fa-link"/></a>
+                                        <Link to="/project-detail"><i className="fa fa-link"/></Link>
                                     </div>
                                 </div>
                                 <div className="text-box">
                                     <span className="tag">Digital</span>
-                                    <h3><a href="project-detail.html">Mobile App Vister</a></h3>
+                                    <h3><Link to="/project-detail">Mobile App Vister</Link></h3>
                                 </div>
                             </div>
                             <div className="project-block">
@@ -42,12 +43,12 @@ class CaseStudies extends Component {
                                         <img src={CASEIMG2} alt=""/>
                                     </figure>
                                     <div className="overlay-box">
-                                        <a href="project-detail.html"><i className="fa fa-link"/></a>
+                                        <Link to="/project-detail"><i className="fa fa-link"/></Link>
                                     </div>
                                 </div>
                                 <div className="text-box">
                                     <span className="tag">Business</span>
-                                    <h3><a href="project-detail.html">Digital Work</a></h3>
+                                    <h3><Link to="/project-detail">Digital Work</Link></h3>
                                 </div>
                             </div>
                             <div className="project-block">
@@ -56,12 +57,12 @@ class CaseStudies extends Component {
                                         <img src={CASEIMG3} alt=""/>
                                     </figure>
                                     <div className="overlay-box">
-                                        <a href="project-detail.html"><i className="fa fa-link"/></a>
+                                        <Link to="/project-detail"><i className="fa fa-link"/></Link>
                                     </div>
                                 </div>
                                 <div className="text-box">
                                     <span className="tag">Digital PR</span>
-                                    <h3><a href="project-detail.html">Innovative Interface</a></h3>
+                                    <h3><Link to="/project-detail">Innovative Interface</Link></h3>
                                 </div>
                             </div>
                             <div className="project-block">
@@ -70,12 +71,12 @@ class CaseStudies extends Component {
                                         <img src={CASEIMG4} alt=""/>
                                     </figure>
                                     <div className="overlay-box">
-                                        <a href="project-detail.html"><i className="fa fa-link"/></a>
+                                        <Link to="/project-detail"><i className="fa fa-link"/></Link>
                                     </div>
                                 </div>
                                 <div className="text-box">
                                     <span className="tag">SEO Marketing</span>
-                                    <h3><a href="project-detail.html">Opertray Division</a></h3>
+                                    <h3><Link to="/project-detail">Opertray Division</Link></h3>
                                 </div>
                             </div>
                         </OwlCarousel>

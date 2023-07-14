@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import { Link } from 'react-router-dom';
 import OwlCarousel from 'react-owl-carousel';
 import TeameImage1 from "../../assets/images/team/3.jpg";
 import TeameImage2 from "../../assets/images/team/4.jpg";
@@ -14,6 +15,7 @@ import TeameImage11 from "../../assets/images/team/1.jpg";
 import TeameImage12 from "../../assets/images/team/2.jpg";
 import TeameImage13 from "../../assets/images/team/3.jpg";
 import TeameImage14 from "../../assets/images/team/4.jpg";
+import TeameImage15 from "../../assets/images/team/2.jpg";
 
 class Team extends Component {
     render() {
@@ -40,9 +42,9 @@ class Team extends Component {
                                 <div className="inner-box">
                                     <div className="image-box">
                                         <div className="image">
-                                            <a href="team.html"
+                                            <Link to="/team"
                                             ><img src="images/team/1.jpg" alt=""
-                                            /></a>
+                                            /></Link>
                                         </div>
                                     </div>
                                     <ul className="social-links">
@@ -66,9 +68,9 @@ class Team extends Component {
                                 <div className="inner-box">
                                     <div className="image-box">
                                         <div className="image">
-                                            <a href="team.html"
-                                            ><img src="images/team/2.jpg" alt=""
-                                            /></a>
+                                            <Link to="/team"
+                                            ><img src={TeameImage15} alt=""
+                                            /></Link>
                                         </div>
                                     </div>
                                     <ul className="social-links">
@@ -83,7 +85,7 @@ class Team extends Component {
                                         </li>
                                     </ul>
                                     <div className="text-box">
-                                        <h4 className="name"><a href="team.html">Noah Michael</a></h4>
+                                        <h4 className="name"><Link to="/team">Noah Michael</Link></h4>
                                         <span className="designation">Market Manager</span>
                                     </div>
                                 </div>
@@ -92,9 +94,9 @@ class Team extends Component {
                                 <div className="inner-box">
                                     <div className="image-box">
                                         <div className="image">
-                                            <a href="team.html"
+                                            <Link to="/team"
                                             ><img src={TeameImage1} alt=""
-                                            /></a>
+                                            /></Link>
                                         </div>
                                     </div>
                                     <ul className="social-links">
@@ -109,7 +111,7 @@ class Team extends Component {
                                         </li>
                                     </ul>
                                     <div className="text-box">
-                                        <h4 className="name"><a href="team.html">Emma William</a></h4>
+                                        <h4 className="name"><Link to="/team">Emma William</Link></h4>
                                         <span className="designation">General Manager</span>
                                     </div>
                                 </div>
@@ -118,9 +120,9 @@ class Team extends Component {
                                 <div className="inner-box">
                                     <div className="image-box">
                                         <div className="image">
-                                            <a href="team.html"
+                                            <Link to="/team"
                                             ><img src={TeameImage2} alt=""
-                                            /></a>
+                                            /></Link>
                                         </div>
                                     </div>
                                     <ul className="social-links">
@@ -135,7 +137,7 @@ class Team extends Component {
                                         </li>
                                     </ul>
                                     <div className="text-box">
-                                        <h4 className="name"><a href="team.html">Matthew David</a></h4>
+                                        <h4 className="name"><Link to="/team">Matthew David</Link></h4>
                                         <span className="designation">CEO of Company</span>
                                     </div>
                                 </div>
@@ -144,9 +146,9 @@ class Team extends Component {
                                 <div className="inner-box">
                                     <div className="image-box">
                                         <div className="image">
-                                            <a href="team.html"
+                                            <Link to="/team"
                                             ><img src={TeameImage3} alt=""
-                                            /></a>
+                                            /></Link>
                                         </div>
                                     </div>
                                     <ul className="social-links">
@@ -161,7 +163,7 @@ class Team extends Component {
                                         </li>
                                     </ul>
                                     <div className="text-box">
-                                        <h4 className="name"><a href="team.html">Olivia Jayden</a></h4>
+                                        <h4 className="name"><Link to="/team">Olivia Jayden</Link></h4>
                                         <span className="designation">Project Manager</span>
                                     </div>
                                 </div>
@@ -170,9 +172,9 @@ class Team extends Component {
                                 <div className="inner-box">
                                     <div className="image-box">
                                         <div className="image">
-                                            <a href="team.html"
+                                            <Link to="/team"
                                             ><img src={TeameImage4} alt=""
-                                            /></a>
+                                            /></Link>
                                         </div>
                                     </div>
                                     <ul className="social-links">
@@ -187,7 +189,7 @@ class Team extends Component {
                                         </li>
                                     </ul>
                                     <div className="text-box">
-                                        <h4 className="name"><a href="team.html">Noah Michael</a></h4>
+                                        <h4 className="name"><Link to="/team">Noah Michael</Link></h4>
                                         <span className="designation">Market Manager</span>
                                     </div>
                                 </div>
@@ -196,9 +198,9 @@ class Team extends Component {
                                 <div className="inner-box">
                                     <div className="image-box">
                                         <div className="image">
-                                            <a href="team.html"
+                                            <Link to="/team"
                                             ><img src={TeameImage5} alt=""
-                                            /></a>
+                                            /></Link>
                                         </div>
                                     </div>
                                     <ul className="social-links">
@@ -213,7 +215,7 @@ class Team extends Component {
                                         </li>
                                     </ul>
                                     <div className="text-box">
-                                        <h4 className="name"><a href="team.html">Emma William</a></h4>
+                                        <h4 className="name"><Link to="/team">Emma William</Link></h4>
                                         <span className="designation">General Manager</span>
                                     </div>
                                 </div>
@@ -222,9 +224,9 @@ class Team extends Component {
                                 <div className="inner-box">
                                     <div className="image-box">
                                         <div className="image">
-                                            <a href="team.html"
+                                            <Link to="team.html"
                                             ><img src={TeameImage6} alt=""
-                                            /></a>
+                                            /></Link>
                                         </div>
                                     </div>
                                     <ul className="social-links">
@@ -239,7 +241,7 @@ class Team extends Component {
                                         </li>
                                     </ul>
                                     <div className="text-box">
-                                        <h4 className="name"><a href="team.html">Matthew David</a></h4>
+                                        <h4 className="name"><Link to="/team">Matthew David</Link></h4>
                                         <span className="designation">CEO of Company</span>
                                     </div>
                                 </div>
@@ -248,9 +250,9 @@ class Team extends Component {
                                 <div className="inner-box">
                                     <div className="image-box">
                                         <div className="image">
-                                            <a href="team.html"
+                                            <Link to="/team"
                                             ><img src={TeameImage7} alt=""
-                                            /></a>
+                                            /></Link>
                                         </div>
                                     </div>
                                     <ul className="social-links">
@@ -265,7 +267,7 @@ class Team extends Component {
                                         </li>
                                     </ul>
                                     <div className="text-box">
-                                        <h4 className="name"><a href="team.html">Olivia Jayden</a></h4>
+                                        <h4 className="name"><Link to="/team">Olivia Jayden</Link></h4>
                                         <span className="designation">Project Manager</span>
                                     </div>
                                 </div>
@@ -274,9 +276,9 @@ class Team extends Component {
                                 <div className="inner-box">
                                     <div className="image-box">
                                         <div className="image">
-                                            <a href="team.html"
+                                            <Link to="/team"
                                             ><img src={TeameImage8} alt=""
-                                            /></a>
+                                            /></Link>
                                         </div>
                                     </div>
                                     <ul className="social-links">
@@ -291,7 +293,7 @@ class Team extends Component {
                                         </li>
                                     </ul>
                                     <div className="text-box">
-                                        <h4 className="name"><a href="team.html">Noah Michael</a></h4>
+                                        <h4 className="name"><Link to="/team">Noah Michael</Link></h4>
                                         <span className="designation">Market Manager</span>
                                     </div>
                                 </div>
@@ -300,9 +302,9 @@ class Team extends Component {
                                 <div className="inner-box">
                                     <div className="image-box">
                                         <div className="image">
-                                            <a href="team.html"
+                                            <Link to="/team"
                                             ><img src={TeameImage9} alt=""
-                                            /></a>
+                                            /></Link>
                                         </div>
                                     </div>
                                     <ul className="social-links">
@@ -317,7 +319,7 @@ class Team extends Component {
                                         </li>
                                     </ul>
                                     <div className="text-box">
-                                        <h4 className="name"><a href="team.html">Emma William</a></h4>
+                                        <h4 className="name"><Link to="/team">Emma William</Link></h4>
                                         <span className="designation">General Manager</span>
                                     </div>
                                 </div>
@@ -326,9 +328,9 @@ class Team extends Component {
                                 <div className="inner-box">
                                     <div className="image-box">
                                         <div className="image">
-                                            <a href="team.html"
+                                            <Link to="/team"
                                             ><img src={TeameImage10} alt=""
-                                            /></a>
+                                            /></Link>
                                         </div>
                                     </div>
                                     <ul className="social-links">
@@ -343,7 +345,7 @@ class Team extends Component {
                                         </li>
                                     </ul>
                                     <div className="text-box">
-                                        <h4 className="name"><a href="team.html">Matthew David</a></h4>
+                                        <h4 className="name"><Link to="/team">Matthew David</Link></h4>
                                         <span className="designation">CEO of Company</span>
                                     </div>
                                 </div>
@@ -352,9 +354,9 @@ class Team extends Component {
                                 <div className="inner-box">
                                     <div className="image-box">
                                         <div className="image">
-                                            <a href="team.html"
+                                            <Link to="/team"
                                             ><img src={TeameImage11} alt=""
-                                            /></a>
+                                            /></Link>
                                         </div>
                                     </div>
                                     <ul className="social-links">
@@ -369,7 +371,7 @@ class Team extends Component {
                                         </li>
                                     </ul>
                                     <div className="text-box">
-                                        <h4 className="name"><a href="team.html">Olivia Jayden</a></h4>
+                                        <h4 className="name"><Link to="/team">Olivia Jayden</Link></h4>
                                         <span className="designation">Project Manager</span>
                                     </div>
                                 </div>
@@ -378,9 +380,9 @@ class Team extends Component {
                                 <div className="inner-box">
                                     <div className="image-box">
                                         <div className="image">
-                                            <a href="team.html"
+                                            <Link to="/team"
                                             ><img src={TeameImage12} alt=""
-                                            /></a>
+                                            /></Link>
                                         </div>
                                     </div>
                                     <ul className="social-links">
@@ -395,7 +397,7 @@ class Team extends Component {
                                         </li>
                                     </ul>
                                     <div className="text-box">
-                                        <h4 className="name"><a href="team.html">Noah Michael</a></h4>
+                                        <h4 className="name"><Link to="/team">Noah Michael</Link></h4>
                                         <span className="designation">Market Manager</span>
                                     </div>
                                 </div>
@@ -404,9 +406,9 @@ class Team extends Component {
                                 <div className="inner-box">
                                     <div className="image-box">
                                         <div className="image">
-                                            <a href="team.html"
+                                            <Link to="/team"
                                             ><img src={TeameImage13} alt=""
-                                            /></a>
+                                            /></Link>
                                         </div>
                                     </div>
                                     <ul className="social-links">
@@ -421,7 +423,7 @@ class Team extends Component {
                                         </li>
                                     </ul>
                                     <div className="text-box">
-                                        <h4 className="name"><a href="team.html">Emma William</a></h4>
+                                        <h4 className="name"><Link to="/team">Emma William</Link></h4>
                                         <span className="designation">General Manager</span>
                                     </div>
                                 </div>
@@ -430,9 +432,9 @@ class Team extends Component {
                                 <div className="inner-box">
                                     <div className="image-box">
                                         <div className="image">
-                                            <a href="team.html"
+                                            <Link to="/team"
                                             ><img src={TeameImage14} alt=""
-                                            /></a>
+                                            /></Link>
                                         </div>
                                     </div>
                                     <ul className="social-links">
@@ -447,7 +449,7 @@ class Team extends Component {
                                         </li>
                                     </ul>
                                     <div className="text-box">
-                                        <h4 className="name"><a href="team.html">Matthew David</a></h4>
+                                        <h4 className="name"><Link to="/team">Matthew David</Link></h4>
                                         <span className="designation">CEO of Company</span>
                                     </div>
                                 </div>
