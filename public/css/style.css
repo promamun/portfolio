@@ -813,7 +813,7 @@ img{
 
 .main-menu .navigation{
 	position:static;
-	margin:0px;
+	margin:5px;
 }
 
 .main-menu .navigation > li{
@@ -1950,7 +1950,7 @@ html.modal-active, body.modal-active {
 .header-style-two .header-lower .main-box{
 	position: absolute;
     left: 0;
-    top: 40px;
+    top: 20px;
     width: 100%;
 }
 
@@ -1960,8 +1960,9 @@ html.modal-active, body.modal-active {
 
 
 .header-style-two .outer-box {
-    padding: 21px 0 0;
+    padding: 11px 0 0;
     margin-left: 10px;
+    margin-bottom: 8px;
 }
 .header-style-two .outer-box .cart-box {
     margin-left: 15px;

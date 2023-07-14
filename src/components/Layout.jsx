@@ -6,6 +6,20 @@ export default function Layout({ children }) {
     return (
         <>
             <NavBar />
+            <div className="preloader">
+                <div className="preloader__dot"/>
+                <div className="preloader__dot"/>
+                <div className="preloader__dot"/>
+                <div className="preloader__dot"/>
+                <div className="preloader__dot"/>
+                <div className="preloader__dot"/>
+                <div className="preloader__dot"/>
+                <div className="preloader__dot"/>
+                <div className="preloader__dot"/>
+                <div className="preloader__dot"/>
+                <div className="preloader__dot"/>
+                <div className="preloader__dot"/>
+            </div>
 
             {children}
 

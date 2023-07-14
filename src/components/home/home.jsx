@@ -7,17 +7,27 @@ import Progress from "./progress";
 import Team from "./team";
 import Clients from "./clients";
 import AllService from "./AllService";
+import Traffics from "./Traffics";
+import WhyChooseUs from "./WhyChooseUs";
+import PricingPlans from "./PricingPlans";
+import Solutions from "./Solutions";
+import HappyClients from "./HappyClients";
 
 class Home extends Component {
     render() {
         return (
             <div>
                 <Slider/>
+                <Clients/>
+                <Solutions/>
+                <HappyClients/>
                 <Service/>
+                <Traffics/>
                 <AllService/>
+                <WhyChooseUs/>
+                <PricingPlans/>
                 <Team/>
                 <Progress/>
-                <Clients/>
                 <CaseStudies/>
                 <Testimonials/>
             </div>

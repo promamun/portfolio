@@ -1,22 +1,21 @@
 import React, {Component} from 'react';
-import OwlCarousel from 'react-owl-carousel2';
+import OwlCarousel from 'react-owl-carousel';
 import image from '../../assets/images/clients/1.png'
 
 class Clients extends Component {
     render() {
-        const options = {
-            items: 4,
-            dots: true,
-            autoplay: true,
-            autoplayTimeout: 3000,
-            autoplayHoverPause: true
+        const BgImage = {
+            backgroundImage: `url('images/background/7.png')`
         };
         return (
             <div>
-                <section className="clients-section">
-                    <div className="auto-container">
+                <section
+                    className="clients-section style-two"
+                    style={BgImage}
+                >
+                    <div className="container-fluid">
                         <div className="sponsors-outer">
-                            <OwlCarousel options={options} className="sponsors-carousel owl-carousel owl-theme">
+                            <OwlCarousel items={5} autoplay={true} loop={true} className="sponsors-carousel owl-carousel owl-theme">
                                 <li className="slide-item">
                                     <figure className="image-box">
                                         <a href="#"><img src={image} alt=""/></a>
@@ -68,9 +67,6 @@ class Clients extends Component {
                                     </figure>
                                 </li>
                             </OwlCarousel>
-                            <ul className="sponsors-carousel owl-carousel owl-theme">
-
-                            </ul>
                         </div>
                     </div>
                 </section>
