@@ -12,6 +12,7 @@ import Solutions from "./Solutions";
 import HappyClients from "./HappyClients";
 import CaseStudies from "./caseStudies";
 import Testimonials from "./testimonials";
+import NewsLetter from "./Newsletter";
 
 class Home extends Component {
     render() {
@@ -30,6 +31,7 @@ class Home extends Component {
                 <Progress/>
                 <CaseStudies/>
                 <Testimonials/>
+                <NewsLetter/>
             </div>
         );
     }
