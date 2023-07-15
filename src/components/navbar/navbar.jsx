@@ -23,30 +23,20 @@ class Navbar extends Component {
                                     <nav className="main-menu navbar-expand-md">
                                         <div className="collapse show navbar-collapse clearfix" id="navbarSupportedContent">
                                             <ul className="navigation clearfix">
-                                                <li >
-                                                    <Link to="/">Home</Link>
-                                                </li>
-                                                <li className="dropdown">
-                                                    <Link to="/service">Services</Link>
-                                                </li>
-                                                <li >
-                                                    <Link to="/projects">Projects</Link>
-                                                </li>
-                                                <li >
-                                                    <Link to="/about">About</Link>
-                                                </li>
+                                                <li ><Link to="/">Home</Link></li>
+                                                <li><Link to="/service">Services</Link></li>
+                                                <li><Link to="/team">Team</Link></li>
+                                                <li><Link to="/case-studies">Case Studies</Link></li>
+                                                <li><Link to="/projects">Projects</Link></li>
+                                                <li><Link to="/pricing">Pricing</Link></li>
                                                 <li><Link to="/contact">Contact</Link></li>
+                                                <li><Link to="/about">About</Link></li>
                                             </ul>
                                         </div>
                                     </nav>
                                     <div className="outer-box">
-                                        <div className="cart-box">
-                                        </div>
-                                        <div className="search-box-outer">
-
-                                        </div>
-                                        <Link to="/free-quote" className="theme-btn btn-style-one">
-                                            <span className="txt">Free Quote</span>
+                                        <Link to="/free-consultation" className="theme-btn btn-style-one">
+                                            <span className="txt">Free Consultation</span>
                                         </Link>
                                     </div>
                                 </div>
@@ -71,30 +61,20 @@ class Navbar extends Component {
                                         <nav className="main-menu navbar-expand-md">
                                             <div className="collapse show navbar-collapse clearfix" id="navbarSupportedContent">
                                                 <ul className="navigation clearfix">
-                                                    <li >
-                                                        <Link to="/">Home</Link>
-                                                    </li>
-                                                    <li className="dropdown">
-                                                        <Link to="/service">Services</Link>
-                                                    </li>
-                                                    <li >
-                                                        <Link to="/projects">Projects</Link>
-                                                    </li>
-                                                    <li >
-                                                        <Link to="/about">About</Link>
-                                                    </li>
+                                                    <li ><Link to="/">Home</Link></li>
+                                                    <li><Link to="/service">Services</Link></li>
+                                                    <li><Link to="/team">Team</Link></li>
+                                                    <li><Link to="/case-studies">Case Studies</Link></li>
+                                                    <li><Link to="/projects">Projects</Link></li>
+                                                    <li><Link to="/pricing">Pricing</Link></li>
                                                     <li><Link to="/contact">Contact</Link></li>
+                                                    <li><Link to="/about">About</Link></li>
                                                 </ul>
                                             </div>
                                         </nav>
                                         <div className="outer-box">
-                                            <div className="cart-box">
-                                            </div>
-                                            <div className="search-box-outer">
-
-                                            </div>
-                                            <Link to="/free-quote" className="theme-btn btn-style-one">
-                                                <span className="txt">Free Quote</span>
+                                            <Link to="/free-consultation" className="theme-btn btn-style-one">
+                                                <span className="txt">Free Consultation</span>
                                             </Link>
                                         </div>
                                     </div>
