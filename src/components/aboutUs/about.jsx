@@ -10,7 +10,7 @@ class About extends Component {
     };
     return (
       <div>
-        <BroadCamp name="About Us" bgImageStyle={BgImage}/>
+        <BroadCamp name="About Us" bgImageStyle={BgImage} />
         <Traffics />
         <HappyClients />
       </div>

@@ -16,10 +16,7 @@ class Traffics extends Component {
                 <div className="inner-column">
                   <div className="image-box">
                     <figure className="alphabet-img wow fadeInRight">
-                      <img
-                        src={TrafficImg1}
-                        alt="about img"
-                      />
+                      <img src={TrafficImg1} alt="about img" />
                     </figure>
                   </div>
                 </div>

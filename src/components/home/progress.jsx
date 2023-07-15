@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import proImage1 from "../../assets/images/resource/progress-1.png"
+import progressImg from "../../assets/images/resource/progress-1.png";
 
 class Progress extends Component {
   render() {
@@ -107,10 +107,7 @@ class Progress extends Component {
               <div className="image-cloumn col-lg-6 col-md-12 col-sm-12">
                 <div className="image-box">
                   <figure>
-                    <img
-                      src={proImage1}
-                      alt="progress image"
-                    />
+                    <img src={progressImg} alt="progress image" />
                   </figure>
                   <div className="animated-img-1" />
                   <div className="animated-img-2" />
