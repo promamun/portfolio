@@ -80,13 +80,14 @@ class ContactFrom extends Component {
                           <TextArea name="message" placeholder="Massage" />
                         </div>
                         <div className="col-lg-12 col-md-12 col-sm-12 form-group text-left">
-                          <Button
-                            className="theme-btn btn-style-one"
-                            type="submit"
-                            name="submit-form"
-                          >
-                            <span className="txt">Send Now</span>
-                          </Button>
+                          <Button type={'submit'} className={'theme-btn btn-style-one'} name={'submit-form'}>{'Send Now'}</Button>
+                          {/*<Button*/}
+                          {/*  className="theme-btn btn-style-one"*/}
+                          {/*  type="submit"*/}
+                          {/*  name="submit-form"*/}
+                          {/*>*/}
+                          {/*  <span className="txt">Send Now</span>*/}
+                          {/*</Button>*/}
                         </div>
                       </div>
                     </form>

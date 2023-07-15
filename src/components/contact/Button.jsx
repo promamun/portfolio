@@ -7,8 +7,7 @@ function Button({className,type,name,children}) {
       className={className}
       type={type}
       name={name}
-      >
-        {children}
+      ><span className="txt">{children}</span>
       </button>
     </div>
   );
