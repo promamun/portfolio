@@ -2,7 +2,34 @@ import React, { Component } from "react";
 import whyImage1 from "../../assets/images/resource/faq-img.png";
 
 class WhyChooseUs extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      position: -1,
+
+      all_accordion: [
+        {
+          title: "Keyword & Market Research",
+          text: "Sole always works to stay on top of the latest trends and best practices to apply to your company projects.",
+        },
+        {
+          title: "Designing & Interactive Content",
+          text: "Sole always works to stay on top of the latest trends and best practices to apply to your company projects.",
+        },
+        {
+          title: "Social Media Promotion",
+          text: "Sole always works to stay on top of the latest trends and best practices to apply to your company projects.",
+        },
+        {
+          title: "Digital PR & Penalty Recovery",
+          text: "Sole always works to stay on top of the latest trends and best practices to apply to your company projects.",
+        },
+      ],
+    };
+  }
+
   render() {
+    let { all_accordion, position } = this.state;
     return (
       <div>
         <section className="faq-section">
@@ -27,66 +54,37 @@ class WhyChooseUs extends Component {
                     </h2>
                   </div>
                   <ul className="accordion-box">
-                    <li className="accordion block">
-                      <div className="acc-btn">
-                        Keyword & Market Research
-                        <div className="icon fa fa-arrow-circle-up" />
-                      </div>
-                      <div className="acc-content">
-                        <div className="content">
-                          <p>
-                            Sole always works to stay on top of the latest
-                            trends and best practices to apply to your company
-                            projects.
-                          </p>
-                        </div>
-                      </div>
-                    </li>
-                    <li className="accordion block active-block">
-                      <div className="acc-btn active">
-                        Designing & Interactive Content
-                        <div className="icon fa fa-arrow-circle-up" />
-                      </div>
-                      <div className="acc-content current">
-                        <div className="content">
-                          <p>
-                            Sole always works to stay on top of the latest
-                            trends and best practices to apply to your company
-                            projects.
-                          </p>
-                        </div>
-                      </div>
-                    </li>
-                    <li className="accordion block">
-                      <div className="acc-btn">
-                        Social Media Promotion
-                        <div className="icon fa fa-arrow-circle-up" />
-                      </div>
-                      <div className="acc-content">
-                        <div className="content">
-                          <p>
-                            Sole always works to stay on top of the latest
-                            trends and best practices to apply to your company
-                            projects.
-                          </p>
-                        </div>
-                      </div>
-                    </li>
-                    <li className="accordion block">
-                      <div className="acc-btn">
-                        Digital PR & Penalty Recovery
-                        <div className="icon fa fa-arrow-circle-up" />
-                      </div>
-                      <div className="acc-content">
-                        <div className="content">
-                          <p>
-                            Sole always works to stay on top of the latest
-                            trends and best practices to apply to your company
-                            projects.
-                          </p>
-                        </div>
-                      </div>
-                    </li>
+                    {all_accordion.map((accordion, key) => {
+                      return (
+                        <li
+                          className={`accordion block ${
+                            position === key ? "active-block" : ""
+                          }`}
+                          key={key}
+                        >
+                          <div
+                            className={`acc-btn ${
+                              position === key ? "active" : ""
+                            }`}
+                            onClick={() => {
+                              this.setState({ position: key });
+                            }}
+                          >
+                            {accordion.title}
+                            <div className="icon fa fa-arrow-circle-up" />
+                          </div>
+                          <div
+                            className={`acc-content ${
+                              position === key ? "current" : ""
+                            } `}
+                          >
+                            <div className="content">
+                              <p>{accordion.text}</p>
+                            </div>
+                          </div>
+                        </li>
+                      );
+                    })}
                   </ul>
                 </div>
               </div>
