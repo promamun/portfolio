@@ -64,7 +64,7 @@ class Slider extends Component {
             autoplay={true}
             items={1}
             loop={true}
-            nav={true}
+            navText={[ '<span class="fa fa-angle-left"></span>', '<span class="fa fa-angle-right"></span>' ]}
             className="main-slider-carousel owl-carousel owl-theme"
           >
             <div className="slide">
