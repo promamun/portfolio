@@ -8,7 +8,6 @@ import CASEIMG4 from "../../assets/images/gallery/4.jpg"
 
 class CaseStudies extends Component {
     render() {
-       
         return (
             <div>
                 <section className="projects-section">
