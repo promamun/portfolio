@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import CustomInput from "./CustomInput";
 import TextArea from "./TextArea";
 import Button from "./Button";
+import img from "../../assets/images/resource/contact-1.png";
 
 class ContactFrom extends Component {
   render() {
@@ -95,7 +96,7 @@ class ContactFrom extends Component {
                 >
                   <div className="image" data-depth="0.30">
                     <img
-                      src="images/resource/contact-1.png"
+                      src={img}
                       alt="ContactFrom Image"
                     />
                   </div>

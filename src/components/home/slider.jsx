@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import OwlCarousel from "react-owl-carousel";
 import MainBanner18 from "../../assets/images/main-banner/18.png";
-import { Link } from "react-router-dom";
 import Button from "../contact/Button";
 
 class Slider extends Component {
@@ -139,9 +138,7 @@ class Slider extends Component {
                         and prospects across the entire web.
                       </p>
                       <div className="btns-box">
-                        <Link to="/about" className="theme-btn btn-style-one">
-                          <span className="txt">Get Started</span>
-                        </Link>
+                      <Button To={'/about'} className={'theme-btn btn-style-one'}>{'Get Started'}</Button>
                       </div>
                     </div>
                   </div>
@@ -184,9 +181,7 @@ class Slider extends Component {
                         and prospects across the entire web.
                       </p>
                       <div className="btns-box">
-                        <Link href="/about" className="theme-btn btn-style-one">
-                          <span className="txt">Get Started</span>
-                        </Link>
+                      <Button To={'/about'} className={'theme-btn btn-style-one'}>{'Get Started'}</Button>
                       </div>
                     </div>
                   </div>

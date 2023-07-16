@@ -1,7 +1,7 @@
 import { Routes, Route, BrowserRouter } from "react-router-dom";
 import Layout from "./components/Layout";
 import Home from "./components/home/home";
-import Error404 from './components/404/NotFound'
+import Error404 from "./components/404/NotFound";
 import Projects from "./components/projects/projects";
 import About from "./components/aboutUs/about";
 import Services from "./components/services";

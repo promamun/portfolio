@@ -1,7 +1,7 @@
 import React from "react";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 
-const BroadCamp = ({name,bgImageStyle}) => {
+const BroadCamp = ({ name, bgImageStyle }) => {
   return (
     <div>
       <section className="page-title" style={bgImageStyle}>

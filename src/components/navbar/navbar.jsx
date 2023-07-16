@@ -51,7 +51,7 @@ class Navbar extends Component {
                                     <div className="logo-box">
                                         <div className="logo">
                                             <Link to="/"
-                                            ><img height={75} width={142} src={DTM}alt="" title=""
+                                            ><img height={75} width={142} src={DTM} alt="" title=""
                                             /></Link>
                                         </div>
                                     </div>
@@ -82,39 +82,6 @@ class Navbar extends Component {
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div className="mobile-menu">
-                        <div className="menu-backdrop"/>
-                        <div className="close-btn"><span className="icon fas fa-times"/></div>
-                        <nav className="menu-box">
-                            <div className="nav-logo">
-                                <Link to="/">
-                                    <img src="images/logo.png" alt="" title=""
-                                /></Link>
-                            </div>
-                            <div className="menu-outer"/>
-                            <div className="options-box clearfix">
-                                <div className="social-box">
-                                    <ul className="social-icons">
-                                        <li>
-                                            <a href="#"><i className="fab fa-facebook-f"/></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><i className="fab fa-pinterest-p"/></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><i className="fab fa-twitter"/></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><i className="fab fa-google-plus-g"/></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><i className="fab fa-dribbble"/></a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </nav>
                     </div>
                 </header>
             </div>
