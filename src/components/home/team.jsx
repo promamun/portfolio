@@ -205,7 +205,7 @@ class Team extends Component {
                     <h4 className="name">
                       <Link to="/team">Farhan Ahmed</Link>
                     </h4>
-                    <span className="designation">Frontend Developer (React)</span>
+                    <span className="designation">Frontend Developer (React BootStrap Flex )</span>
                   </div>
                 </div>
               </div>
