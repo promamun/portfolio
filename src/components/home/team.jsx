@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import { Link } from 'react-router-dom';
 import OwlCarousel from 'react-owl-carousel';
+import MamunPro from '../../assets/images/team/Mamun_Pro_Main.png'
 import TeameImage1 from "../../assets/images/team/3.jpg";
 import TeameImage2 from "../../assets/images/team/4.jpg";
 import TeameImage3 from "../../assets/images/team/1.jpg";
@@ -37,19 +38,19 @@ class Team extends Component {
                                 for your business
                             </h2>
                         </div>
-                        <OwlCarousel className="team-carousel owl-carousel owl-theme"  items={4} autoPlay={true} loop={true} nav={true}>
+                        <OwlCarousel className="team-carousel owl-carousel owl-theme"  items={4} autoPlay={true} loop={true} >
                             <div className="team-block">
                                 <div className="inner-box">
                                     <div className="image-box">
                                         <div className="image">
                                             <Link to="/team"
-                                            ><img src="images/team/1.jpg" alt=""
+                                            ><img src={MamunPro} alt=""
                                             /></Link>
                                         </div>
                                     </div>
                                     <ul className="social-links">
                                         <li>
-                                            <a href="#"><i className="fab fa-facebook-f"/></a>
+                                            <Link target='_blank' to="https://www.facebook.com/Mdmamun6160"><i className="fab fa-facebook-f"/></Link>
                                         </li>
                                         <li>
                                             <a href="#"><i className="fab fa-twitter"/></a>
@@ -59,8 +60,8 @@ class Team extends Component {
                                         </li>
                                     </ul>
                                     <div className="text-box">
-                                        <h4 className="name"><a href="team.html">Olivia Jayden</a></h4>
-                                        <span className="designation">Project Manager</span>
+                                        <h4 className="name"><a href="team.html">Mamun Pro</a></h4>
+                                        <span className="designation">Project & Marketing Manager</span>
                                     </div>
                                 </div>
                             </div>

@@ -24,7 +24,7 @@ class Navbar extends Component {
                                     <nav className="main-menu navbar-expand-md">
                                         <div className="collapse show navbar-collapse clearfix" id="navbarSupportedContent">
                                             <ul className="navigation clearfix">
-                                                <li ><Link to="/">Home</Link></li>
+                                                <li><Link to="/">Home</Link></li>
                                                 <li><Link to="/service">Services</Link></li>
                                                 <li><Link to="/team">Team</Link></li>
                                                 <li><Link to="/case-studies">Case Studies</Link></li>
@@ -62,7 +62,7 @@ class Navbar extends Component {
                                         <nav className="main-menu navbar-expand-md">
                                             <div className="collapse show navbar-collapse clearfix" id="navbarSupportedContent">
                                                 <ul className="navigation clearfix">
-                                                    <li ><Link to="/">Home</Link></li>
+                                                    <li><Link to="/">Home</Link></li>
                                                     <li><Link to="/service">Services</Link></li>
                                                     <li><Link to="/team">Team</Link></li>
                                                     <li><Link to="/case-studies">Case Studies</Link></li>
