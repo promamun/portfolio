@@ -1,22 +1,23 @@
 import React, {Component} from 'react';
 import { Link } from 'react-router-dom';
 import OwlCarousel from 'react-owl-carousel';
-import TeameImage1 from "../../assets/images/team/3.jpg";
-import TeameImage2 from "../../assets/images/team/4.jpg";
-import TeameImage3 from "../../assets/images/team/1.jpg";
-import TeameImage4 from "../../assets/images/team/2.jpg";
-import TeameImage5 from "../../assets/images/team/3.jpg";
-import TeameImage6 from "../../assets/images/team/4.jpg";
-import TeameImage7 from "../../assets/images/team/1.jpg";
-import TeameImage8 from "../../assets/images/team/2.jpg";
-import TeameImage9 from "../../assets/images/team/3.jpg";
-import TeameImage10 from "../../assets/images/team/4.jpg";
-import TeameImage11 from "../../assets/images/team/1.jpg";
-import TeameImage12 from "../../assets/images/team/2.jpg";
-import TeameImage13 from "../../assets/images/team/3.jpg";
-import TeameImage14 from "../../assets/images/team/4.jpg";
-import TeameImage15 from "../../assets/images/team/2.jpg";
 
+import TeameImage1 from "../../assets/images/team/1.jpg";
+import TeameImage2 from "../../assets/images/team/2.jpg";
+import TeameImage3 from "../../assets/images/team/Popin.jpg";
+import TeameImage4 from "../../assets/images/team/Farhan.jpg";
+import TeameImage5 from "../../assets/images/team/1.jpg";
+import TeameImage6 from "../../assets/images/team/2.jpg";
+import TeameImage7 from "../../assets/images/team/3.jpg";
+import TeameImage8 from "../../assets/images/team/4.jpg";
+import TeameImage9 from "../../assets/images/team/1.jpg";
+import TeameImage10 from "../../assets/images/team/2.jpg";
+import TeameImage11 from "../../assets/images/team/3.jpg";
+import TeameImage12 from "../../assets/images/team/4.jpg";
+import TeameImage13 from "../../assets/images/team/2.jpg";
+import TeameImage14 from "../../assets/images/team/2.jpg";
+import TeameImage15 from "../../assets/images/team/2.jpg";
+import TeameImage16 from "../../assets/images/team/2.jpg";
 class Team extends Component {
     render() {
         const BgImage = {
@@ -43,7 +44,7 @@ class Team extends Component {
                                     <div className="image-box">
                                         <div className="image">
                                             <Link to="/team"
-                                            ><img src="images/team/1.jpg" alt=""
+                                            ><img src={TeameImage1} alt=""
                                             /></Link>
                                         </div>
                                     </div>
@@ -69,7 +70,7 @@ class Team extends Component {
                                     <div className="image-box">
                                         <div className="image">
                                             <Link to="/team"
-                                            ><img src={TeameImage15} alt=""
+                                            ><img src={TeameImage2} alt=""
                                             /></Link>
                                         </div>
                                     </div>
@@ -95,7 +96,7 @@ class Team extends Component {
                                     <div className="image-box">
                                         <div className="image">
                                             <Link to="/team"
-                                            ><img src={TeameImage1} alt=""
+                                            ><img src={TeameImage3} alt=""
                                             /></Link>
                                         </div>
                                     </div>
@@ -111,8 +112,8 @@ class Team extends Component {
                                         </li>
                                     </ul>
                                     <div className="text-box">
-                                        <h4 className="name"><Link to="/team">Emma William</Link></h4>
-                                        <span className="designation">General Manager</span>
+                                        <h4 className="name"><Link to="/team">Moinul Islam</Link></h4>
+                                        <span className="designation">Laraval Expert</span>
                                     </div>
                                 </div>
                             </div>
@@ -121,7 +122,7 @@ class Team extends Component {
                                     <div className="image-box">
                                         <div className="image">
                                             <Link to="/team"
-                                            ><img src={TeameImage2} alt=""
+                                            ><img src={TeameImage4} alt=""
                                             /></Link>
                                         </div>
                                     </div>
@@ -137,8 +138,8 @@ class Team extends Component {
                                         </li>
                                     </ul>
                                     <div className="text-box">
-                                        <h4 className="name"><Link to="/team">Matthew David</Link></h4>
-                                        <span className="designation">CEO of Company</span>
+                                        <h4 className="name"><Link to="/team">Farhan Ahmed</Link></h4>
+                                        <span className="designation">Frontend Developer</span>
                                     </div>
                                 </div>
                             </div>
@@ -147,7 +148,7 @@ class Team extends Component {
                                     <div className="image-box">
                                         <div className="image">
                                             <Link to="/team"
-                                            ><img src={TeameImage3} alt=""
+                                            ><img src={TeameImage5} alt=""
                                             /></Link>
                                         </div>
                                     </div>
@@ -173,7 +174,7 @@ class Team extends Component {
                                     <div className="image-box">
                                         <div className="image">
                                             <Link to="/team"
-                                            ><img src={TeameImage4} alt=""
+                                            ><img src={TeameImage6} alt=""
                                             /></Link>
                                         </div>
                                     </div>
@@ -199,7 +200,7 @@ class Team extends Component {
                                     <div className="image-box">
                                         <div className="image">
                                             <Link to="/team"
-                                            ><img src={TeameImage5} alt=""
+                                            ><img src={TeameImage7} alt=""
                                             /></Link>
                                         </div>
                                     </div>
@@ -225,7 +226,7 @@ class Team extends Component {
                                     <div className="image-box">
                                         <div className="image">
                                             <Link to="team.html"
-                                            ><img src={TeameImage6} alt=""
+                                            ><img src={TeameImage8} alt=""
                                             /></Link>
                                         </div>
                                     </div>
@@ -247,58 +248,6 @@ class Team extends Component {
                                 </div>
                             </div>
                             <div className="team-block">
-                                <div className="inner-box">
-                                    <div className="image-box">
-                                        <div className="image">
-                                            <Link to="/team"
-                                            ><img src={TeameImage7} alt=""
-                                            /></Link>
-                                        </div>
-                                    </div>
-                                    <ul className="social-links">
-                                        <li>
-                                            <a href="#"><i className="fab fa-facebook-f"/></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><i className="fab fa-twitter"/></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><i className="fab fa-dribbble"/></a>
-                                        </li>
-                                    </ul>
-                                    <div className="text-box">
-                                        <h4 className="name"><Link to="/team">Olivia Jayden</Link></h4>
-                                        <span className="designation">Project Manager</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="team-block team-block-1">
-                                <div className="inner-box">
-                                    <div className="image-box">
-                                        <div className="image">
-                                            <Link to="/team"
-                                            ><img src={TeameImage8} alt=""
-                                            /></Link>
-                                        </div>
-                                    </div>
-                                    <ul className="social-links">
-                                        <li>
-                                            <a href="#"><i className="fab fa-facebook-f"/></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><i className="fab fa-twitter"/></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><i className="fab fa-dribbble"/></a>
-                                        </li>
-                                    </ul>
-                                    <div className="text-box">
-                                        <h4 className="name"><Link to="/team">Noah Michael</Link></h4>
-                                        <span className="designation">Market Manager</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="team-block team-block-2">
                                 <div className="inner-box">
                                     <div className="image-box">
                                         <div className="image">
@@ -319,58 +268,6 @@ class Team extends Component {
                                         </li>
                                     </ul>
                                     <div className="text-box">
-                                        <h4 className="name"><Link to="/team">Emma William</Link></h4>
-                                        <span className="designation">General Manager</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="team-block team-block-3">
-                                <div className="inner-box">
-                                    <div className="image-box">
-                                        <div className="image">
-                                            <Link to="/team"
-                                            ><img src={TeameImage10} alt=""
-                                            /></Link>
-                                        </div>
-                                    </div>
-                                    <ul className="social-links">
-                                        <li>
-                                            <a href="#"><i className="fab fa-facebook-f"/></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><i className="fab fa-twitter"/></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><i className="fab fa-dribbble"/></a>
-                                        </li>
-                                    </ul>
-                                    <div className="text-box">
-                                        <h4 className="name"><Link to="/team">Matthew David</Link></h4>
-                                        <span className="designation">CEO of Company</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="team-block">
-                                <div className="inner-box">
-                                    <div className="image-box">
-                                        <div className="image">
-                                            <Link to="/team"
-                                            ><img src={TeameImage11} alt=""
-                                            /></Link>
-                                        </div>
-                                    </div>
-                                    <ul className="social-links">
-                                        <li>
-                                            <a href="#"><i className="fab fa-facebook-f"/></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><i className="fab fa-twitter"/></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><i className="fab fa-dribbble"/></a>
-                                        </li>
-                                    </ul>
-                                    <div className="text-box">
                                         <h4 className="name"><Link to="/team">Olivia Jayden</Link></h4>
                                         <span className="designation">Project Manager</span>
                                     </div>
@@ -381,7 +278,7 @@ class Team extends Component {
                                     <div className="image-box">
                                         <div className="image">
                                             <Link to="/team"
-                                            ><img src={TeameImage12} alt=""
+                                            ><img src={TeameImage10} alt=""
                                             /></Link>
                                         </div>
                                     </div>
@@ -407,7 +304,7 @@ class Team extends Component {
                                     <div className="image-box">
                                         <div className="image">
                                             <Link to="/team"
-                                            ><img src={TeameImage13} alt=""
+                                            ><img src={TeameImage11} alt=""
                                             /></Link>
                                         </div>
                                     </div>
@@ -433,7 +330,111 @@ class Team extends Component {
                                     <div className="image-box">
                                         <div className="image">
                                             <Link to="/team"
+                                            ><img src={TeameImage12} alt=""
+                                            /></Link>
+                                        </div>
+                                    </div>
+                                    <ul className="social-links">
+                                        <li>
+                                            <a href="#"><i className="fab fa-facebook-f"/></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><i className="fab fa-twitter"/></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><i className="fab fa-dribbble"/></a>
+                                        </li>
+                                    </ul>
+                                    <div className="text-box">
+                                        <h4 className="name"><Link to="/team">Matthew David</Link></h4>
+                                        <span className="designation">CEO of Company</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="team-block">
+                                <div className="inner-box">
+                                    <div className="image-box">
+                                        <div className="image">
+                                            <Link to="/team"
+                                            ><img src={TeameImage13} alt=""
+                                            /></Link>
+                                        </div>
+                                    </div>
+                                    <ul className="social-links">
+                                        <li>
+                                            <a href="#"><i className="fab fa-facebook-f"/></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><i className="fab fa-twitter"/></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><i className="fab fa-dribbble"/></a>
+                                        </li>
+                                    </ul>
+                                    <div className="text-box">
+                                        <h4 className="name"><Link to="/team">Olivia Jayden</Link></h4>
+                                        <span className="designation">Project Manager</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="team-block team-block-1">
+                                <div className="inner-box">
+                                    <div className="image-box">
+                                        <div className="image">
+                                            <Link to="/team"
                                             ><img src={TeameImage14} alt=""
+                                            /></Link>
+                                        </div>
+                                    </div>
+                                    <ul className="social-links">
+                                        <li>
+                                            <a href="#"><i className="fab fa-facebook-f"/></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><i className="fab fa-twitter"/></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><i className="fab fa-dribbble"/></a>
+                                        </li>
+                                    </ul>
+                                    <div className="text-box">
+                                        <h4 className="name"><Link to="/team">Noah Michael</Link></h4>
+                                        <span className="designation">Market Manager</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="team-block team-block-2">
+                                <div className="inner-box">
+                                    <div className="image-box">
+                                        <div className="image">
+                                            <Link to="/team"
+                                            ><img src={TeameImage15} alt=""
+                                            /></Link>
+                                        </div>
+                                    </div>
+                                    <ul className="social-links">
+                                        <li>
+                                            <a href="#"><i className="fab fa-facebook-f"/></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><i className="fab fa-twitter"/></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><i className="fab fa-dribbble"/></a>
+                                        </li>
+                                    </ul>
+                                    <div className="text-box">
+                                        <h4 className="name"><Link to="/team">Emma William</Link></h4>
+                                        <span className="designation">General Manager</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="team-block team-block-3">
+                                <div className="inner-box">
+                                    <div className="image-box">
+                                        <div className="image">
+                                            <Link to="/team"
+                                            ><img src={TeameImage16} alt=""
                                             /></Link>
                                         </div>
                                     </div>
