@@ -8,6 +8,7 @@ import Services from "./components/services";
 import Contact from "./components/contact";
 import CaseStudies from "./components/CaseStudies";
 import Team from "./components/team/index";
+import Pricing from "./components/Pricing_plan/index";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
             <Route exact path="/contact" Component={Contact} />
             <Route exact path="/case-studies" Component={CaseStudies} />
             <Route exact path="/team" Component={Team} />
+            <Route exact path="/pricing-plans" Component={Pricing} />
             {/* WHEN NO ROUTE FOUND */}
             <Route path="*" Component={Error404} />
           </Routes>
