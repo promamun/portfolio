@@ -1,6 +1,6 @@
 import React from "react";
 
-function PricingPlans({pricingTitle,packageTitle}) {
+function PricingPlans({pricingTitle,packageTitle,children}) {
   const BgImage = {
     backgroundImage: `url('images/resource/price-shape-1.png')`
   };
@@ -22,7 +22,7 @@ function PricingPlans({pricingTitle,packageTitle}) {
           </div>
           <div className="pricing-tabs tabs-box">
             <div className="tabs-content">
-              <div className="tab active-tab" id="prod-monthly">
+              <div className="tab active-tab">
                 <div className="content">
                   <div className="row clearfix">
                     <div className="price-block col-lg-4 col-md-6 col-sm-12">
@@ -106,100 +106,6 @@ function PricingPlans({pricingTitle,packageTitle}) {
                   </div>
                 </div>
               </div>
-              <div className="tab" id="prod-yearly">
-                <div className="content">
-                  <div className="row clearfix">
-                    <div className="price-block col-lg-4 col-md-6 col-sm-12">
-                      <div className="inner-box">
-                        <div className="packge-plan" style={BgImage1}>
-                          <h6>Starter Plan</h6>
-                          <div className="price">$129.99</div>
-                          <span className="plan-text">per year</span>
-                        </div>
-                        <div className="list-packges-area">
-                          <ul className="price-list">
-                            <li className="active">25 Analytics Campaign</li>
-                            <li className="active">1,300 Keywords</li>
-                            <li className="active">25 Social Media Reviews</li>
-                            <li>1 Free Optimization</li>
-                            <li>24/7 Support</li>
-                          </ul>
-                          <div className="buy-btn-area text-left">
-                            <a
-                              href="#"
-                              className="theme-btn btn-style-two buy-btn"
-                            >
-                              <span className="txt">Buy Now</span>
-                            </a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="price-block col-lg-4 col-md-6 col-sm-12">
-                      <div className="inner-box active">
-                        <div className="packge-plan" style={BgImage}>
-                          <h6>BUSINESS</h6>
-                          <div className="price">$159.99</div>
-                          <span className="plan-text">per year</span>
-                        </div>
-                        <div className="list-packges-area">
-                          <ul className="price-list">
-                            <li className="active">25 Analytics Campaign</li>
-                            <li className="active">1,300 Keywords</li>
-                            <li className="active">25 Social Media Reviews</li>
-                            <li>1 Free Optimization</li>
-                            <li>24/7 Support</li>
-                          </ul>
-                          <div className="buy-btn-area text-left">
-                            <a
-                              href="#"
-                              className="theme-btn btn-style-two buy-btn"
-                            >
-                              <span className="txt">Buy Now</span>
-                            </a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="price-block col-lg-4 col-md-6 col-sm-12">
-                      <div className="inner-box">
-                        <div className="packge-plan" style={BgImage2}>
-                          <h6>PREMIUM</h6>
-                          <div className="price">$179.99</div>
-                          <span className="plan-text">per year</span>
-                        </div>
-                        <div className="list-packges-area">
-                          <ul className="price-list">
-                            <li className="active">25 Analytics Campaign</li>
-                            <li className="active">1,300 Keywords</li>
-                            <li className="active">25 Social Media Reviews</li>
-                            <li>1 Free Optimization</li>
-                            <li>24/7 Support</li>
-                          </ul>
-                          <div className="buy-btn-area text-left">
-                            <a
-                              href="#"
-                              className="theme-btn btn-style-two buy-btn"
-                            >
-                              <span className="txt">Buy Now</span>
-                            </a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="bottom-column">
-              <ul className="tab-buttons clearfix">
-                <li data-tab="#prod-monthly" className="tab-btn active-btn">
-                  Monthly
-                </li>
-                <li data-tab="#prod-yearly" className="tab-btn">
-                  Yearly
-                </li>
-              </ul>
             </div>
           </div>
         </div>

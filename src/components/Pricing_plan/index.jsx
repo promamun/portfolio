@@ -1,7 +1,6 @@
 import React from "react";
 import PricingPlans from "./PricingPlans";
 import BroadCamp from "../broadCamp/BroadCamp";
-
 export default function index() {
   const BgImage = {
     backgroundImage: `url(images/background/22.png)`
@@ -12,7 +11,8 @@ export default function index() {
       <PricingPlans
         pricingTitle={"Our Pricing Plans"}
         packageTitle={"Website Creation"}
-      />
+      >
+      </PricingPlans>
     </div>
   );
 }

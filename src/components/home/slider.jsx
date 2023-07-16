@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import OwlCarousel from "react-owl-carousel";
-import MainBanner18 from "../../assets/images/main-banner/18.png";
+import WebsiteBanner from "../../assets/images/main-banner/1.png";
+import SocialBanner from "../../assets/images/services/4.png";
+import SeoBanner from "../../assets/images/services/6.png";
 import Button from "../contact/Button";
 
 class Slider extends Component {
@@ -85,24 +87,23 @@ class Slider extends Component {
                         </a>
                       </div>
                       <h1>
-                        We bring you <br />
-                        new customers
+                        We Create Website<br />
+                        For Your Business
                       </h1>
                       <p>
-                        We build effective strategies to help you reach
-                        customers
+                        Building websites that drive growth, engage customers,
                         <br />
-                        and prospects across the entire web.
+                        and prospects across the entire web That elevate your brand.
                       </p>
                       <div className="btns-box">
-                        <Button To={'/pricing'} className={'theme-btn btn-style-one'}>{'Started'}</Button>
+                        <Button To={'/pricing-plans'} className={'theme-btn btn-style-one'}>{'Started'}</Button>
                       </div>
                     </div>
                   </div>
                   <div className="image-column col-lg-6 col-md-12 col-sm-12">
                     <div className="inner-column parallax-scene-2">
                       <div className="image" data-depth="0.30">
-                        <img src={MainBanner18} alt="Main Banner" />
+                        <img src={WebsiteBanner} alt="Main Banner" />
                       </div>
                     </div>
                   </div>
@@ -128,24 +129,24 @@ class Slider extends Component {
                         </a>
                       </div>
                       <h1>
-                        We bring you <br />
-                        new customers
+                        We Provide Brilliant Marketing<br />
+                        For Your Business
                       </h1>
                       <p>
-                        We build effective strategies to help you reach
-                        customers
+                        We build effective strategies to help you
+                        deliver exceptional results
                         <br />
-                        and prospects across the entire web.
+                        and stand out in the dynamic world of social media.
                       </p>
                       <div className="btns-box">
-                      <Button To={'/about'} className={'theme-btn btn-style-one'}>{'Get Started'}</Button>
+                      <Button To={'/pricing-plans'} className={'theme-btn btn-style-one'}>{'Get Started'}</Button>
                       </div>
                     </div>
                   </div>
                   <div className="image-column col-lg-6 col-md-12 col-sm-12">
                     <div className="inner-column parallax-scene-2">
                       <div className="image" data-depth="0.30">
-                        <img src={MainBanner18} alt="Main Banner" />
+                        <img src={SocialBanner} alt="Main Banner" />
                       </div>
                     </div>
                   </div>
@@ -171,24 +172,23 @@ class Slider extends Component {
                         </a>
                       </div>
                       <h1>
-                        We bring you <br />
-                        new customers
+                        We Bring You<br />
+                        #Top10 Using SEO
                       </h1>
                       <p>
-                        We build effective strategies to help you reach
-                        customers
+                        Unlock Your Business's Online Visibility. Drives your business Into #Top10 of search engine rankings.
                         <br />
-                        and prospects across the entire web.
+                        attracting more traffic, leads, and success.
                       </p>
                       <div className="btns-box">
-                      <Button To={'/about'} className={'theme-btn btn-style-one'}>{'Get Started'}</Button>
+                      <Button To={'/pricing-plans'} className={'theme-btn btn-style-one'}>{'Get Started'}</Button>
                       </div>
                     </div>
                   </div>
                   <div className="image-column col-lg-6 col-md-12 col-sm-12">
                     <div className="inner-column parallax-scene-2">
                       <div className="image" data-depth="0.30">
-                        <img src={MainBanner18} alt="Main Banner" />
+                        <img src={SeoBanner} alt="Main Banner" />
                       </div>
                     </div>
                   </div>

@@ -1,15 +1,13 @@
 import React, { Component } from "react";
 import OwlCarousel from "react-owl-carousel";
-import CLTIMG1 from "../../assets/images/clients/1.png";
-import CLTIMG2 from "../../assets/images/clients/2.png";
-import CLTIMG3 from "../../assets/images/clients/3.png";
-import CLTIMG4 from "../../assets/images/clients/4.png";
-import CLTIMG5 from "../../assets/images/clients/5.png";
-import CLTIMG6 from "../../assets/images/clients/1.png";
-import CLTIMG7 from "../../assets/images/clients/2.png";
-import CLTIMG8 from "../../assets/images/clients/3.png";
-import CLTIMG9 from "../../assets/images/clients/4.png";
-import CLTIMG10 from "../../assets/images/clients/5.png";
+import CIMG1 from "../../assets/images/clients/client-1.png";
+import CIMG2 from "../../assets/images/clients/client-2.png";
+import CIMG3 from "../../assets/images/clients/client-3.png";
+import CIMG4 from "../../assets/images/clients/client-4.png";
+import CIMG5 from "../../assets/images/clients/client-5.png";
+import CIMG6 from "../../assets/images/clients/1.png";
+import CIMG7 from "../../assets/images/clients/4.png";
+import CIMG8 from "../../assets/images/clients/5.png";
 
 
 
@@ -32,70 +30,56 @@ class Clients extends Component {
                 <li className="slide-item">
                   <figure className="image-box">
                     <a href="#">
-                      <img src={CLTIMG1} alt="" />
+                      <img src={CIMG1} alt="" />
                     </a>
                   </figure>
                 </li>
                 <li className="slide-item">
                   <figure className="image-box">
                     <a href="#">
-                      <img src={CLTIMG2} alt="" />
+                      <img src={CIMG2} alt="" />
                     </a>
                   </figure>
                 </li>
                 <li className="slide-item">
                   <figure className="image-box">
                     <a href="#">
-                      <img src={CLTIMG3} alt="" />
+                      <img src={CIMG3} alt="" />
                     </a>
                   </figure>
                 </li>
                 <li className="slide-item">
                   <figure className="image-box">
                     <a href="#">
-                      <img src={CLTIMG4} alt="" />
+                      <img src={CIMG4} alt="" />
                     </a>
                   </figure>
                 </li>
                 <li className="slide-item">
                   <figure className="image-box">
                     <a href="#">
-                      <img src={CLTIMG5} alt="" />
+                      <img src={CIMG5} alt="" />
                     </a>
                   </figure>
                 </li>
                 <li className="slide-item">
                   <figure className="image-box">
                     <a href="#">
-                      <img src={CLTIMG6} alt="" />
+                      <img src={CIMG6} alt="" />
                     </a>
                   </figure>
                 </li>
                 <li className="slide-item">
                   <figure className="image-box">
                     <a href="#">
-                      <img src={CLTIMG7} alt="" />
+                      <img src={CIMG7} alt="" />
                     </a>
                   </figure>
                 </li>
                 <li className="slide-item">
                   <figure className="image-box">
                     <a href="#">
-                      <img src={CLTIMG8} alt="" />
-                    </a>
-                  </figure>
-                </li>
-                <li className="slide-item">
-                  <figure className="image-box">
-                    <a href="#">
-                      <img src={CLTIMG9} alt="" />
-                    </a>
-                  </figure>
-                </li>
-                <li className="slide-item">
-                  <figure className="image-box">
-                    <a href="#">
-                      <img src={CLTIMG10} alt="" />
+                      <img src={CIMG8} alt="" />
                     </a>
                   </figure>
                 </li>

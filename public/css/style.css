@@ -7749,7 +7749,7 @@ canvas {
   left: 0;
   top: 0;
   font-size: var(--font-16);
-  color: var(--lightgrey);
+  color: var(--red);
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
 }

@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import Slider from './slider';
-import Service from "./service";
 import AllService from "./AllService";
 import Team from "./team";
 import Progress from "./progress";
@@ -20,11 +19,10 @@ class Home extends Component {
                 <Slider/>
                 <Clients/>
                 <Solutions/>
-                <HappyClients/>
-                <Service/>
                 <Traffics/>
                 <AllService/>
                 <WhyChooseUs/>
+                <HappyClients/>
                 <PricingPlans/>
                 <Team/>
                 <Progress/>
