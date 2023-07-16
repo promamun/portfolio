@@ -7,6 +7,8 @@ import About from "./components/aboutUs/about";
 import Services from "./components/services";
 import Contact from "./components/contact";
 import CaseStudies from "./components/CaseStudies";
+import Team from "./components/team/index";
+
 function App() {
   return (
     <div>
@@ -19,6 +21,7 @@ function App() {
             <Route exact path="/service" Component={Services} />
             <Route exact path="/contact" Component={Contact} />
             <Route exact path="/case-studies" Component={CaseStudies} />
+            <Route exact path="/team" Component={Team} />
             {/* WHEN NO ROUTE FOUND */}
             <Route path="*" Component={Error404} />
           </Routes>
