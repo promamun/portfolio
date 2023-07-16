@@ -107,9 +107,9 @@ class Team extends Component {
                   </ul>
                   <div className="text-box">
                     <h4 className="name">
-                      <Link to="/team">Ramiz Ahmed</Link>
+                      <Link to="/team">Ramij Ahmed</Link>
                     </h4>
-                    <span className="designation">Technical Specialist</span>
+                    <span className="designation">Technical Lead (MNC)</span>
                   </div>
                 </div>
               </div>
