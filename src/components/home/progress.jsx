@@ -1,7 +1,18 @@
 import React, { Component } from "react";
-import progressImg from "../../assets/images/resource/progress-1.png";
-
+import proImage1 from "../../assets/images/resource/progress-1.png";
 class Progress extends Component {
+  parentRef = React.createRef();
+
+  componentDidMount() {
+    const innerChild = this.parentRef.current.querySelectorAll(
+      ".progress-box .progress-bar .bar-inner .progress-line"
+    );
+
+    innerChild.forEach((child) => {
+      var percent = child.getAttribute("data-width");
+      child.style.width = `${percent}%`;
+    });
+  }
   render() {
     return (
       <div>
@@ -22,7 +33,7 @@ class Progress extends Component {
                       conversion,& Internet marketing services, our firm prides.
                     </p>
                   </div>
-                  <div className="progress-levels">
+                  <div className="progress-levels" ref={this.parentRef}>
                     <div
                       className="progress-box wow fadeInLeft"
                       data-wow-delay="0ms"
@@ -49,6 +60,7 @@ class Progress extends Component {
                         </div>
                       </div>
                     </div>
+
                     <div
                       className="progress-box wow fadeInLeft"
                       data-wow-delay="0ms"
@@ -75,6 +87,7 @@ class Progress extends Component {
                         </div>
                       </div>
                     </div>
+
                     <div
                       className="progress-box wow fadeInLeft"
                       data-wow-delay="0ms"
@@ -107,7 +120,7 @@ class Progress extends Component {
               <div className="image-cloumn col-lg-6 col-md-12 col-sm-12">
                 <div className="image-box">
                   <figure>
-                    <img src={progressImg} alt="progress image" />
+                    <img src={proImage1} alt="progress image" />
                   </figure>
                   <div className="animated-img-1" />
                   <div className="animated-img-2" />
