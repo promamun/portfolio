@@ -2,12 +2,10 @@ import React, { Component } from "react";
 import proImage1 from "../../assets/images/resource/progress-1.png";
 class Progress extends Component {
   parentRef = React.createRef();
-
   componentDidMount() {
     const innerChild = this.parentRef.current.querySelectorAll(
       ".progress-box .progress-bar .bar-inner .progress-line"
     );
-
     innerChild.forEach((child) => {
       var percent = child.getAttribute("data-width");
       child.style.width = `${percent}%`;
@@ -87,7 +85,6 @@ class Progress extends Component {
                         </div>
                       </div>
                     </div>
-
                     <div
                       className="progress-box wow fadeInLeft"
                       data-wow-delay="0ms"

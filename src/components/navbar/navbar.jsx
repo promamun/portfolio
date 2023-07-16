@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import {Link} from "react-router-dom";
+import DTM from '../../assets/images/dtm.png'
 
 class Navbar extends Component {
     render() {
@@ -12,7 +13,7 @@ class Navbar extends Component {
                                 <div className="logo-box">
                                     <div className="logo">
                                         <Link to="/"
-                                        ><img src="images/logo-2.png" alt="" title=""
+                                        ><img height={75} width={142} src={DTM} alt="" title=""
                                         /></Link>
                                     </div>
                                 </div>
@@ -50,7 +51,7 @@ class Navbar extends Component {
                                     <div className="logo-box">
                                         <div className="logo">
                                             <Link to="/"
-                                            ><img src="images/logo-2.png" alt="" title=""
+                                            ><img height={75} width={142} src={DTM}alt="" title=""
                                             /></Link>
                                         </div>
                                     </div>
