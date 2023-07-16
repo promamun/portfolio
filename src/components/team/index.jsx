@@ -10,7 +10,7 @@ class Index extends Component {
         }
         return (
             <div>
-                <BroadCamp name={Team} bgImageStyle={BgImage}/>
+                <BroadCamp name={'Team'} bgImageStyle={BgImage}/>
                 <TeamMain/>
                 <Team/>
             </div>

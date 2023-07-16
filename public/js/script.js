@@ -140,116 +140,116 @@
 		
 	}
 	//Main Slider Carousel
-	if ($('.main-slider-carousel').length) {
-		$('.main-slider-carousel').owlCarousel({
-			animateOut: 'fadeOut',
-    		animateIn: 'fadeIn',
-			loop:true,
-			margin:0,
-			nav:true,
-			autoHeight: true,
-			smartSpeed: 500,
-			autoplay: 6000,
-			navText: [ '<span class="fa fa-angle-left"></span>', '<span class="fa fa-angle-right"></span>' ],
-			responsive:{
-				0:{
-					items:1
-				},
-				600:{
-					items:1
-				},
-				800:{
-					items:1
-				},
-				1024:{
-					items:1
-				},
-				1200:{
-					items:1
-				}
-			}
-		});    		
-	}
+	// if ($('.main-slider-carousel').length) {
+	// 	$('.main-slider-carousel').owlCarousel({
+	// 		animateOut: 'fadeOut',
+    // 		animateIn: 'fadeIn',
+	// 		loop:true,
+	// 		margin:0,
+	// 		nav:true,
+	// 		autoHeight: true,
+	// 		smartSpeed: 500,
+	// 		autoplay: 6000,
+	// 		navText: [ '<span class="fa fa-angle-left"></span>', '<span class="fa fa-angle-right"></span>' ],
+	// 		responsive:{
+	// 			0:{
+	// 				items:1
+	// 			},
+	// 			600:{
+	// 				items:1
+	// 			},
+	// 			800:{
+	// 				items:1
+	// 			},
+	// 			1024:{
+	// 				items:1
+	// 			},
+	// 			1200:{
+	// 				items:1
+	// 			}
+	// 		}
+	// 	});    		
+	// }
 
 
 
 	//Services Carousel
-	if ($('.services-carousel').length) {
-		$('.services-carousel').owlCarousel({
-			loop:true,
-			margin:30,
-			nav:true,
-			smartSpeed: 700,
-			autoplay: true,
-			navText: [ '<span class="fa fa-angle-left"></span>', '<span class="fa fa-angle-right"></span>' ],
-			responsive:{
-				0:{
-					items:1
-				},
-				767:{
-					items:2
-				},
-				800:{
-					items:2
-				},
-				1024:{
-					items:4
-				}
-			}
-		});    		
-	}
+	// if ($('.services-carousel').length) {
+	// 	$('.services-carousel').owlCarousel({
+	// 		loop:true,
+	// 		margin:30,
+	// 		nav:true,
+	// 		smartSpeed: 700,
+	// 		autoplay: true,
+	// 		navText: [ '<span class="fa fa-angle-left"></span>', '<span class="fa fa-angle-right"></span>' ],
+	// 		responsive:{
+	// 			0:{
+	// 				items:1
+	// 			},
+	// 			767:{
+	// 				items:2
+	// 			},
+	// 			800:{
+	// 				items:2
+	// 			},
+	// 			1024:{
+	// 				items:4
+	// 			}
+	// 		}
+	// 	});    		
+	// }
 
 
-	if ($('.team-carousel').length) {
-		$('.team-carousel').owlCarousel({
-			loop:true,
-			margin:30,
-			nav:false,
-			smartSpeed: 700,
-			autoplay: true,
-			responsive:{
-				0:{
-					items:1
-				},
-				767:{
-					items:2
-				},
-				800:{
-					items:3
-				},
-				1024:{
-					items:4
-				}
-			}
-		});    		
-	}
+	// if ($('.team-carousel').length) {
+	// 	$('.team-carousel').owlCarousel({
+	// 		loop:true,
+	// 		margin:30,
+	// 		nav:false,
+	// 		smartSpeed: 700,
+	// 		autoplay: true,
+	// 		responsive:{
+	// 			0:{
+	// 				items:1
+	// 			},
+	// 			767:{
+	// 				items:2
+	// 			},
+	// 			800:{
+	// 				items:3
+	// 			},
+	// 			1024:{
+	// 				items:4
+	// 			}
+	// 		}
+	// 	});    		
+	// }
 
 	//Testimonial Carousel
-	if ($('.testimonial-carousel').length) {
-		$('.testimonial-carousel').owlCarousel({
-			loop:true,
-			margin:30,
-			animateOut: 'fadeOut',
-			nav:true,
-			smartSpeed: 700,
-			autoplay: true,
-			navText: [ '<span class="fas fa-arrow-left"></span>', '<span class="fas fa-arrow-right"></span>' ],
-			responsive:{
-				0:{
-					items:1
-				},
-				600:{
-					items:1
-				},
-				800:{
-					items:1
-				},
-				1024:{
-					items:1
-				}
-			}
-		});    		
-	}
+	// if ($('.testimonial-carousel').length) {
+	// 	$('.testimonial-carousel').owlCarousel({
+	// 		loop:true,
+	// 		margin:30,
+	// 		animateOut: 'fadeOut',
+	// 		nav:true,
+	// 		smartSpeed: 700,
+	// 		autoplay: true,
+	// 		navText: [ '<span class="fas fa-arrow-left"></span>', '<span class="fas fa-arrow-right"></span>' ],
+	// 		responsive:{
+	// 			0:{
+	// 				items:1
+	// 			},
+	// 			600:{
+	// 				items:1
+	// 			},
+	// 			800:{
+	// 				items:1
+	// 			},
+	// 			1024:{
+	// 				items:1
+	// 			}
+	// 		}
+	// 	});    		
+	// }
 
 
 	//News Carousel
