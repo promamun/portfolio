@@ -9,16 +9,14 @@ function Thumbnail({
   thumb1Social,
   thumb1Optimize,
   thumb1Support,
-  thumb1BuyNow
+  thumb1BuyNow,
+  backgroundImage
 }) {
-  const BgImage = {
-    backgroundImage: `url('images/resource/price-shape-2.png')`
-  };
   return (
     <>
       <div className="price-block col-lg-4 col-md-6 col-sm-12">
         <div className="inner-box">
-          <div className="packge-plan" style={BgImage}>
+          <div className="packge-plan" style={{backgroundImage}}>
             <h6>{thumb1Title} </h6>
             <div className="price">{thumb1Price} </div>
             <span className="plan-text">{thumb1Month}</span>

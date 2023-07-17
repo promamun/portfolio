@@ -1,5 +1,6 @@
 const subscription = [
   {
+    backgroundImage: "url('images/resource/price-shape-1.png')",
     thumb1Title: "Starter Plan",
     thumb1Price: "$29.99",
     thumb1Month: "per month",
@@ -12,7 +13,8 @@ const subscription = [
     pricingTitle: "Our Pricing Plans",
     packageTitle: "Website Creation"
   },
-  {
+  { 
+    backgroundImage: "url('images/resource/price-shape.png')",
     thumb1Title: "BUSINESS",
     thumb1Price: "$59.99",
     thumb1Month: "per month",
@@ -26,6 +28,7 @@ const subscription = [
     packageTitle: "Website Creation"
   },
   {
+    backgroundImage: "url('images/resource/price-shape-2.png')",
     thumb1Title: "PREMIUM",
     thumb1Price: "$79.99",
     thumb1Month: "per month",
