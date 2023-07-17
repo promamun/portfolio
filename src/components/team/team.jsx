@@ -6,8 +6,8 @@ import RamizImg from "../../assets/images/team/Ramiz.jpg";
 import AvijitImg from "../../assets/images/team/Avijit.jpg";
 import PopinImg from "../../assets/images/team/Popin.jpg";
 import FarhanImg from "../../assets/images/team/Farhan.jpg";
-import TeameImage6 from "../../assets/images/team/4.jpg";
-import TeameImage7 from "../../assets/images/team/4.jpg";
+import Shakib from "../../assets/images/team/Shakib.jpg";
+import JeanBuagas from "../../assets/images/team/Jean_Buagas.png";
 import TeameImage8 from "../../assets/images/team/4.jpg";
 
 class Team extends Component {
@@ -145,40 +145,6 @@ class Team extends Component {
                   <div className="image-box">
                     <div className="image">
                       <Link to="/team">
-                        <img src={PopinImg} alt="" />
-                      </Link>
-                    </div>
-                  </div>
-                  <ul className="social-links">
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-facebook-f" />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-twitter" />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-dribbble" />
-                      </a>
-                    </li>
-                  </ul>
-                  <div className="text-box">
-                    <h4 className="name">
-                      <Link to="/team">Moinul Islam</Link>
-                    </h4>
-                    <span className="designation">PHP & Laraval Expert</span>
-                  </div>
-                </div>
-              </div>
-              <div className="team-block">
-                <div className="inner-box">
-                  <div className="image-box">
-                    <div className="image">
-                      <Link to="/team">
                         <img src={FarhanImg} alt="" />
                       </Link>
                     </div>
@@ -208,12 +174,12 @@ class Team extends Component {
                   </div>
                 </div>
               </div>
-              <div className="team-block team-block-1">
+              <div className="team-block">
                 <div className="inner-box">
                   <div className="image-box">
                     <div className="image">
                       <Link to="/team">
-                        <img src={TeameImage6} alt="" />
+                        <img src={PopinImg} alt="" />
                       </Link>
                     </div>
                   </div>
@@ -236,9 +202,43 @@ class Team extends Component {
                   </ul>
                   <div className="text-box">
                     <h4 className="name">
-                      <Link to="/team">Noah Michael</Link>
+                      <Link to="/team">Moinul Islam</Link>
                     </h4>
-                    <span className="designation">Market Manager</span>
+                    <span className="designation">PHP & Laraval Expert</span>
+                  </div>
+                </div>
+              </div>
+              <div className="team-block team-block-1">
+                <div className="inner-box">
+                  <div className="image-box">
+                    <div className="image">
+                      <Link to="/team">
+                        <img src={Shakib} alt="" />
+                      </Link>
+                    </div>
+                  </div>
+                  <ul className="social-links">
+                    <li>
+                      <Link target={'_blank'} to="https://www.facebook.com/muhammad.sakib.3139241">
+                        <i className="fab fa-facebook-f" />
+                      </Link>
+                    </li>
+                    <li>
+                      <Link target={'_blank'} to="https://twitter.com/MdSakib90893202">
+                        <i className="fab fa-twitter" />
+                      </Link>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i className="fab fa-dribbble" />
+                      </a>
+                    </li>
+                  </ul>
+                  <div className="text-box">
+                    <h4 className="name">
+                      <Link to="/team">Muhammad Sakib</Link>
+                    </h4>
+                    <span className="designation">Digital Marketing Expert</span>
                   </div>
                 </div>
               </div>
@@ -247,7 +247,7 @@ class Team extends Component {
                   <div className="image-box">
                     <div className="image">
                       <Link to="/team">
-                        <img src={TeameImage7} alt="" />
+                        <img src={JeanBuagas} alt="" />
                       </Link>
                     </div>
                   </div>
@@ -270,43 +270,9 @@ class Team extends Component {
                   </ul>
                   <div className="text-box">
                     <h4 className="name">
-                      <Link to="/team">Emma William</Link>
+                      <Link to="/team">Jean S. Buagas</Link>
                     </h4>
-                    <span className="designation">General Manager</span>
-                  </div>
-                </div>
-              </div>
-              <div className="team-block team-block-3">
-                <div className="inner-box">
-                  <div className="image-box">
-                    <div className="image">
-                      <Link to="team.html">
-                        <img src={TeameImage8} alt="" />
-                      </Link>
-                    </div>
-                  </div>
-                  <ul className="social-links">
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-facebook-f" />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-twitter" />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-dribbble" />
-                      </a>
-                    </li>
-                  </ul>
-                  <div className="text-box">
-                    <h4 className="name">
-                      <Link to="/team">Matthew David</Link>
-                    </h4>
-                    <span className="designation">CEO of Company</span>
+                    <span className="designation">Marketing Assistant</span>
                   </div>
                 </div>
               </div>

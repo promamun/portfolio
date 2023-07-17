@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import BroadCamp from "../broadCamp/BroadCamp";
-import Team from "./team";
+import TeamMembers from "./TeamMembers";
 import Manager from './manager';
 
 class Index extends Component {
@@ -12,7 +12,7 @@ class Index extends Component {
             <div>
                 <BroadCamp name={'Team'} bgImageStyle={BgImage}/>
                 <Manager/>
-                <Team/>
+                <TeamMembers/>
             </div>
         );
     }
