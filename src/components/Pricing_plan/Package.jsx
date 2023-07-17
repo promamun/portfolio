@@ -12,7 +12,6 @@ function Thumbnail({
   thumb1BuyNow,
   backgroundImage
 }) {
-  
   return (
     <>
       <div className="price-block col-lg-4 col-md-6 col-sm-12">

@@ -23,12 +23,11 @@ class Progress extends Component {
                   <div className="sec-title text-left">
                     <h6 className="subtitle">Our Benefits</h6>
                     <h2>
-                      Get more visiter on <br />
-                      your website
+                      Get more visitors on your website
                     </h2>
                     <p>
-                      As a leader in SEO, web design, ecommerce, website
-                      conversion,& Internet marketing services, our firm prides.
+                      As a leader in Web Development, web design, ecommerce, website
+                      conversion, SEO, & Internet marketing services, our firm prides.
                     </p>
                   </div>
                   <div className="progress-levels" ref={this.parentRef}>
@@ -38,13 +37,13 @@ class Progress extends Component {
                       data-wow-duration="0ms"
                     >
                       <div className="progress-header clearfix">
-                        <div className="box-title">DIGITAL STRATEGY</div>
+                        <div className="box-title">Web Design & Development</div>
                         <div className="progress-percentage">
                           <div className="count-box">
                             <span
                               className="count-text"
                               data-speed="2000"
-                              data-stop="70"
+                              data-stop="100"
                             >
                               0
                             </span>
@@ -54,7 +53,7 @@ class Progress extends Component {
                       </div>
                       <div className="progress-bar">
                         <div className="bar-inner">
-                          <div className="bar progress-line" data-width="70" />
+                          <div className="bar progress-line" data-width="100" />
                         </div>
                       </div>
                     </div>
@@ -65,13 +64,13 @@ class Progress extends Component {
                       data-wow-duration="0ms"
                     >
                       <div className="progress-header clearfix">
-                        <div className="box-title">FINANCIAL SERVICES</div>
+                        <div className="box-title">WordPress, Shopify, and Wix (CMS Development)</div>
                         <div className="progress-percentage">
                           <div className="count-box">
                             <span
                               className="count-text"
                               data-speed="2000"
-                              data-stop="55"
+                              data-stop="100"
                             >
                               0
                             </span>
@@ -81,7 +80,7 @@ class Progress extends Component {
                       </div>
                       <div className="progress-bar">
                         <div className="bar-inner">
-                          <div className="bar progress-line" data-width="55" />
+                          <div className="bar progress-line" data-width="100" />
                         </div>
                       </div>
                     </div>
@@ -91,13 +90,13 @@ class Progress extends Component {
                       data-wow-duration="0ms"
                     >
                       <div className="progress-header clearfix">
-                        <div className="box-title">CONSULTING</div>
+                        <div className="box-title">Social Media Marketing</div>
                         <div className="progress-percentage">
                           <div className="count-box">
                             <span
                               className="count-text"
                               data-speed="2000"
-                              data-stop="65"
+                              data-stop="80"
                             >
                               0
                             </span>
@@ -107,7 +106,85 @@ class Progress extends Component {
                       </div>
                       <div className="progress-bar">
                         <div className="bar-inner">
-                          <div className="bar progress-line" data-width="65" />
+                          <div className="bar progress-line" data-width="80" />
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      className="progress-box wow fadeInLeft"
+                      data-wow-delay="0ms"
+                      data-wow-duration="0ms"
+                    >
+                      <div className="progress-header clearfix">
+                        <div className="box-title">Facebook Marketing</div>
+                        <div className="progress-percentage">
+                          <div className="count-box">
+                            <span
+                              className="count-text"
+                              data-speed="2000"
+                              data-stop="90"
+                            >
+                              0
+                            </span>
+                            %
+                          </div>
+                        </div>
+                      </div>
+                      <div className="progress-bar">
+                        <div className="bar-inner">
+                          <div className="bar progress-line" data-width="90" />
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      className="progress-box wow fadeInLeft"
+                      data-wow-delay="0ms"
+                      data-wow-duration="0ms"
+                    >
+                      <div className="progress-header clearfix">
+                        <div className="box-title">SEO Optimization</div>
+                        <div className="progress-percentage">
+                          <div className="count-box">
+                            <span
+                              className="count-text"
+                              data-speed="2000"
+                              data-stop="80"
+                            >
+                              0
+                            </span>
+                            %
+                          </div>
+                        </div>
+                      </div>
+                      <div className="progress-bar">
+                        <div className="bar-inner">
+                          <div className="bar progress-line" data-width="80" />
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      className="progress-box wow fadeInLeft"
+                      data-wow-delay="0ms"
+                      data-wow-duration="0ms"
+                    >
+                      <div className="progress-header clearfix">
+                        <div className="box-title">FREE CONSULTING</div>
+                        <div className="progress-percentage">
+                          <div className="count-box">
+                            <span
+                              className="count-text"
+                              data-speed="2000"
+                              data-stop="100"
+                            >
+                              0
+                            </span>
+                            %
+                          </div>
+                        </div>
+                      </div>
+                      <div className="progress-bar">
+                        <div className="bar-inner">
+                          <div className="bar progress-line" data-width="100" />
                         </div>
                       </div>
                     </div>

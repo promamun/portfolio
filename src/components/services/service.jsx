@@ -1,9 +1,8 @@
 import React, { Component } from "react";
-import OwlCarousel from "react-owl-carousel";
 import { Link } from "react-router-dom";
 import ALLIMG1 from "../../assets/images/resource/service-center.png";
 
-class AllService extends Component {
+class Service extends Component {
   render() {
     const BgImage = {
       backgroundImage: `url(images/background/10.png)`
@@ -49,10 +48,10 @@ class AllService extends Component {
         <section className="services-section altrenate" style={BgImage}>
           <div className="container-fluid">
             <div className="sec-title text-center light">
-              <h6 className="subtitle">Best Service Provider</h6>
+              <h6 className="subtitle">Best Service For You</h6>
               <h2>
-                Our digital marketing solution <br />
-                services for all
+                Web Design & Development <br />
+                Digital Marketing & SEO
               </h2>
             </div>
             <div className="inner-container">
@@ -67,15 +66,14 @@ class AllService extends Component {
                         style={serviceBlock}
                       >
                         <div className="icon-box red">
-                          <span className="icon flaticon flaticon-seo" />
+                          <span className="icon flaticon flaticon-social-media" />
                         </div>
                         <div className="text-box">
                           <h4>
-                            <Link to="/blog-detail">SEO Optimization</Link>
+                            <Link to="/blog-detail">Social Media Marketing</Link>
                           </h4>
                           <p>
-                            Eorem ipsum dolorsit ameta odiut areaperspicis under
-                            water.
+                            Elevate Your Brand's Digital Presence. Our social media marketing services unlock the power of social platforms to drive brand awareness, engagement, and achieve impactful results..
                           </p>
                         </div>
                       </div>
@@ -88,15 +86,14 @@ class AllService extends Component {
                         style={serviceBlock1}
                       >
                         <div className="icon-box green">
-                          <span className="icon flaticon flaticon-target" />
+                          <span className="icon flaticon flaticon-seo" />
                         </div>
                         <div className="text-box">
                           <h4>
-                            <Link to="/blog-detail">Target Audience</Link>
+                            <Link to="/blog-detail">SEO Optimization</Link>
                           </h4>
                           <p>
-                            Eorem ipsum dolorsit ameta odiut areaperspicis under
-                            water.
+                            Boost Your Online Visibility and Drive Organic Traffic.
                           </p>
                         </div>
                       </div>
@@ -109,15 +106,14 @@ class AllService extends Component {
                         style={serviceBlock2}
                       >
                         <div className="icon-box light-blue">
-                          <span className="icon flaticon flaticon-startup" />
+                          <span className="icon flaticon flaticon-social-media" />
                         </div>
                         <div className="text-box">
                           <h4>
-                            <Link to="/blog-detail">Fast Loading</Link>
+                            <Link to="/blog-detail">Facebook Marketing</Link>
                           </h4>
                           <p>
-                            Eorem ipsum dolorsit ameta odiut areaperspicis under
-                            water.
+                            Harness the Power of Facebook for Business Growth. Unlock the potential of the world's largest social media platform
                           </p>
                         </div>
                       </div>
@@ -149,15 +145,14 @@ class AllService extends Component {
                         style={serviceBlock3}
                       >
                         <div className="icon-box blue">
-                          <span className="icon flaticon flaticon-fluctuation" />
+                          <span className="icon flaticon flaticon-computer" />
                         </div>
                         <div className="text-box">
                           <h4>
-                            <Link to="/blog-detail">Data Analysis</Link>
+                            <Link to="/blog-detail">Web Development</Link>
                           </h4>
                           <p>
-                            Eorem ipsum dolorsit ameta odiut areaperspicis under
-                            water.
+                            Building websites that drive growth, engage customers, Make brand.
                           </p>
                         </div>
                       </div>
@@ -170,15 +165,14 @@ class AllService extends Component {
                         style={serviceBlock4}
                       >
                         <div className="icon-box purple">
-                          <span className="icon flaticon flaticon-mouse" />
+                          <span className="icon flaticon flaticon-3d-modeling" />
                         </div>
                         <div className="text-box">
                           <h4>
-                            <Link to="/blog-detail">Pay Per Click</Link>
+                            <Link to="/blog-detail">Frontend Development</Link>
                           </h4>
                           <p>
-                            Eorem ipsum dolorsit ameta odiut areaperspicis under
-                            water.
+                            Frontend development expertise brings websites and applications to life, combining cutting-edge technologies, intuitive design, and seamless interactions.
                           </p>
                         </div>
                       </div>
@@ -191,15 +185,14 @@ class AllService extends Component {
                         style={serviceBlock5}
                       >
                         <div className="icon-box yellow">
-                          <span className="icon flaticon flaticon-social-media" />
+                          <span className="icon flaticon flaticon-computer" />
                         </div>
                         <div className="text-box">
                           <h4>
-                            <Link to="/blog-detail">Social Media</Link>
+                            <Link to="/blog-detail">CMS Development</Link>
                           </h4>
                           <p>
-                            Eorem ipsum dolorsit ameta odiut areaperspicis under
-                            water.
+                            WordPress, Shopify, and Wix development websites, seamlessly integrating powerful E-commerce functionalities In a Short Time.
                           </p>
                         </div>
                       </div>
@@ -215,4 +208,4 @@ class AllService extends Component {
   }
 }
 
-export default AllService;
+export default Service;
