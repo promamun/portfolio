@@ -1,10 +1,10 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import OwlCarousel from "react-owl-carousel";
-import CASEIMG1 from "../../assets/images/gallery/1.jpg";
-import CASEIMG2 from "../../assets/images/gallery/2.jpg";
-import CASEIMG3 from "../../assets/images/gallery/3.jpg";
-import CASEIMG4 from "../../assets/images/gallery/4.jpg";
+import CIMG1 from "../../assets/images/gallery/3.jpg";
+import CIMG2 from "../../assets/images/gallery/2.jpg";
+import CIMG3 from "../../assets/images/gallery/13.jpg";
+import CIMG4 from "../../assets/images/gallery/10.jpg";
 
 class CaseStudies extends Component {
   render() {
@@ -15,8 +15,7 @@ class CaseStudies extends Component {
             <div className="sec-title text-left">
               <h6 className="subtitle">Explore Case Studies</h6>
               <h2>
-                Solid results of our <br />
-                different case studies
+                Solid results of our different case studies
               </h2>
             </div>
           </div>
@@ -27,12 +26,13 @@ class CaseStudies extends Component {
               loop={true}
               nav={true}
               margin={10}
+              navText={['<span class="fa fa-angle-left"></span>', '<span class="fa fa-angle-right"></span>']}
               className="projects-carousel owl-carousel owl-theme"
             >
               <div className="project-block">
                 <div className="image-box">
                   <figure className="image">
-                    <img src={CASEIMG1} alt="" />
+                    <img height={250} width={469} src={CIMG1} alt="" />
                   </figure>
                   <div className="overlay-box">
                     <Link to="/project-detail">
@@ -41,16 +41,16 @@ class CaseStudies extends Component {
                   </div>
                 </div>
                 <div className="text-box">
-                  <span className="tag">Digital</span>
+                  <span className="tag">Development</span>
                   <h3>
-                    <Link to="/project-detail">Mobile App Vister</Link>
+                    <Link to="/project-detail">Website Creation</Link>
                   </h3>
                 </div>
               </div>
               <div className="project-block">
                 <div className="image-box">
                   <figure className="image">
-                    <img src={CASEIMG2} alt="" />
+                    <img height={250} width={469}  src={CIMG2} alt="" />
                   </figure>
                   <div className="overlay-box">
                     <Link to="/project-detail">
@@ -59,16 +59,16 @@ class CaseStudies extends Component {
                   </div>
                 </div>
                 <div className="text-box">
-                  <span className="tag">Business</span>
+                  <span className="tag">Digital Marketing</span>
                   <h3>
-                    <Link to="/project-detail">Digital Work</Link>
+                    <Link to="/project-detail">Marketing</Link>
                   </h3>
                 </div>
               </div>
               <div className="project-block">
                 <div className="image-box">
                   <figure className="image">
-                    <img src={CASEIMG3} alt="" />
+                    <img src={CIMG3} alt="" />
                   </figure>
                   <div className="overlay-box">
                     <Link to="/project-detail">
@@ -77,16 +77,16 @@ class CaseStudies extends Component {
                   </div>
                 </div>
                 <div className="text-box">
-                  <span className="tag">Digital PR</span>
+                  <span className="tag">CMS DEVELOPMENT</span>
                   <h3>
-                    <Link to="/project-detail">Innovative Interface</Link>
+                    <Link to="/project-detail">WORDPRESS, SHOPIFY, AND WIX</Link>
                   </h3>
                 </div>
               </div>
               <div className="project-block">
                 <div className="image-box">
                   <figure className="image">
-                    <img src={CASEIMG4} alt="" />
+                    <img src={CIMG4} alt="" />
                   </figure>
                   <div className="overlay-box">
                     <Link to="/project-detail">
@@ -95,9 +95,9 @@ class CaseStudies extends Component {
                   </div>
                 </div>
                 <div className="text-box">
-                  <span className="tag">SEO Marketing</span>
+                  <span className="tag">SEO OPTIMIZATION</span>
                   <h3>
-                    <Link to="/project-detail">Opertray Division</Link>
+                    <Link to="/project-detail">Search Engin OPTIMIZATION</Link>
                   </h3>
                 </div>
               </div>

@@ -9,7 +9,7 @@ import WhyChooseUs from "./WhyChooseUs";
 import PricingPlans from "../Pricing_plan/PricingPlans";
 import Solutions from "./Solutions";
 import HappyClients from "./HappyClients";
-import CaseStudies from "./caseStudies";
+import CaseStudies from "../CaseStudies/caseStudies";
 import Testimonials from "./testimonials";
 
 class Home extends Component {
