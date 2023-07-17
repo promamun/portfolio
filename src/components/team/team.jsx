@@ -1,134 +1,317 @@
 import React, { Component } from "react";
-import TImage from "../../assets/images/resource/testimonial.png";
-import MamunPro from "../../assets/images/team/Mamun_Pro.png";
+import { Link } from "react-router-dom";
 import OwlCarousel from "react-owl-carousel";
+import MamunPro from "../../assets/images/team/Mamun_Pro_Main.png";
+import RamizImg from "../../assets/images/team/Ramiz.jpg";
+import AvijitImg from "../../assets/images/team/Avijit.jpg";
+import PopinImg from "../../assets/images/team/Popin.jpg";
+import FarhanImg from "../../assets/images/team/Farhan.jpg";
+import TeameImage6 from "../../assets/images/team/4.jpg";
+import TeameImage7 from "../../assets/images/team/4.jpg";
+import TeameImage8 from "../../assets/images/team/4.jpg";
 
 class Team extends Component {
   render() {
+    const BgImage = {
+      backgroundImage: `url(images/background/3.png)`,
+    };
     return (
       <div>
-        <section className="testimonial-section">
+        <section className="team-section">
+          <div className="team-bg wow fadeInRight" style={BgImage} />
           <div className="auto-container">
-            <div className="row">
-              <div className="image-column col-lg-6 col-md-12 col-sm-12">
-                <div className="image-box">
-                  <figure>
-                    <img src={TImage} alt="Testimonial Image" />
-                  </figure>
-                </div>
-              </div>
-              <div className="testimonial-column col-lg-6 col-md-12 col-sm-12">
-                <div className="sec-title">
-                  <h6 className="subtitle">OUR TEAM</h6>
-                  <h2>
-                    Individually, our potential is limited,
-                    <br />
-                    but when we collaborate, our possibilities become boundless.
-                  </h2>
-                </div>
-                <OwlCarousel
-                  items={1}
-                  autoPlay={true}
-                  loop={true}
-                  className="testimonial-carousel owl-carousel owl-theme"
-                >
-                  <div className="testimonial-block">
-                    <div className="inner-box">
-                      <div className="text">
-                        “Working with{" "}
-                        <strong className="text-success">Mamun Pro</strong> is
-                        always an absolute joy, both personally and
-                        professionally.{" "}
-                        <strong className="text-success">Mamun Pro</strong> is
-                        an amazing speaker. His experience, expertise and
-                        genuine passion for what he does is obvious in every
-                        word he says.”
-                      </div>
-                      <div className="icon-quote">
-                        <i className="flaticon flaticon-quote"></i>
-                      </div>
-                      <div className="info-box">
-                        <div className="thumb">
-                          <img src={MamunPro} alt="Manager" />
-                        </div>
-                        <div className="text-box">
-                          <h4 className="name">Mamun Pro</h4>
-                          <span className="designation">
-                            Project & Marketing Manager
-                          </span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="testimonial-block">
-                    <div className="inner-box">
-                      <div className="text">
-                        “Working with Reuss is always an absolute joy, both
-                        personally and professionally. Tommy is an amazing
-                        speaker; her experience, expertise and genuine passion
-                        for what she does is obvious in every word he says.”
-                      </div>
-                      <div className="icon-quote">
-                        <i className="flaticon flaticon-quote"></i>
-                      </div>
-                      <div className="info-box">
-                        <div className="thumb">
-                          <img src="images/resource/thumb.png" alt="" />
-                        </div>
-                        <div className="text-box">
-                          <h4 className="name">Megan Mori</h4>
-                          <span className="designation">Marketing Manager</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="testimonial-block">
-                    <div className="inner-box">
-                      <div className="text">
-                        “Working with Reuss is always an absolute joy, both
-                        personally and professionally. Tommy is an amazing
-                        speaker; her experience, expertise and genuine passion
-                        for what she does is obvious in every word he says.”
-                      </div>
-                      <div className="icon-quote">
-                        <i className="flaticon flaticon-quote"></i>
-                      </div>
-                      <div className="info-box">
-                        <div className="thumb">
-                          <img src="images/resource/thumb.png" alt="" />
-                        </div>
-                        <div className="text-box">
-                          <h4 className="name">Megan Mori</h4>
-                          <span className="designation">Marketing Manager</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="testimonial-block">
-                    <div className="inner-box">
-                      <div className="text">
-                        “Working with Reuss is always an absolute joy, both
-                        personally and professionally. Tommy is an amazing
-                        speaker; her experience, expertise and genuine passion
-                        for what she does is obvious in every word he says.”
-                      </div>
-                      <div className="icon-quote">
-                        <i className="flaticon flaticon-quote"></i>
-                      </div>
-                      <div className="info-box">
-                        <div className="thumb">
-                          <img src="images/resource/thumb.png" alt="" />
-                        </div>
-                        <div className="text-box">
-                          <h4 className="name">Megan Mori</h4>
-                          <span className="designation">Marketing Manager</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </OwlCarousel>
-              </div>
+            <div className="sec-title text-center">
+              <h6 className="subtitle">Our Specialists TEAM</h6>
+              <h2>
+                Meet our expert team
+                <br />
+                Teamwork makes the dream work.
+              </h2>
             </div>
+            <OwlCarousel
+              className="team-carousel owl-carousel owl-theme"
+              items={4}
+              autoPlay={true}
+              loop={true}
+            >
+              <div className="team-block">
+                <div className="inner-box">
+                  <div className="image-box">
+                    <div className="image">
+                      <Link to="/team">
+                        <img src={MamunPro} alt="" />
+                      </Link>
+                    </div>
+                  </div>
+                  <ul className="social-links">
+                    <li>
+                      <Link
+                        target="_blank"
+                        to="https://www.facebook.com/Mdmamun6160"
+                      >
+                        <i className="fab fa-facebook-f" />
+                      </Link>
+                    </li>
+                    <li>
+                      <Link target="_blank" to="https://twitter.com/MamunPro">
+                        <i className="fab fa-twitter" />
+                      </Link>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i className="fab fa-dribbble" />
+                      </a>
+                    </li>
+                  </ul>
+                  <div className="text-box">
+                    <h4 className="name">
+                      <a href="team.html">Mamun Pro</a>
+                    </h4>
+                    <span className="designation">
+                      Project & Marketing Manager
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div className="team-block team-block-1">
+                <div className="inner-box">
+                  <div className="image-box">
+                    <div className="image">
+                      <Link to="/team">
+                        <img src={RamizImg} alt="" />
+                      </Link>
+                    </div>
+                  </div>
+                  <ul className="social-links">
+                    <li>
+                      <a href="#">
+                        <i className="fab fa-facebook-f" />
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i className="fab fa-twitter" />
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i className="fab fa-dribbble" />
+                      </a>
+                    </li>
+                  </ul>
+                  <div className="text-box">
+                    <h4 className="name">
+                      <Link to="/team">Ramij Ahmed</Link>
+                    </h4>
+                    <span className="designation">Technical Lead (MNC)</span>
+                  </div>
+                </div>
+              </div>
+              <div className="team-block team-block-2">
+                <div className="inner-box">
+                  <div className="image-box">
+                    <div className="image">
+                      <Link to="/team">
+                        <img src={AvijitImg} alt="" />
+                      </Link>
+                    </div>
+                  </div>
+                  <ul className="social-links">
+                    <li>
+                      <a href="#">
+                        <i className="fab fa-facebook-f" />
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i className="fab fa-twitter" />
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i className="fab fa-dribbble" />
+                      </a>
+                    </li>
+                  </ul>
+                  <div className="text-box">
+                    <h4 className="name">
+                      <Link to="/team">Avijit Samanta</Link>
+                    </h4>
+                    <span className="designation">Full-Stack Developer (MERN)</span>
+                  </div>
+                </div>
+              </div>
+              <div className="team-block team-block-3">
+                <div className="inner-box">
+                  <div className="image-box">
+                    <div className="image">
+                      <Link to="/team">
+                        <img src={PopinImg} alt="" />
+                      </Link>
+                    </div>
+                  </div>
+                  <ul className="social-links">
+                    <li>
+                      <a href="#">
+                        <i className="fab fa-facebook-f" />
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i className="fab fa-twitter" />
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i className="fab fa-dribbble" />
+                      </a>
+                    </li>
+                  </ul>
+                  <div className="text-box">
+                    <h4 className="name">
+                      <Link to="/team">Moinul Islam</Link>
+                    </h4>
+                    <span className="designation">PHP & Laraval Expert</span>
+                  </div>
+                </div>
+              </div>
+              <div className="team-block">
+                <div className="inner-box">
+                  <div className="image-box">
+                    <div className="image">
+                      <Link to="/team">
+                        <img src={FarhanImg} alt="" />
+                      </Link>
+                    </div>
+                  </div>
+                  <ul className="social-links">
+                    <li>
+                      <a href="#">
+                        <i className="fab fa-facebook-f" />
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i className="fab fa-twitter" />
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i className="fab fa-dribbble" />
+                      </a>
+                    </li>
+                  </ul>
+                  <div className="text-box">
+                    <h4 className="name">
+                      <Link to="/team">Farhan Ahmed</Link>
+                    </h4>
+                    <span className="designation">Frontend Developer (React BootStrap Flex )</span>
+                  </div>
+                </div>
+              </div>
+              <div className="team-block team-block-1">
+                <div className="inner-box">
+                  <div className="image-box">
+                    <div className="image">
+                      <Link to="/team">
+                        <img src={TeameImage6} alt="" />
+                      </Link>
+                    </div>
+                  </div>
+                  <ul className="social-links">
+                    <li>
+                      <a href="#">
+                        <i className="fab fa-facebook-f" />
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i className="fab fa-twitter" />
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i className="fab fa-dribbble" />
+                      </a>
+                    </li>
+                  </ul>
+                  <div className="text-box">
+                    <h4 className="name">
+                      <Link to="/team">Noah Michael</Link>
+                    </h4>
+                    <span className="designation">Market Manager</span>
+                  </div>
+                </div>
+              </div>
+              <div className="team-block team-block-2">
+                <div className="inner-box">
+                  <div className="image-box">
+                    <div className="image">
+                      <Link to="/team">
+                        <img src={TeameImage7} alt="" />
+                      </Link>
+                    </div>
+                  </div>
+                  <ul className="social-links">
+                    <li>
+                      <a href="#">
+                        <i className="fab fa-facebook-f" />
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i className="fab fa-twitter" />
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i className="fab fa-dribbble" />
+                      </a>
+                    </li>
+                  </ul>
+                  <div className="text-box">
+                    <h4 className="name">
+                      <Link to="/team">Emma William</Link>
+                    </h4>
+                    <span className="designation">General Manager</span>
+                  </div>
+                </div>
+              </div>
+              <div className="team-block team-block-3">
+                <div className="inner-box">
+                  <div className="image-box">
+                    <div className="image">
+                      <Link to="team.html">
+                        <img src={TeameImage8} alt="" />
+                      </Link>
+                    </div>
+                  </div>
+                  <ul className="social-links">
+                    <li>
+                      <a href="#">
+                        <i className="fab fa-facebook-f" />
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i className="fab fa-twitter" />
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i className="fab fa-dribbble" />
+                      </a>
+                    </li>
+                  </ul>
+                  <div className="text-box">
+                    <h4 className="name">
+                      <Link to="/team">Matthew David</Link>
+                    </h4>
+                    <span className="designation">CEO of Company</span>
+                  </div>
+                </div>
+              </div>
+            </OwlCarousel>
           </div>
         </section>
       </div>

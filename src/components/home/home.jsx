@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import Slider from './slider';
 import AllService from "./AllService";
-import Team from "./team";
+import Team from "../team/team";
 import Progress from "./progress";
 import Clients from "./clients";
 import Traffics from "./Traffics";
