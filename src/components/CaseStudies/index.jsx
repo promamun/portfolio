@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import BroadCamp from "../broadCamp/BroadCamp";
-import CaseStudies from "../home/caseStudies";
+import CaseStudies from "./AllCaseStudies";
 
 class Index extends Component {
     render() {
