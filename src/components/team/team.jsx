@@ -29,10 +29,9 @@ class Team extends Component {
               </h2>
             </div>
             <OwlCarousel
-              className="team-carousel owl-carousel owl-theme"
-              items={4}
-              autoPlay={true}
-              loop={true}
+                autoplay={true}
+                items={4}
+                className={'team-carousel owl-carousel owl-theme'}
             >
               <div className="team-block">
                 <div className="inner-box">

@@ -28,7 +28,6 @@ class Team extends Component {
                 </div>
                 <OwlCarousel
                   items={1}
-                  autoPlay={true}
                   loop={true}
                   className="testimonial-carousel owl-carousel owl-theme"
                 >
@@ -56,72 +55,6 @@ class Team extends Component {
                           <span className="designation">
                             Project & Marketing Manager
                           </span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="testimonial-block">
-                    <div className="inner-box">
-                      <div className="text">
-                        “Working with Reuss is always an absolute joy, both
-                        personally and professionally. Tommy is an amazing
-                        speaker; her experience, expertise and genuine passion
-                        for what she does is obvious in every word he says.”
-                      </div>
-                      <div className="icon-quote">
-                        <i className="flaticon flaticon-quote"></i>
-                      </div>
-                      <div className="info-box">
-                        <div className="thumb">
-                          <img src="images/resource/thumb.png" alt="" />
-                        </div>
-                        <div className="text-box">
-                          <h4 className="name">Megan Mori</h4>
-                          <span className="designation">Marketing Manager</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="testimonial-block">
-                    <div className="inner-box">
-                      <div className="text">
-                        “Working with Reuss is always an absolute joy, both
-                        personally and professionally. Tommy is an amazing
-                        speaker; her experience, expertise and genuine passion
-                        for what she does is obvious in every word he says.”
-                      </div>
-                      <div className="icon-quote">
-                        <i className="flaticon flaticon-quote"></i>
-                      </div>
-                      <div className="info-box">
-                        <div className="thumb">
-                          <img src="images/resource/thumb.png" alt="" />
-                        </div>
-                        <div className="text-box">
-                          <h4 className="name">Megan Mori</h4>
-                          <span className="designation">Marketing Manager</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="testimonial-block">
-                    <div className="inner-box">
-                      <div className="text">
-                        “Working with Reuss is always an absolute joy, both
-                        personally and professionally. Tommy is an amazing
-                        speaker; her experience, expertise and genuine passion
-                        for what she does is obvious in every word he says.”
-                      </div>
-                      <div className="icon-quote">
-                        <i className="flaticon flaticon-quote"></i>
-                      </div>
-                      <div className="info-box">
-                        <div className="thumb">
-                          <img src="images/resource/thumb.png" alt="" />
-                        </div>
-                        <div className="text-box">
-                          <h4 className="name">Megan Mori</h4>
-                          <span className="designation">Marketing Manager</span>
                         </div>
                       </div>
                     </div>
