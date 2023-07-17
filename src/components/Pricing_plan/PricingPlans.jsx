@@ -1,9 +1,8 @@
 import React from "react";
-import Thumbnail from "./Thumbnail";
+import Package from "./Package";
 import subscription from "./data/data";
 
 function PricingPlans({ pricingTitle, packageTitle }) {
- 
   return (
     <div>
       <section className="pricing-section">
@@ -18,7 +17,7 @@ function PricingPlans({ pricingTitle, packageTitle }) {
                 <div className="content">
                   <div className="row clearfix">
                     {subscription.map((data) => (
-                      <Thumbnail
+                      <Package
                         thumb1Title={data.thumb1Title}
                         thumb1Price={data.thumb1Price}
                         thumb1Month={data.thumb1Month}

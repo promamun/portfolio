@@ -8,7 +8,6 @@ import PopinImg from "../../assets/images/team/Popin.jpg";
 import FarhanImg from "../../assets/images/team/Farhan.jpg";
 import Shakib from "../../assets/images/team/Shakib.jpg";
 import JeanBuagas from "../../assets/images/team/Jean_Buagas.png";
-import TeameImage8 from "../../assets/images/team/4.jpg";
 
 class Team extends Component {
   render() {
@@ -64,7 +63,7 @@ class Team extends Component {
                   </ul>
                   <div className="text-box">
                     <h4 className="name">
-                      <a href="team.html">Mamun Pro</a>
+                      <Link target={'_blank'} to="/team">Mamun Pro</Link>
                     </h4>
                     <span className="designation">
                       Project & Marketing Manager
