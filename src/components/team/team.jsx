@@ -170,7 +170,7 @@ class Team extends Component {
                     <h4 className="name">
                       <Link to="/team">Moinul Islam</Link>
                     </h4>
-                    <span className="designation">PHP & Laraval Expert</span>
+                    <span className="designation">PHP & Laravel Expert</span>
                   </div>
                 </div>
               </div>
@@ -204,7 +204,7 @@ class Team extends Component {
                     <h4 className="name">
                       <Link to="/team">Farhan Ahmed</Link>
                     </h4>
-                    <span className="designation">Frontend Developer (React BootStrap Flex )</span>
+                    <span className="designation">Frontend Developer (React.js,BootStrap,Flex)</span>
                   </div>
                 </div>
               </div>
