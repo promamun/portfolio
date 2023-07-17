@@ -60,7 +60,7 @@ function HappyClients() {
                     </div>
                     <div className="text-box">
                       <div className="count">
-                        <span className="count-text" data-speed="5000" data-stop="345">0</span>
+                        <span className="count-text" data-speed="5000" data-stop="50">0</span>
                         <i>+</i>
                       </div>
                       <h3 className="counter-title">Finished Projects</h3>
@@ -74,7 +74,7 @@ function HappyClients() {
                     </div>
                     <div className="text-box">
                       <div className="count">
-                        <span className="count-text" data-speed="5000" data-stop="17">0</span>
+                        <span className="count-text" data-speed="5000" data-stop="5">0</span>
                         <i>+</i>
                       </div>
                       <h3 className="counter-title">Award View</h3>
@@ -88,7 +88,7 @@ function HappyClients() {
                     </div>
                     <div className="text-box">
                       <div className="count">
-                        <span className="count-text" data-speed="5000" data-stop="10">0</span>
+                        <span className="count-text" data-speed="5000" data-stop="5">0</span>
                         <i>+</i>
                       </div>
                       <h3 className="counter-title">Years Experience</h3>
@@ -102,7 +102,7 @@ function HappyClients() {
                     </div>
                     <div className="text-box">
                       <div className="count">
-                        <span className="count-text" data-speed="5000" data-stop="489">0</span>
+                        <span className="count-text" data-speed="5000" data-stop="50">0</span>
                       </div>
                       <h3 className="counter-title">Happy Clients</h3>
                     </div>

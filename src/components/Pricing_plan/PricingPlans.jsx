@@ -1,6 +1,8 @@
 import React from "react";
+import Thumbnail from "./Thumbnail";
+import subscription from "./data/data" ;
 
-function PricingPlans({pricingTitle,packageTitle,children}) {
+function PricingPlans({ pricingTitle, packageTitle }) {
   const BgImage = {
     backgroundImage: `url('images/resource/price-shape-1.png')`
   };
@@ -25,84 +27,19 @@ function PricingPlans({pricingTitle,packageTitle,children}) {
               <div className="tab active-tab">
                 <div className="content">
                   <div className="row clearfix">
-                    <div className="price-block col-lg-4 col-md-6 col-sm-12">
-                      <div className="inner-box">
-                        <div className="packge-plan" style={BgImage1}>
-                          <h6>Starter Plan</h6>
-                          <div className="price">$29.99</div>
-                          <span className="plan-text">per month</span>
-                        </div>
-                        <div className="list-packges-area">
-                          <ul className="price-list">
-                            <li className="active">25 Analytics Campaign</li>
-                            <li className="active">1,300 Keywords</li>
-                            <li className="active">25 Social Media Reviews</li>
-                            <li>1 Free Optimization</li>
-                            <li>24/7 Support</li>
-                          </ul>
-                          <div className="buy-btn-area text-left">
-                            <a
-                              href="#"
-                              className="theme-btn btn-style-two buy-btn"
-                            >
-                              <span className="txt">Buy Now</span>
-                            </a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="price-block col-lg-4 col-md-6 col-sm-12">
-                      <div className="inner-box active">
-                        <div className="packge-plan" style={BgImage}>
-                          <h6>BUSINESS</h6>
-                          <div className="price">$59.99</div>
-                          <span className="plan-text">per month</span>
-                        </div>
-                        <div className="list-packges-area">
-                          <ul className="price-list">
-                            <li className="active">25 Analytics Campaign</li>
-                            <li className="active">1,300 Keywords</li>
-                            <li className="active">25 Social Media Reviews</li>
-                            <li>1 Free Optimization</li>
-                            <li>24/7 Support</li>
-                          </ul>
-                          <div className="buy-btn-area text-left">
-                            <a
-                              href="#"
-                              className="theme-btn btn-style-two buy-btn"
-                            >
-                              <span className="txt">Buy Now</span>
-                            </a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="price-block col-lg-4 col-md-6 col-sm-12">
-                      <div className="inner-box">
-                        <div className="packge-plan" style={BgImage2}>
-                          <h6>PREMIUM</h6>
-                          <div className="price">$79.99</div>
-                          <span className="plan-text">per month</span>
-                        </div>
-                        <div className="list-packges-area">
-                          <ul className="price-list">
-                            <li className="active">25 Analytics Campaign</li>
-                            <li className="active">1,300 Keywords</li>
-                            <li className="active">25 Social Media Reviews</li>
-                            <li>1 Free Optimization</li>
-                            <li>24/7 Support</li>
-                          </ul>
-                          <div className="buy-btn-area text-left">
-                            <a
-                              href="#"
-                              className="theme-btn btn-style-two buy-btn"
-                            >
-                              <span className="txt">Buy Now</span>
-                            </a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
+                  {subscription.map((data) => (
+                    <Thumbnail
+                      thumb1Title={data.thumb1Title}
+                      thumb1Price={data.thumb1Price}
+                      thumb1Month={data.thumb1Month}
+                      thumb1Analytics={data.thumb1Analytics}
+                      thumb1Keywords={data.thumb1Keywords}
+                      thumb1Social={data.thumb1Social}
+                      thumb1Optimize={data.thumb1Optimize}
+                      thumb1Support={data.thumb1Support}
+                      thumb1BuyNow={data.thumb1BuyNow}
+                    />
+                  ))}
                   </div>
                 </div>
               </div>

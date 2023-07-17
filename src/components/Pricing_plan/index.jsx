@@ -13,6 +13,10 @@ export default function index() {
         packageTitle={"Website Creation"}
       >
       </PricingPlans>
+        <PricingPlans
+            packageTitle={"Social Media Marketing"}
+        >
+        </PricingPlans>
     </div>
   );
 }

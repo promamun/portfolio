@@ -6,7 +6,7 @@ import Progress from "./progress";
 import Clients from "./clients";
 import Traffics from "./Traffics";
 import WhyChooseUs from "./WhyChooseUs";
-import PricingPlans from "../Pricing_plan/index";
+import PricingPlans from "../Pricing_plan/PricingPlans";
 import Solutions from "./Solutions";
 import HappyClients from "./HappyClients";
 import CaseStudies from "./caseStudies";

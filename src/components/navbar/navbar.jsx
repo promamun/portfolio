@@ -1,9 +1,35 @@
-import React, { Component } from "react";
+import React, { useEffect  } from "react";
 import { Link } from "react-router-dom";
+import DTMC from "../../assets/images/dtmcolor.png";
 import DTM from "../../assets/images/dtm.png";
 
-class Navbar extends Component {
-  render() {
+const Navbar = () => {
+  useEffect(() => {
+    const checkBackgroundColor = () => {
+      const body = document.body;
+      const logo = document.getElementById("logo");
+      const backgroundColor = window.getComputedStyle(body).backgroundColor;
+      const isWhiteBackground =
+          backgroundColor === "rgb(255, 255, 255)" || backgroundColor === "#ffffff";
+
+      if (isWhiteBackground) {
+        logo.src = DTMC; // Set black logo when background is white
+      } else {
+        logo.src = DTM; // Set white logo when background is not white
+      }
+    };
+
+    // Call the function initially
+    checkBackgroundColor();
+
+    // Add event listener to check background color whenever the window is resized
+    window.addEventListener("resize", checkBackgroundColor);
+
+    // Clean up the event listener on component unmount
+    return () => {
+      window.removeEventListener("resize", checkBackgroundColor);
+    };
+  }, []);
     return (
       <div>
         <header className="main-header header-style-two">
@@ -13,7 +39,7 @@ class Navbar extends Component {
                 <div className="logo-box">
                   <div className="logo">
                     <Link to="/">
-                      <img height={75} width={142} src={DTM} alt="" title="" />
+                      <img height={75} width={142} src={DTMC} alt="" title="" />
                     </Link>
                   </div>
                 </div>
@@ -73,10 +99,10 @@ class Navbar extends Component {
                   <div className="logo-box">
                     <div className="logo">
                       <Link to="/">
-                        <img
+                        <img id={'logo'}
                           height={75}
                           width={142}
-                          src={DTM}
+                          src={DTMC}
                           alt=""
                           title=""
                         />
@@ -136,7 +162,6 @@ class Navbar extends Component {
         </header>
       </div>
     );
-  }
 }
 
 export default Navbar;
