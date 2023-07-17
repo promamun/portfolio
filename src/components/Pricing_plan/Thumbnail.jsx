@@ -11,14 +11,14 @@ function Thumbnail({
   thumb1Support,
   thumb1BuyNow
 }) {
-  const BgImage1 = {
-    backgroundImage: `url('images/resource/price-shape.png')`
+  const BgImage = {
+    backgroundImage: `url('images/resource/price-shape-2.png')`
   };
   return (
     <>
       <div className="price-block col-lg-4 col-md-6 col-sm-12">
         <div className="inner-box">
-          <div className="packge-plan" style={BgImage1}>
+          <div className="packge-plan" style={BgImage}>
             <h6>{thumb1Title} </h6>
             <div className="price">{thumb1Price} </div>
             <span className="plan-text">{thumb1Month}</span>

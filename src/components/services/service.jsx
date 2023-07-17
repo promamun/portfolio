@@ -1,9 +1,8 @@
 import React, { Component } from "react";
-import OwlCarousel from "react-owl-carousel";
 import { Link } from "react-router-dom";
 import ALLIMG1 from "../../assets/images/resource/service-center.png";
 
-class AllService extends Component {
+class Service extends Component {
   render() {
     const BgImage = {
       backgroundImage: `url(images/background/10.png)`
@@ -49,10 +48,10 @@ class AllService extends Component {
         <section className="services-section altrenate" style={BgImage}>
           <div className="container-fluid">
             <div className="sec-title text-center light">
-              <h6 className="subtitle">Best Service Provider</h6>
+              <h6 className="subtitle">Best Service For You</h6>
               <h2>
-                Our digital marketing solution <br />
-                services for all
+                Web Design & Development <br />
+                Digital Marketing & SEO
               </h2>
             </div>
             <div className="inner-container">
@@ -215,4 +214,4 @@ class AllService extends Component {
   }
 }
 
-export default AllService;
+export default Service;
