@@ -32,7 +32,7 @@ const teamData = [
     designation: "Digital Marketing Expart(SEO Specialist)"
   },
   {
-    image: "../TEAMIMAGE/Jean_Buagas.png",
+    image: "../TEAMIMAGE/9.jpg",
     name: "Jean S.Buagas",
     designation: "Marketing Assistant"
   }

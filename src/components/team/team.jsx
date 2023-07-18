@@ -7,7 +7,7 @@ import AvijitImg from "../../assets/images/team/Avijit.jpg";
 import PopinImg from "../../assets/images/team/Popin.jpg";
 import FarhanImg from "../../assets/images/team/Farhan.jpg";
 import Shakib from "../../assets/images/team/Shakib.jpg";
-import JeanBuagas from "../../assets/images/team/Jean_Buagas.png";
+import JeanBuagas from "../../assets/images/team/9.jpg";
 
 class Team extends Component {
   render() {
