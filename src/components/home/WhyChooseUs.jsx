@@ -54,7 +54,7 @@ class WhyChooseUs extends Component {
                     <h6 className="subtitle">Why Choose Us</h6>
                     <h2>
                       Work with a dedicated <br />
-                      Web Development & Digital Marketing company
+                      Web Development & Digital Marketing Agency
                     </h2>
                   </div>
                   <ul className="accordion-box">

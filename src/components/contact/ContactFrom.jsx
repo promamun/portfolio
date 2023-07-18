@@ -60,7 +60,7 @@ class ContactFrom extends Component {
                 <div className="inner-column">
                   <div className="sec-title text-left">
                     <h6 className="subtitle">Get in Touch</h6>
-                    <h2>Get Free SEO Analysis?</h2>
+                    <h2>Get Free Consultation?</h2>
                   </div>
                   <div className="contact-form">
                     <form
