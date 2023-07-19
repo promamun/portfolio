@@ -44,7 +44,7 @@ class Team extends Component {
                         word he says.”
                       </div>
                       <div className="icon-quote">
-                        <i className="flaticon flaticon-quote"></i>
+                        <i className="flaticon flaticon-quote"/>
                       </div>
                       <div className="info-box">
                         <div className="thumb">
