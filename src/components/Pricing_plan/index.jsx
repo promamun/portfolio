@@ -9,7 +9,7 @@ export default function index() {
   return (
     <div>
       <Helmet>
-        <title>Price Plan Page</title>
+        <title>Pricing Plans</title>
       </Helmet>
       <BroadCamp name={"Pricing Plans"} bgImageStyle={BgImage} />
       <PricingPlans

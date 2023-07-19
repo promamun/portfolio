@@ -4,32 +4,6 @@ import DTMC from "../../assets/images/dtmcolor.png";
 import DTM from "../../assets/images/dtm.png";
 
 const Navbar = () => {
-  useEffect(() => {
-    const checkBackgroundColor = () => {
-      const body = document.body;
-      const logo = document.getElementById("logo");
-      const backgroundColor = window.getComputedStyle(body).backgroundColor;
-      const isWhiteBackground =
-          backgroundColor === "rgb(255, 255, 255)" || backgroundColor === "#ffffff";
-
-      if (isWhiteBackground) {
-        logo.src = DTMC; // Set black logo when background is white
-      } else {
-        logo.src = DTM; // Set white logo when background is not white
-      }
-    };
-
-    // Call the function initially
-    checkBackgroundColor();
-
-    // Add event listener to check background color whenever the window is resized
-    window.addEventListener("resize", checkBackgroundColor);
-
-    // Clean up the event listener on component unmount
-    return () => {
-      window.removeEventListener("resize", checkBackgroundColor);
-    };
-  }, []);
     return (
       <div>
         <header className="main-header header-style-two">

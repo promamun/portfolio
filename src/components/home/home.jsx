@@ -18,7 +18,7 @@ class Home extends Component {
     return (
       <div>
         <Helmet>
-          <title>Home Page</title>
+          <title>Home</title>
         </Helmet>
         <Slider />
         <Clients />

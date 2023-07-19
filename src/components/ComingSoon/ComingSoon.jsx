@@ -3,6 +3,7 @@ import {Link} from "react-router-dom";
 import Banner from "../../assets/images/main-banner/5.png";
 import Banner1 from "../../assets/images/services/4.png";
 import Button from "../contact/Button";
+import {Helmet} from "react-helmet";
 
 class ComingSoon extends Component {
     render() {
@@ -11,6 +12,11 @@ class ComingSoon extends Component {
         };
         return (
             <div>
+                <Helmet>
+                    <title>
+                        Coming Soon
+                    </title>
+                </Helmet>
                 <section
                     className="banner-section style-two"
                     style={BgImage}

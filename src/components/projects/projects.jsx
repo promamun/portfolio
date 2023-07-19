@@ -9,7 +9,7 @@ class Projects extends Component {
     return (
       <div>
         <Helmet>
-          <title>Projects Page</title>
+          <title>Projects</title>
         </Helmet>
         <section className="page-title" style={BgImage}>
           <div id="stars" />

@@ -14,7 +14,7 @@ class Index extends Component {
     return (
       <div>
         <Helmet>
-          <title>Service Page</title>
+          <title>Service</title>
         </Helmet>
         <BroadCamp name="Service" bgImageStyle={BgImage} />
         <Solutions />

@@ -12,7 +12,7 @@ class Index extends Component {
     return (
       <div>
         <Helmet>
-          <title>Contact Page</title>
+          <title>Contact</title>
         </Helmet>
         <BroadCamp name={"Contact US"} bgImageStyle={BgImage} />
         <ContactFrom />
