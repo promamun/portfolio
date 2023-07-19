@@ -1,9 +1,10 @@
 import React, { Component } from "react";
 import {Link} from "react-router-dom";
-import Logo from '../../assets/images/dtm.png'
+import Logo from '../../DTM_Logo.png'
 
 class Footer extends Component {
   render() {
+    const currentDate = new Date().getFullYear();
     const BgImage = {
       backgroundImage: `url(images/background/6.png)`
     };
@@ -244,7 +245,7 @@ class Footer extends Component {
                 </div>
                 <div className="copyright-text">
                   <p>
-                    Copyright © 2023 Portfolio by{" "}
+                    Copyright © {currentDate} Portfolio by{" "}
                     <Link to="#">DevTechMasters.</Link> All right reserved
                   </p>
                 </div>
