@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import {Link} from "react-router-dom";
+import Logo from '../../assets/images/dtm.png'
 
 class Footer extends Component {
   render() {
@@ -40,18 +42,18 @@ class Footer extends Component {
                         <div className="contact-box-footer">
                           <div className="content-block">
                             <div className="icon-box">
-                              <i className="flaticon flaticon-communication"></i>
+                              <i className="flaticon flaticon-communication"/>
                             </div>
                             <div className="text-box">
-                              <p>+1 (800) 581 3645 11</p>
-                              <a href="mailto:sola.seo@mail.com">
-                                sola.seo@mail.com
+                              <p>+1 (845) 579-2174 </p>
+                              <a href="mailto:support@devtechmasters.com">
+                                support@devtechmasters.com
                               </a>
                             </div>
                           </div>
                           <div className="content-block">
                             <div className="icon-box">
-                              <i className="flaticon flaticon-location"></i>
+                              <i className="flaticon flaticon-location"/>
                             </div>
                             <div className="text-box">
                               <p>
@@ -71,16 +73,16 @@ class Footer extends Component {
                       <div className="footer-widget about-widget">
                         <div className="footer-logo">
                           <figure>
-                            <a href="index.html">
-                              <img src="images/footer-logo.png" alt="" />
-                            </a>
+                            <Link to="/">
+                              <img height={75} width={142} src={Logo} alt="DTM" />
+                            </Link>
                           </figure>
                         </div>
                         <div className="widget-content">
                           <p>
-                            Sola have much planned for the future, working with
-                            great clients and continued software development. If
-                            you’d like to join our team.
+                            DTM have much planned for the future, working with
+                            great clients and continued software development & Digital World. If
+                            you’d like to join our team. Just Call US.
                           </p>
                         </div>
                       </div>
@@ -175,38 +177,18 @@ class Footer extends Component {
                         <h4 className="widget-title">Useful links</h4>
                         <div className="widget-content">
                           <ul className="list">
-                            <li>
-                              <a href="#">Vision & Values</a>
-                            </li>
-                            <li>
-                              <a href="#">Leadership</a>
-                            </li>
-                            <li>
-                              <a href="#">Sustainability</a>
-                            </li>
-                            <li>
-                              <a href="#">Careers</a>
-                            </li>
-                            <li>
-                              <a href="services.html">Services</a>
-                            </li>
+                            <li><Link to="/service">Service</Link></li>
+                            <li><Link to="/team">Team</Link></li>
+                            <li><Link to="/case-studies">Case Studies</Link></li>
+                            <li><Link to="/projects">Projects</Link></li>
+                            <li><Link to="/pricing">Pricing</Link></li>
                           </ul>
                           <ul className="list">
-                            <li>
-                              <a href="#">History</a>
-                            </li>
-                            <li>
-                              <a href="#">SEO</a>
-                            </li>
-                            <li>
-                              <a href="#">Awards</a>
-                            </li>
-                            <li>
-                              <a href="blog-classic.html">Media</a>
-                            </li>
-                            <li>
-                              <a href="contact.html">Contact</a>
-                            </li>
+                            <li><Link to="/about">About Us</Link></li>
+                            <li><Link to="/contact">Contact Us</Link></li>
+                            <li><Link to="/privacy">Privacy Policy</Link></li>
+                            <li><Link to="/faq">FAQ</Link></li>
+                            <li><Link to="/free-consultation">Free Consultation</Link></li>
                           </ul>
                         </div>
                       </div>
@@ -217,8 +199,8 @@ class Footer extends Component {
                         <div className="widget-content">
                           <ul className="list-style-one">
                             <li>
-                              <span className="icon fas fa-phone-volume" />
-                              +1 (800) 581 3645 11
+                              <span className="icon fas fa-envelope" />
+                              +1 (845) 579-2174
                             </li>
                             <li>
                               <span className="icon fas fa-map-marker-alt" />
@@ -226,7 +208,7 @@ class Footer extends Component {
                             </li>
                             <li>
                               <span className="icon fas fa-envelope" />
-                              sola.seo@mail.com
+                              support@devtechmasters.com
                             </li>
                           </ul>
                         </div>
@@ -242,11 +224,7 @@ class Footer extends Component {
               <div className="inner-container clearfix">
                 <div className="social-links">
                   <ul className="social-icon-two">
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-facebook-f" />
-                      </a>
-                    </li>
+                    <li><a href="#"><i className="fab fa-facebook-f" /></a></li>
                     <li>
                       <a href="#">
                         <i className="fab fa-pinterest-p" />
@@ -267,7 +245,7 @@ class Footer extends Component {
                 <div className="copyright-text">
                   <p>
                     Copyright © 2023 Portfolio by{" "}
-                    <a href="#">DevTechMasters.</a> All right reserved
+                    <Link to="#">DevTechMasters.</Link> All right reserved
                   </p>
                 </div>
               </div>

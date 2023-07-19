@@ -1,4 +1,4 @@
-// TEAMIMAGE has been taken from public folder//
+// TEAM IMAGE has been taken from public folder//
 const teamData = [
   {
     image: "../TEAMIMAGE/Mamun_Pro_Main.png",
