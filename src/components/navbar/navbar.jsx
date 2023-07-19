@@ -1,45 +1,97 @@
-import React, { useEffect  } from "react";
+import { NavLink } from "react-router-dom";
 import { Link } from "react-router-dom";
 import DTMC from "../../assets/images/dtmcolor.png";
-import DTM from "../../assets/images/dtm.png";
 
 const Navbar = () => {
-  useEffect(() => {
-    const checkBackgroundColor = () => {
-      const body = document.body;
-      const logo = document.getElementById("logo");
-      const backgroundColor = window.getComputedStyle(body).backgroundColor;
-      const isWhiteBackground =
-          backgroundColor === "rgb(255, 255, 255)" || backgroundColor === "#ffffff";
-
-      if (isWhiteBackground) {
-        logo.src = DTMC; // Set black logo when background is white
-      } else {
-        logo.src = DTM; // Set white logo when background is not white
-      }
+  const navLinkStyles = ({ isActive }) => {
+    return {
+      fontWeight: isActive ? "bold" : "normal",
+      textDecoration: isActive ? "none" : "red"
     };
+  };
 
-    // Call the function initially
-    checkBackgroundColor();
-
-    // Add event listener to check background color whenever the window is resized
-    window.addEventListener("resize", checkBackgroundColor);
-
-    // Clean up the event listener on component unmount
-    return () => {
-      window.removeEventListener("resize", checkBackgroundColor);
-    };
-  }, []);
-    return (
-      <div>
-        <header className="main-header header-style-two">
+  return (
+    <div>
+      <header className="main-header header-style-two">
+        <div className="auto-container">
+          <div className="header-lower">
+            <div className="main-box clearfix">
+              <div className="logo-box">
+                <div className="logo">
+                  <Link to="/">
+                    <img height={75} width={142} src={DTMC} alt="" title="" />
+                  </Link>
+                </div>
+              </div>
+              <div className="nav-outer clearfix">
+                <div className="mobile-nav-toggler">
+                  <span className="icon flaticon flaticon-menu" />
+                </div>
+                <nav className="main-menu navbar-expand-md">
+                  <div
+                    className="collapse show navbar-collapse clearfix"
+                    id="navbarSupportedContent"
+                  >
+                    <ul className="navigation clearfix">
+                      <li>
+                      
+                        <NavLink style={navLinkStyles} to="/">
+                          Home
+                        </NavLink>
+                      </li>
+                      <li>
+                        <NavLink style={navLinkStyles} to="/service">
+                          Services
+                        </NavLink>
+                      </li>
+                      <li>
+                        <NavLink style={navLinkStyles} to="/team">Team</NavLink>
+                      </li>
+                      <li>
+                        <NavLink style={navLinkStyles} to="/case-studies">Case Studies</NavLink>
+                      </li>
+                      <li>
+                        <NavLink style={navLinkStyles} to="/projects">Projects</NavLink>
+                      </li>
+                      <li>
+                        <NavLink style={navLinkStyles} to="/pricing-plans">Pricing</NavLink>
+                      </li>
+                      <li>
+                        <NavLink style={navLinkStyles} to="/contact">Contact</NavLink>
+                      </li>
+                      <li>
+                        <NavLink style={navLinkStyles} to="/about">About</NavLink>
+                      </li>
+                    </ul>
+                  </div>
+                </nav>
+                <div className="outer-box">
+                  <NavLink
+                    to="/free-consultation"
+                    className="theme-btn btn-style-one"
+                  >
+                    <span className="txt">Free Consultation</span>
+                  </NavLink>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="sticky-header">
           <div className="auto-container">
             <div className="header-lower">
               <div className="main-box clearfix">
                 <div className="logo-box">
                   <div className="logo">
                     <Link to="/">
-                      <img height={75} width={142} src={DTMC} alt="" title="" />
+                      <img
+                        id={"logo"}
+                        height={75}
+                        width={142}
+                        src={DTMC}
+                        alt=""
+                        title=""
+                      />
                     </Link>
                   </div>
                 </div>
@@ -54,28 +106,28 @@ const Navbar = () => {
                     >
                       <ul className="navigation clearfix">
                         <li>
-                          <Link to="/">Home</Link>
+                          <NavLink style={navLinkStyles} to="/">Home</NavLink>
                         </li>
                         <li>
-                          <Link to="/service">Services</Link>
+                          <NavLink style={navLinkStyles} to="/service">Services</NavLink>
                         </li>
                         <li>
-                          <Link to="/team">Team</Link>
+                          <NavLink style={navLinkStyles} to="/team">Team</NavLink>
                         </li>
                         <li>
-                          <Link to="/case-studies">Case Studies</Link>
+                          <NavLink style={navLinkStyles} to="/case-studies">Case Studies</NavLink>
                         </li>
                         <li>
-                          <Link to="/projects">Projects</Link>
+                          <NavLink style={navLinkStyles} to="/projects">Projects</NavLink>
                         </li>
                         <li>
-                          <Link to="/pricing-plans">Pricing</Link>
+                          <NavLink style={navLinkStyles} to="/pricing-plans">Pricing</NavLink>
                         </li>
                         <li>
-                          <Link to="/contact">Contact</Link>
+                          <NavLink style={navLinkStyles} to="/contact">Contact</NavLink>
                         </li>
                         <li>
-                          <Link to="/about">About</Link>
+                          <NavLink style={navLinkStyles} to="/about">About</NavLink>
                         </li>
                       </ul>
                     </div>
@@ -92,76 +144,10 @@ const Navbar = () => {
               </div>
             </div>
           </div>
-          <div className="sticky-header">
-            <div className="auto-container">
-              <div className="header-lower">
-                <div className="main-box clearfix">
-                  <div className="logo-box">
-                    <div className="logo">
-                      <Link to="/">
-                        <img id={'logo'}
-                          height={75}
-                          width={142}
-                          src={DTMC}
-                          alt=""
-                          title=""
-                        />
-                      </Link>
-                    </div>
-                  </div>
-                  <div className="nav-outer clearfix">
-                    <div className="mobile-nav-toggler">
-                      <span className="icon flaticon flaticon-menu" />
-                    </div>
-                    <nav className="main-menu navbar-expand-md">
-                      <div
-                        className="collapse show navbar-collapse clearfix"
-                        id="navbarSupportedContent"
-                      >
-                        <ul className="navigation clearfix">
-                          <li>
-                            <Link to="/">Home</Link>
-                          </li>
-                          <li>
-                            <Link to="/service">Services</Link>
-                          </li>
-                          <li>
-                            <Link to="/team">Team</Link>
-                          </li>
-                          <li>
-                            <Link to="/case-studies">Case Studies</Link>
-                          </li>
-                          <li>
-                            <Link to="/projects">Projects</Link>
-                          </li>
-                          <li>
-                            <Link to="/pricing-plans">Pricing</Link>
-                          </li>
-                          <li>
-                            <Link to="/contact">Contact</Link>
-                          </li>
-                          <li>
-                            <Link to="/about">About</Link>
-                          </li>
-                        </ul>
-                      </div>
-                    </nav>
-                    <div className="outer-box">
-                      <Link
-                        to="/free-consultation"
-                        className="theme-btn btn-style-one"
-                      >
-                        <span className="txt">Free Consultation</span>
-                      </Link>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </header>
-      </div>
-    );
-}
+        </div>
+      </header>
+    </div>
+  );
+};
 
 export default Navbar;
