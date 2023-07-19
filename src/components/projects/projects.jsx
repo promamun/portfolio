@@ -1,12 +1,16 @@
 import React, { Component } from "react";
+import { Helmet } from "react-helmet";
 
 class Projects extends Component {
   render() {
     const BgImage = {
-      backgroundImage: `url(images/background/22.png)`
+      backgroundImage: `url(images/background/22.png)`,
     };
     return (
       <div>
+        <Helmet>
+          <title>Projects Page</title>
+        </Helmet>
         <section className="page-title" style={BgImage}>
           <div id="stars" />
           <div id="stars2" />
