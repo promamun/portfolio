@@ -1,12 +1,12 @@
-import React, { Component } from "react";
+import React from "react";
 import { Helmet } from "react-helmet";
+import {Link} from "react-router-dom";
 
-class Projects extends Component {
-  render() {
-    const BgImage = {
-      backgroundImage: `url(images/background/22.png)`,
-    };
-    return (
+const Projects = () => {
+  const BgImage = {
+    backgroundImage: `url(images/background/22.png)`,
+  };
+  return (
       <div>
         <Helmet>
           <title>Projects</title>
@@ -21,7 +21,7 @@ class Projects extends Component {
                 <h1>Our Great Projects</h1>
                 <ul className="bread-crumb clearfix">
                   <li>
-                    <a href="index.html">Home</a>
+                    <Link to="/">Home</Link>
                   </li>
                   <li>Projects</li>
                 </ul>
@@ -30,59 +30,11 @@ class Projects extends Component {
           </div>
         </section>
         <section className="projects-section gallery-proj">
-          <div className="auto-container">
-            <div className="sec-title text-center">
-              <h6 className="subtitle">Explore Case Studies</h6>
-              <h2>
-                Solid results of our <br />
-                different case studies
-              </h2>
-            </div>
-          </div>
           <div className="container-fluid">
             <div className="mixitup-gallery">
-              <div className="filters text-center clearfix">
-                <ul className="filter-tabs filter-btns clearfix">
-                  <li
-                    className="active filter"
-                    data-role="button"
-                    data-filter="all"
-                  >
-                    All
-                  </li>
-                  <li
-                    className="filter"
-                    data-role="button"
-                    data-filter=".strategy"
-                  >
-                    Strategy
-                  </li>
-                  <li
-                    className="filter"
-                    data-role="button"
-                    data-filter=".optimization"
-                  >
-                    Optimization
-                  </li>
-                  <li
-                    className="filter"
-                    data-role="button"
-                    data-filter=".advertising"
-                  >
-                    Advertising
-                  </li>
-                  <li
-                    className="filter"
-                    data-role="button"
-                    data-filter=".social"
-                  >
-                    Social
-                  </li>
-                </ul>
-              </div>
               <div className="inner-container">
                 <div className="filter-list row">
-                  <div className="all mix advertising social optimization col-lg-2 col-md-12 col-sm-12">
+                  <div className="col-lg-2 col-md-12 col-sm-12">
                     <div className="project-block-two">
                       <div className="image-box">
                         <figure className="image">
@@ -90,38 +42,38 @@ class Projects extends Component {
                         </figure>
                         <div className="overlay-box">
                           <div className="category">
-                            <a
-                              href="project.html"
-                              className="theme-btn btn-style-one"
+                            <Link
+                                to="/project-details"
+                                className="theme-btn btn-style-one"
                             >
                               <span className="txt">CMS</span>
-                            </a>
+                            </Link>
                           </div>
                           <div className="detail-box">
                             <div className="upper-content">
-                              <a href="project-detail.html">
+                              <Link to="/project-details">
                                 <i className="fas fa-arrow-right" />
-                              </a>
-                              <a
-                                href="images/gallery/6.jpg"
-                                className="lightbox-image"
-                                data-fancybox="gallery"
+                              </Link>
+                              <Link
+                                  to="images/gallery/6.jpg"
+                                  className="lightbox-image"
+                                  data-fancybox="gallery"
                               >
                                 <i className="fa fa-search" />
-                              </a>
+                              </Link>
                             </div>
                             <h5>
-                              <a href="#">
+                              <Link to="#">
                                 Construction <br />
                                 Management Process
-                              </a>
+                              </Link>
                             </h5>
                           </div>
                         </div>
                       </div>
                     </div>
                   </div>
-                  <div className="all mix optimization social col-lg-4 col-md-12 col-sm-12">
+                  <div className="col-lg-4 col-md-12 col-sm-12">
                     <div className="project-block-two">
                       <div className="image-box">
                         <figure className="image">
@@ -129,38 +81,38 @@ class Projects extends Component {
                         </figure>
                         <div className="overlay-box">
                           <div className="category">
-                            <a
-                              href="project.html"
-                              className="theme-btn btn-style-one"
+                            <Link
+                                to="/project-details"
+                                className="theme-btn btn-style-one"
                             >
                               <span className="txt">Digital Work</span>
-                            </a>
+                            </Link>
                           </div>
                           <div className="detail-box">
                             <div className="upper-content">
-                              <a href="project-detail.html">
+                              <Link to="/project-details">
                                 <i className="fas fa-arrow-right" />
-                              </a>
-                              <a
-                                href="images/gallery/7.jpg"
-                                className="lightbox-image"
-                                data-fancybox="gallery"
+                              </Link>
+                              <Link
+                                  to="images/gallery/7.jpg"
+                                  className="lightbox-image"
+                                  data-fancybox="gallery"
                               >
                                 <i className="fa fa-search" />
-                              </a>
+                              </Link>
                             </div>
                             <h5>
-                              <a href="#">
+                              <Link to="#">
                                 Construction <br />
                                 Management Process
-                              </a>
+                              </Link>
                             </h5>
                           </div>
                         </div>
                       </div>
                     </div>
                   </div>
-                  <div className="all mix optimization advertising col-lg-4 col-md-12 col-sm-12">
+                  <div className="col-lg-4 col-md-12 col-sm-12">
                     <div className="project-block-two">
                       <div className="image-box">
                         <figure className="image">
@@ -168,38 +120,38 @@ class Projects extends Component {
                         </figure>
                         <div className="overlay-box">
                           <div className="category">
-                            <a
-                              href="project.html"
-                              className="theme-btn btn-style-one"
+                            <Link
+                                to="/project-details"
+                                className="theme-btn btn-style-one"
                             >
                               <span className="txt">Mobile App Vister</span>
-                            </a>
+                            </Link>
                           </div>
                           <div className="detail-box">
                             <div className="upper-content">
-                              <a href="project-detail.html">
+                              <Link to="/project-details">
                                 <i className="fas fa-arrow-right" />
-                              </a>
-                              <a
-                                href="images/gallery/8.jpg"
-                                className="lightbox-image"
-                                data-fancybox="gallery"
+                              </Link>
+                              <Link
+                                  to="images/gallery/8.jpg"
+                                  className="lightbox-image"
+                                  data-fancybox="gallery"
                               >
                                 <i className="fa fa-search" />
-                              </a>
+                              </Link>
                             </div>
                             <h5>
-                              <a href="#">
+                              <Link to="#">
                                 Construction <br />
                                 Management Process
-                              </a>
+                              </Link>
                             </h5>
                           </div>
                         </div>
                       </div>
                     </div>
                   </div>
-                  <div className="all mix optimization strategy social col-lg-2 col-md-12 col-sm-12">
+                  <div className="col-lg-2 col-md-12 col-sm-12">
                     <div className="project-block-two">
                       <div className="image-box">
                         <figure className="image">
@@ -207,38 +159,38 @@ class Projects extends Component {
                         </figure>
                         <div className="overlay-box">
                           <div className="category">
-                            <a
-                              href="project.html"
-                              className="theme-btn btn-style-one"
+                            <Link
+                                to="/project-details"
+                                className="theme-btn btn-style-one"
                             >
                               <span className="txt">Opertray</span>
-                            </a>
+                            </Link>
                           </div>
                           <div className="detail-box">
                             <div className="upper-content">
-                              <a href="project-detail.html">
+                              <Link to="/project-details">
                                 <i className="fas fa-arrow-right" />
-                              </a>
-                              <a
-                                href="images/gallery/9.jpg"
-                                className="lightbox-image"
-                                data-fancybox="gallery"
+                              </Link>
+                              <Link
+                                  to="images/gallery/9.jpg"
+                                  className="lightbox-image"
+                                  data-fancybox="gallery"
                               >
                                 <i className="fa fa-search" />
-                              </a>
+                              </Link>
                             </div>
                             <h5>
-                              <a href="#">
+                              <Link to="#">
                                 Construction <br />
                                 Management Process
-                              </a>
+                              </Link>
                             </h5>
                           </div>
                         </div>
                       </div>
                     </div>
                   </div>
-                  <div className="all mix optimization advertising col-lg-4 col-md-12 col-sm-12">
+                  <div className="col-lg-4 col-md-12 col-sm-12">
                     <div className="project-block-two">
                       <div className="image-box">
                         <figure className="image">
@@ -246,38 +198,38 @@ class Projects extends Component {
                         </figure>
                         <div className="overlay-box">
                           <div className="category">
-                            <a
-                              href="project.html"
-                              className="theme-btn btn-style-one"
+                            <Link
+                                to="/project-details"
+                                className="theme-btn btn-style-one"
                             >
                               <span className="txt">Innovative Interface</span>
-                            </a>
+                            </Link>
                           </div>
                           <div className="detail-box">
                             <div className="upper-content">
-                              <a href="project-detail.html">
+                              <Link to="/project-details">
                                 <i className="fas fa-arrow-right" />
-                              </a>
-                              <a
-                                href="images/gallery/10.jpg"
-                                className="lightbox-image"
-                                data-fancybox="gallery"
+                              </Link>
+                              <Link
+                                  to="images/gallery/10.jpg"
+                                  className="lightbox-image"
+                                  data-fancybox="gallery"
                               >
                                 <i className="fa fa-search" />
-                              </a>
+                              </Link>
                             </div>
                             <h5>
-                              <a href="#">
+                              <Link to="#">
                                 Construction <br />
                                 Management Process
-                              </a>
+                              </Link>
                             </h5>
                           </div>
                         </div>
                       </div>
                     </div>
                   </div>
-                  <div className="all mix optimization strategy advertising col-lg-2 col-md-12 col-sm-12">
+                  <div className="col-lg-2 col-md-12 col-sm-12">
                     <div className="project-block-two">
                       <div className="image-box">
                         <figure className="image">
@@ -285,38 +237,38 @@ class Projects extends Component {
                         </figure>
                         <div className="overlay-box">
                           <div className="category">
-                            <a
-                              href="project.html"
-                              className="theme-btn btn-style-one"
+                            <Link
+                                to="/project-details"
+                                className="theme-btn btn-style-one"
                             >
                               <span className="txt">Interface</span>
-                            </a>
+                            </Link>
                           </div>
                           <div className="detail-box">
                             <div className="upper-content">
-                              <a href="project-detail.html">
+                              <Link to="/project-details">
                                 <i className="fas fa-arrow-right" />
-                              </a>
-                              <a
-                                href="images/gallery/11.jpg"
-                                className="lightbox-image"
-                                data-fancybox="gallery"
+                              </Link>
+                              <Link
+                                  to="images/gallery/11.jpg"
+                                  className="lightbox-image"
+                                  data-fancybox="gallery"
                               >
                                 <i className="fa fa-search" />
-                              </a>
+                              </Link>
                             </div>
                             <h5>
-                              <a href="#">
+                              <Link to="#">
                                 Construction <br />
                                 Management Process
-                              </a>
+                              </Link>
                             </h5>
                           </div>
                         </div>
                       </div>
                     </div>
                   </div>
-                  <div className="all mix optimization advertising col-lg-2 col-md-2 col-sm-12">
+                  <div className="col-lg-2 col-md-2 col-sm-12">
                     <div className="project-block-two">
                       <div className="image-box">
                         <figure className="image">
@@ -324,38 +276,38 @@ class Projects extends Component {
                         </figure>
                         <div className="overlay-box">
                           <div className="category">
-                            <a
-                              href="project.html"
-                              className="theme-btn btn-style-one"
+                            <Link
+                                to="/project-details"
+                                className="theme-btn btn-style-one"
                             >
                               <span className="txt">Mobile App</span>
-                            </a>
+                            </Link>
                           </div>
                           <div className="detail-box">
                             <div className="upper-content">
-                              <a href="project-detail.html">
+                              <Link to="/project-details">
                                 <i className="fas fa-arrow-right" />
-                              </a>
-                              <a
-                                href="images/gallery/12.jpg"
-                                className="lightbox-image"
-                                data-fancybox="gallery"
+                              </Link>
+                              <Link
+                                  to="images/gallery/12.jpg"
+                                  className="lightbox-image"
+                                  data-fancybox="gallery"
                               >
                                 <i className="fa fa-search" />
-                              </a>
+                              </Link>
                             </div>
                             <h5>
-                              <a href="#">
+                              <Link to="#">
                                 Construction <br />
                                 Management Process
-                              </a>
+                              </Link>
                             </h5>
                           </div>
                         </div>
                       </div>
                     </div>
                   </div>
-                  <div className="all mix optimization advertising col-lg-4 col-md-12 col-sm-12">
+                  <div className="col-lg-4 col-md-12 col-sm-12">
                     <div className="project-block-two">
                       <div className="image-box">
                         <figure className="image">
@@ -363,31 +315,31 @@ class Projects extends Component {
                         </figure>
                         <div className="overlay-box">
                           <div className="category">
-                            <a
-                              href="project.html"
-                              className="theme-btn btn-style-one"
+                            <Link
+                                to="/project-details"
+                                className="theme-btn btn-style-one"
                             >
                               <span className="txt">Strategy</span>
-                            </a>
+                            </Link>
                           </div>
                           <div className="detail-box">
                             <div className="upper-content">
-                              <a href="project-detail.html">
+                              <Link to="/project-details">
                                 <i className="fas fa-arrow-right" />
-                              </a>
-                              <a
-                                href="images/gallery/13.jpg"
-                                className="lightbox-image"
-                                data-fancybox="gallery"
+                              </Link>
+                              <Link
+                                  to="images/gallery/13.jpg"
+                                  className="lightbox-image"
+                                  data-fancybox="gallery"
                               >
                                 <i className="fa fa-search" />
-                              </a>
+                              </Link>
                             </div>
                             <h5>
-                              <a href="#">
+                              <Link to="#">
                                 Construction <br />
                                 Management Process
-                              </a>
+                              </Link>
                             </h5>
                           </div>
                         </div>
@@ -400,31 +352,30 @@ class Projects extends Component {
             <div className="styled-pagination">
               <ul className="clearfix">
                 <li className="prev-post">
-                  <a href="#">
+                  <Link to="#">
                     <span className="fa fa-angle-left" />
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#">1</a>
+                  <Link to="#">1</Link>
                 </li>
                 <li className="active">
-                  <a href="#">2</a>
+                  <Link to="#">2</Link>
                 </li>
                 <li>
-                  <a href="#">3</a>
+                  <Link to="#">3</Link>
                 </li>
                 <li className="next-post">
-                  <a href="#">
+                  <Link to="#">
                     <span className="fa fa-angle-right" />{" "}
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
           </div>
         </section>
       </div>
-    );
-  }
-}
+  );
+};
 
 export default Projects;

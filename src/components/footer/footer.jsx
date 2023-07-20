@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import {Link} from "react-router-dom";
 import Logo from '../../DTM_Logo.png'
+import CustomInput from "../contact/CustomInput";
+import Button from "../contact/Button";
 
 class Footer extends Component {
   render() {
@@ -26,15 +28,10 @@ class Footer extends Component {
                             <div className="form-group">
                               <input
                                 type="text"
-                                name="getstarted"
+                                name="email"
                                 placeholder="Enter Your Email Address ......."
                               />
-                              <button
-                                type="submit"
-                                className="theme-btn btn-style-one"
-                              >
-                                <span className="txt">Submit Now</span>
-                              </button>
+                              <Button type={'submit'} className={'theme-btn btn-style-one'}>{'Submit Now'}</Button>
                             </div>
                           </form>
                         </div>
