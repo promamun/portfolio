@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import {Link} from "react-router-dom";
 import Logo from '../../DTM_Logo.png'
-import CustomInput from "../contact/CustomInput";
 import Button from "../contact/Button";
 
 class Footer extends Component {
@@ -40,7 +39,7 @@ class Footer extends Component {
                         <div className="contact-box-footer">
                           <div className="content-block">
                             <div className="icon-box">
-                              <i className="flaticon flaticon-communication"/>
+                              <i className="flaticon flaticon-communication" />
                             </div>
                             <div className="text-box">
                               <p>+1 (845) 579-2174 </p>
@@ -51,7 +50,7 @@ class Footer extends Component {
                           </div>
                           <div className="content-block">
                             <div className="icon-box">
-                              <i className="flaticon flaticon-location"/>
+                              <i className="flaticon flaticon-location" />
                             </div>
                             <div className="text-box">
                               <p>
@@ -72,15 +71,21 @@ class Footer extends Component {
                         <div className="footer-logo">
                           <figure>
                             <Link to="/">
-                              <img height={75} width={142} src={Logo} alt="DTM" />
+                              <img
+                                height={75}
+                                width={142}
+                                src={Logo}
+                                alt="DTM"
+                              />
                             </Link>
                           </figure>
                         </div>
                         <div className="widget-content">
                           <p>
                             DTM have much planned for the future, working with
-                            great clients and continued software development & Digital World. If
-                            you’d like to join our team. Just Call US.
+                            great clients and continued software development &
+                            Digital World. If you’d like to join our team. Just
+                            Call US.
                           </p>
                         </div>
                       </div>
@@ -175,18 +180,40 @@ class Footer extends Component {
                         <h4 className="widget-title">Useful links</h4>
                         <div className="widget-content">
                           <ul className="list">
-                            <li><Link to="/service">Service</Link></li>
-                            <li><Link to="/team">Team</Link></li>
-                            <li><Link to="/case-studies">Case Studies</Link></li>
-                            <li><Link to="/projects">Projects</Link></li>
-                            <li><Link to="/pricing">Pricing</Link></li>
+                            <li>
+                              <Link to="/service">Service</Link>
+                            </li>
+                            <li>
+                              <Link to="/team">Team</Link>
+                            </li>
+                            <li>
+                              <Link to="/case-studies">Case Studies</Link>
+                            </li>
+                            <li>
+                              <Link to="/projects">Projects</Link>
+                            </li>
+                            <li>
+                              <Link to="/pricing">Pricing</Link>
+                            </li>
                           </ul>
                           <ul className="list">
-                            <li><Link to="/about">About Us</Link></li>
-                            <li><Link to="/contact">Contact Us</Link></li>
-                            <li><Link to="/privacy">Privacy Policy</Link></li>
-                            <li><Link to="/faq">FAQ</Link></li>
-                            <li><Link to="/free-consultation">Free Consultation</Link></li>
+                            <li>
+                              <Link to="/about">About Us</Link>
+                            </li>
+                            <li>
+                              <Link to="/contact">Contact Us</Link>
+                            </li>
+                            <li>
+                              <Link to="/privacy">Privacy Policy</Link>
+                            </li>
+                            <li>
+                              <Link to="/faq">FAQ</Link>
+                            </li>
+                            <li>
+                              <Link to="/free-consultation">
+                                Free Consultation
+                              </Link>
+                            </li>
                           </ul>
                         </div>
                       </div>
@@ -222,7 +249,11 @@ class Footer extends Component {
               <div className="inner-container clearfix">
                 <div className="social-links">
                   <ul className="social-icon-two">
-                    <li><a href="#"><i className="fab fa-facebook-f" /></a></li>
+                    <li>
+                      <a href="#">
+                        <i className="fab fa-facebook-f" />
+                      </a>
+                    </li>
                     <li>
                       <a href="#">
                         <i className="fab fa-pinterest-p" />
