@@ -1,6 +1,8 @@
 import Mamun_pro_signature from "../../assets/images/resource/Mamun_Pro_Signature.png";
 import teamData from "./data/data";
 import Thumbnail from "./Thumbnail";
+import { Link } from "react-router-dom";
+import Img0 from "../../assets/images/resource/about-img-1.png";
 
 function TeamMembers() {
   const BgImg = {
@@ -58,14 +60,14 @@ function TeamMembers() {
                     call.
                   </p>
                   <div className="video-link">
-                    <a
-                      href="https://www.youtube.com/watch?v=Fvae8nxzVz4"
+                    <Link
+                      to="https://www.youtube.com/watch?v=Fvae8nxzVz4"
                       data-fancybox="gallery"
                       data-caption=""
                     >
                       <span className="icon fa fa-play" aria-hidden="true" />
                       <i className="ripple" />
-                    </a>
+                    </Link>
                     <span className="text-video">Watch Video</span>
                     <figure>
                       <img src={Mamun_pro_signature} alt="signature image" />
@@ -78,10 +80,7 @@ function TeamMembers() {
               <div className="inner-column">
                 <div className="image-box">
                   <figure className="alphabet-img wow fadeInRight">
-                    <img
-                      src="images/resource/about-img-1.png"
-                      alt="about img"
-                    />
+                    <img src={Img0} alt="about img" />
                   </figure>
                 </div>
               </div>

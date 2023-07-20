@@ -12,7 +12,7 @@ import JeanBuagas from "../../assets/images/team/9.jpg";
 class Team extends Component {
   render() {
     const BgImage = {
-      backgroundImage: `url(images/background/3.png)`,
+      backgroundImage: `url(images/background/3.png)`
     };
     return (
       <div>
@@ -28,9 +28,9 @@ class Team extends Component {
               </h2>
             </div>
             <OwlCarousel
-                autoplay={true}
-                items={4}
-                className={'team-carousel owl-carousel owl-theme'}
+              autoplay={true}
+              items={4}
+              className={"team-carousel owl-carousel owl-theme"}
             >
               <div className="team-block">
                 <div className="inner-box">
@@ -56,14 +56,16 @@ class Team extends Component {
                       </Link>
                     </li>
                     <li>
-                      <a href="#">
+                      <Link to="#">
                         <i className="fab fa-dribbble" />
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                   <div className="text-box">
                     <h4 className="name">
-                      <Link target={'_blank'} to="/team">Mamun Pro</Link>
+                      <Link target={"_blank"} to="/team">
+                        Mamun Pro
+                      </Link>
                     </h4>
                     <span className="designation">
                       Project & Marketing Manager
@@ -82,19 +84,19 @@ class Team extends Component {
                   </div>
                   <ul className="social-links">
                     <li>
-                      <a href="#">
+                      <Link to="#">
                         <i className="fab fa-facebook-f" />
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="#">
+                      <Link to="#">
                         <i className="fab fa-twitter" />
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="#">
+                      <Link to="#">
                         <i className="fab fa-dribbble" />
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                   <div className="text-box">
@@ -116,26 +118,28 @@ class Team extends Component {
                   </div>
                   <ul className="social-links">
                     <li>
-                      <a href="#">
+                      <Link to="#">
                         <i className="fab fa-facebook-f" />
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="#">
+                      <Link to="#">
                         <i className="fab fa-twitter" />
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="#">
+                      <Link to="#">
                         <i className="fab fa-dribbble" />
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                   <div className="text-box">
                     <h4 className="name">
                       <Link to="/team">Avijit Samanta</Link>
                     </h4>
-                    <span className="designation">Full-Stack Developer (MERN)</span>
+                    <span className="designation">
+                      Full-Stack Developer (MERN)
+                    </span>
                   </div>
                 </div>
               </div>
@@ -150,26 +154,28 @@ class Team extends Component {
                   </div>
                   <ul className="social-links">
                     <li>
-                      <a href="#">
+                      <Link to="#">
                         <i className="fab fa-facebook-f" />
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="#">
+                      <Link to="#">
                         <i className="fab fa-twitter" />
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="#">
+                      <Link to="#">
                         <i className="fab fa-dribbble" />
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                   <div className="text-box">
                     <h4 className="name">
                       <Link to="/team">Farhan Ahmed</Link>
                     </h4>
-                    <span className="designation">Frontend Developer(React.js,BootStrap,Flex)</span>
+                    <span className="designation">
+                      Frontend Developer(React.js,BootStrap,Flex)
+                    </span>
                   </div>
                 </div>
               </div>
@@ -184,19 +190,19 @@ class Team extends Component {
                   </div>
                   <ul className="social-links">
                     <li>
-                      <a href="#">
+                      <Link to="#">
                         <i className="fab fa-facebook-f" />
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="#">
+                      <Link to="#">
                         <i className="fab fa-twitter" />
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="#">
+                      <Link to="#">
                         <i className="fab fa-dribbble" />
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                   <div className="text-box">
@@ -218,26 +224,34 @@ class Team extends Component {
                   </div>
                   <ul className="social-links">
                     <li>
-                      <Link target={'_blank'} to="https://www.facebook.com/muhammad.sakib.3139241">
+                      <Link
+                        target={"_blank"}
+                        to="https://www.facebook.com/muhammad.sakib.3139241"
+                      >
                         <i className="fab fa-facebook-f" />
                       </Link>
                     </li>
                     <li>
-                      <Link target={'_blank'} to="https://twitter.com/MdSakib90893202">
+                      <Link
+                        target={"_blank"}
+                        to="https://twitter.com/MdSakib90893202"
+                      >
                         <i className="fab fa-twitter" />
                       </Link>
                     </li>
                     <li>
-                      <a href="#">
+                      <Link to="#">
                         <i className="fab fa-dribbble" />
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                   <div className="text-box">
                     <h4 className="name">
                       <Link to="/team">Muhammad Sakib</Link>
                     </h4>
-                    <span className="designation">Digital Marketing Expert</span>
+                    <span className="designation">
+                      Digital Marketing Expert
+                    </span>
                   </div>
                 </div>
               </div>
@@ -252,19 +266,19 @@ class Team extends Component {
                   </div>
                   <ul className="social-links">
                     <li>
-                      <a href="#">
+                      <Link to="#">
                         <i className="fab fa-facebook-f" />
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="#">
+                      <Link to="#">
                         <i className="fab fa-twitter" />
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="#">
+                      <Link to="#">
                         <i className="fab fa-dribbble" />
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                   <div className="text-box">

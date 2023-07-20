@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import proImage1 from "../../assets/images/resource/progress-1.png";
+import ProImage1 from "../../assets/images/resource/progress-1.png";
 class Progress extends Component {
   parentRef = React.createRef();
   componentDidMount() {
@@ -22,12 +22,11 @@ class Progress extends Component {
                 <div className="content-box">
                   <div className="sec-title text-left">
                     <h6 className="subtitle">Our Benefits</h6>
-                    <h2>
-                      Get more visitors on your website
-                    </h2>
+                    <h2>Get more visitors on your website</h2>
                     <p>
-                      As a leader in Web Development, web design, ecommerce, website
-                      conversion, SEO, & Internet marketing services, our firm prides.
+                      As a leader in Web Development, web design, ecommerce,
+                      website conversion, SEO, & Internet marketing services,
+                      our firm prides.
                     </p>
                   </div>
                   <div className="progress-levels" ref={this.parentRef}>
@@ -37,7 +36,9 @@ class Progress extends Component {
                       data-wow-duration="0ms"
                     >
                       <div className="progress-header clearfix">
-                        <div className="box-title">Web Design & Development</div>
+                        <div className="box-title">
+                          Web Design & Development
+                        </div>
                         <div className="progress-percentage">
                           <div className="count-box">
                             <span
@@ -64,7 +65,9 @@ class Progress extends Component {
                       data-wow-duration="0ms"
                     >
                       <div className="progress-header clearfix">
-                        <div className="box-title">WordPress, Shopify, and Wix (CMS Development)</div>
+                        <div className="box-title">
+                          WordPress, Shopify, and Wix (CMS Development)
+                        </div>
                         <div className="progress-percentage">
                           <div className="count-box">
                             <span
@@ -194,7 +197,7 @@ class Progress extends Component {
               <div className="image-cloumn col-lg-6 col-md-12 col-sm-12">
                 <div className="image-box">
                   <figure>
-                    <img src={proImage1} alt="progress image" />
+                    <img src={ProImage1} alt="progress image" />
                   </figure>
                   <div className="animated-img-1" />
                   <div className="animated-img-2" />

@@ -16,9 +16,9 @@ class Service extends Component {
                     <div className="service-box-front">
                       <div className="image-box">
                         <figure className="image">
-                          <a href="service-detail.html">
+                          <Link to="/service-detail">
                             <img src={ServiceImage} alt="Services Image" />
-                          </a>
+                          </Link>
                         </figure>
                       </div>
                       <div className="lower-content">
@@ -271,7 +271,7 @@ class Service extends Component {
                       </div>
                       <div className="lower-content">
                         <h3>
-                          <a href="service-detail.html">The board</a>
+                          <Link to="/service-detail">The board</Link>
                         </h3>
                         <p>
                           Analyzing negative materials about your brand and

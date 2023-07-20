@@ -4,7 +4,7 @@ import BroadCamp from "../broadCamp/BroadCamp";
 import { Helmet } from "react-helmet";
 export default function index() {
   const BgImage = {
-    backgroundImage: `url(images/background/22.png)`,
+    backgroundImage: `url(images/background/22.png)`
   };
   return (
     <div>

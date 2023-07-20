@@ -1,9 +1,9 @@
 import React from "react";
 
-function TextArea({placeholder}) {
+function TextArea({ placeholder }) {
   return (
     <div>
-      <textarea  placeholder={placeholder}></textarea>
+      <textarea placeholder={placeholder}></textarea>
     </div>
   );
 }

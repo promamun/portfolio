@@ -1,7 +1,13 @@
 import React, { Component } from "react";
-import {Link} from "react-router-dom";
-import Logo from '../../DTM_Logo.png'
+import { Link } from "react-router-dom";
+import Logo from "../../DTM_Logo.png";
 import Button from "../contact/Button";
+import Project1 from "../../assets/images/resource/work-thumb-1.jpg";
+import Project2 from "../../assets/images/resource/work-thumb-1.jpg";
+import Project3 from "../../assets/images/resource/work-thumb-2.jpg";
+import Project4 from "../../assets/images/resource/work-thumb-2.jpg";
+import Project5 from "../../assets/images/resource/work-thumb-3.jpg";
+import Project6 from "../../assets/images/resource/work-thumb-3.jpg";
 
 class Footer extends Component {
   render() {
@@ -30,7 +36,12 @@ class Footer extends Component {
                                 name="email"
                                 placeholder="Enter Your Email Address ......."
                               />
-                              <Button type={'submit'} className={'theme-btn btn-style-one'}>{'Submit Now'}</Button>
+                              <Button
+                                type={"submit"}
+                                className={"theme-btn btn-style-one"}
+                              >
+                                {"Submit Now"}
+                              </Button>
                             </div>
                           </form>
                         </div>
@@ -43,9 +54,9 @@ class Footer extends Component {
                             </div>
                             <div className="text-box">
                               <p>+1 (845) 579-2174 </p>
-                              <a href="mailto:support@devtechmasters.com">
+                              <Link to="mailto:support@devtechmasters.com">
                                 support@devtechmasters.com
-                              </a>
+                              </Link>
                             </div>
                           </div>
                           <div className="content-block">
@@ -96,76 +107,58 @@ class Footer extends Component {
                         <div className="widget-content">
                           <div className="outer clearfix">
                             <figure className="image">
-                              <a
-                                href="images/resource/work-thumb-1.jpg"
+                              <Link
+                                to={Project1}
                                 className="lightbox-image"
                                 title="Image Title Here"
                               >
-                                <img
-                                  src="images/resource/work-thumb-1.jpg"
-                                  alt=""
-                                />
-                              </a>
+                                <img src={Project1} alt="" />
+                              </Link>
                             </figure>
                             <figure className="image">
-                              <a
-                                href="images/resource/work-thumb-2.jpg"
+                              <Link
+                                to={Project2}
                                 className="lightbox-image"
                                 title="Image Title Here"
                               >
-                                <img
-                                  src="images/resource/work-thumb-2.jpg"
-                                  alt=""
-                                />
-                              </a>
+                                <img src={Project2} alt="" />
+                              </Link>
                             </figure>
                             <figure className="image">
-                              <a
-                                href="images/resource/work-thumb-3.jpg"
+                              <Link
+                                to={Project3}
                                 className="lightbox-image"
                                 title="Image Title Here"
                               >
-                                <img
-                                  src="images/resource/work-thumb-3.jpg"
-                                  alt=""
-                                />
-                              </a>
+                                <img src={Project3} alt="" />
+                              </Link>
                             </figure>
                             <figure className="image">
-                              <a
-                                href="images/resource/work-thumb-4.jpg"
+                              <Link
+                                to={Project4}
                                 className="lightbox-image"
                                 title="Image Title Here"
                               >
-                                <img
-                                  src="images/resource/work-thumb-4.jpg"
-                                  alt=""
-                                />
-                              </a>
+                                <img src={Project4} alt="" />
+                              </Link>
                             </figure>
                             <figure className="image">
-                              <a
-                                href="images/resource/work-thumb-5.jpg"
+                              <Link
+                                to={Project5}
                                 className="lightbox-image"
                                 title="Image Title Here"
                               >
-                                <img
-                                  src="images/resource/work-thumb-5.jpg"
-                                  alt=""
-                                />
-                              </a>
+                                <img src={Project5} alt="" />
+                              </Link>
                             </figure>
                             <figure className="image">
-                              <a
-                                href="images/resource/work-thumb-6.jpg"
+                              <Link
+                                to={Project6}
                                 className="lightbox-image"
                                 title="Image Title Here"
                               >
-                                <img
-                                  src="images/resource/work-thumb-1.jpg"
-                                  alt=""
-                                />
-                              </a>
+                                <img src={Project6} alt="" />
+                              </Link>
                             </figure>
                           </div>
                         </div>
@@ -250,24 +243,24 @@ class Footer extends Component {
                 <div className="social-links">
                   <ul className="social-icon-two">
                     <li>
-                      <a href="#">
+                      <Link to="#">
                         <i className="fab fa-facebook-f" />
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="#">
+                      <Link to="#">
                         <i className="fab fa-pinterest-p" />
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="#">
+                      <Link to="#">
                         <i className="fab fa-twitter" />
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="#">
+                      <Link to="#">
                         <i className="fab fa-dribbble" />
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </div>

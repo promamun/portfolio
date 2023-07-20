@@ -25,9 +25,9 @@ function Thumbnail({ name, designation, image }) {
               </Link>
             </li>
             <li>
-              <a href="#">
+              <Link to="#">
                 <i className="fab fa-dribbble" />
-              </a>
+              </Link>
             </li>
           </ul>
           <div className="text-box">

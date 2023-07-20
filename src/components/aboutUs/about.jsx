@@ -9,7 +9,7 @@ import { Helmet } from "react-helmet";
 class About extends Component {
   render() {
     const BgImage = {
-      backgroundImage: `url(images/background/22.png)`,
+      backgroundImage: `url(images/background/22.png)`
     };
     return (
       <div>
@@ -19,8 +19,8 @@ class About extends Component {
         <BroadCamp name="About Us" bgImageStyle={BgImage} />
         <Traffics />
         <HappyClients />
-          <WhyChooseUs/>
-          <Testimonials/>
+        <WhyChooseUs />
+        <Testimonials />
       </div>
     );
   }

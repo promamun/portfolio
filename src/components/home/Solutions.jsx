@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 
 class Solutions extends Component {
   render() {
@@ -35,15 +36,15 @@ class Solutions extends Component {
                   </div>
                   <div className="text-box">
                     <h4>
-                      <a href="#">Driving Specialists </a>
+                      <Link to="#">Driving Specialists </Link>
                     </h4>
                     <p>
                       Our team of creatives, designers & developers work
                       alongside our SEO & content teams.
                     </p>
-                    <a href="#" className="readmore">
+                    <Link to="#" className="readmore">
                       Read More
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -58,15 +59,15 @@ class Solutions extends Component {
                   </div>
                   <div className="text-box">
                     <h4>
-                      <a href="#">Demonstrated Execution</a>
+                      <Link to="#">Demonstrated Execution</Link>
                     </h4>
                     <p>
                       Our team of creatives, designers & developers work
                       alongside our SEO & content teams.
                     </p>
-                    <a href="#" className="readmore">
+                    <Link to="#" className="readmore">
                       Read More
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -81,15 +82,15 @@ class Solutions extends Component {
                   </div>
                   <div className="text-box">
                     <h4>
-                      <a href="#">Straightforward ROI</a>
+                      <Link to="#">Straightforward ROI</Link>
                     </h4>
                     <p>
                       Our team of creatives, designers & developers work
                       alongside our SEO & content teams.
                     </p>
-                    <a href="#" className="readmore">
+                    <Link to="#" className="readmore">
                       Read More
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>

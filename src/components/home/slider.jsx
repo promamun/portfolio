@@ -4,6 +4,7 @@ import WebsiteBanner from "../../assets/images/main-banner/1.png";
 import SocialBanner from "../../assets/images/services/4.png";
 import SeoBanner from "../../assets/images/services/6.png";
 import Button from "../contact/Button";
+import { Link } from "react-router-dom";
 
 class Slider extends Component {
   render() {
@@ -65,7 +66,10 @@ class Slider extends Component {
             autoplay={true}
             items={1}
             loop={true}
-            navText={[ '<span class="fa fa-angle-left"></span>', '<span class="fa fa-angle-right"></span>' ]}
+            navText={[
+              '<span class="fa fa-angle-left"></span>',
+              '<span class="fa fa-angle-right"></span>'
+            ]}
             className="main-slider-carousel owl-carousel owl-theme"
           >
             <div className="slide">
@@ -74,8 +78,8 @@ class Slider extends Component {
                   <div className="content-column col-lg-6 col-md-12 col-sm-12">
                     <div className="inner-column">
                       <div className="video-link">
-                        <a
-                          href="https://www.youtube.com/watch?v=Fvae8nxzVz4"
+                        <Link
+                          to="https://www.youtube.com/watch?v=Fvae8nxzVz4"
                           data-fancybox="gallery"
                           data-caption=""
                         >
@@ -84,19 +88,26 @@ class Slider extends Component {
                             aria-hidden="true"
                           />
                           <i className="ripple" />
-                        </a>
+                        </Link>
                       </div>
                       <h1>
-                        We Create Website<br />
+                        We Create Website
+                        <br />
                         For Your Business
                       </h1>
                       <p>
                         Building websites that drive growth, engage customers,
                         <br />
-                        and prospects across the entire web That elevate your brand.
+                        and prospects across the entire web That elevate your
+                        brand.
                       </p>
                       <div className="btns-box">
-                        <Button To={'/pricing-plans'} className={'theme-btn btn-style-one'}>{'Started'}</Button>
+                        <Button
+                          To={"/pricing-plans"}
+                          className={"theme-btn btn-style-one"}
+                        >
+                          {"Started"}
+                        </Button>
                       </div>
                     </div>
                   </div>
@@ -116,8 +127,8 @@ class Slider extends Component {
                   <div className="content-column col-lg-6 col-md-12 col-sm-12">
                     <div className="inner-column">
                       <div className="video-link">
-                        <a
-                          href="https://www.youtube.com/watch?v=Fvae8nxzVz4"
+                        <Link
+                          to="https://www.youtube.com/watch?v=Fvae8nxzVz4"
                           data-fancybox="gallery"
                           data-caption=""
                         >
@@ -126,20 +137,26 @@ class Slider extends Component {
                             aria-hidden="true"
                           />
                           <i className="ripple" />
-                        </a>
+                        </Link>
                       </div>
                       <h1>
-                        We Provide Brilliant Marketing<br />
+                        We Provide Brilliant Marketing
+                        <br />
                         For Your Business
                       </h1>
                       <p>
-                        We build effective strategies to help you
-                        deliver exceptional results
+                        We build effective strategies to help you deliver
+                        exceptional results
                         <br />
                         and stand out in the dynamic world of social media.
                       </p>
                       <div className="btns-box">
-                      <Button To={'/pricing-plans'} className={'theme-btn btn-style-one'}>{'Get Started'}</Button>
+                        <Button
+                          To={"/pricing-plans"}
+                          className={"theme-btn btn-style-one"}
+                        >
+                          {"Get Started"}
+                        </Button>
                       </div>
                     </div>
                   </div>
@@ -159,8 +176,8 @@ class Slider extends Component {
                   <div className="content-column col-lg-6 col-md-12 col-sm-12">
                     <div className="inner-column">
                       <div className="video-link">
-                        <a
-                          href="https://www.youtube.com/watch?v=Fvae8nxzVz4"
+                        <Link
+                          to="https://www.youtube.com/watch?v=Fvae8nxzVz4"
                           data-fancybox="gallery"
                           data-caption=""
                         >
@@ -169,19 +186,26 @@ class Slider extends Component {
                             aria-hidden="true"
                           />
                           <i className="ripple" />
-                        </a>
+                        </Link>
                       </div>
                       <h1>
-                        We Bring You<br />
+                        We Bring You
+                        <br />
                         #Top10 Using SEO
                       </h1>
                       <p>
-                        Unlock Your Business's Online Visibility. Drives your business Into #Top10 of search engine rankings.
+                        Unlock Your Business's Online Visibility. Drives your
+                        business Into #Top10 of search engine rankings.
                         <br />
                         attracting more traffic, leads, and success.
                       </p>
                       <div className="btns-box">
-                      <Button To={'/pricing-plans'} className={'theme-btn btn-style-one'}>{'Get Started'}</Button>
+                        <Button
+                          To={"/pricing-plans"}
+                          className={"theme-btn btn-style-one"}
+                        >
+                          {"Get Started"}
+                        </Button>
                       </div>
                     </div>
                   </div>

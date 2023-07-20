@@ -14,9 +14,7 @@ class CaseStudies extends Component {
           <div className="auto-container">
             <div className="sec-title text-left">
               <h6 className="subtitle">Explore Case Studies</h6>
-              <h2>
-                Solid results of our different case studies
-              </h2>
+              <h2>Solid results of our different case studies</h2>
             </div>
           </div>
           <div className="inner-container">
@@ -26,7 +24,10 @@ class CaseStudies extends Component {
               loop={true}
               nav={true}
               margin={10}
-              navText={['<span class="fa fa-angle-left"></span>', '<span class="fa fa-angle-right"></span>']}
+              navText={[
+                '<span class="fa fa-angle-left"></span>',
+                '<span class="fa fa-angle-right"></span>'
+              ]}
               className="projects-carousel owl-carousel owl-theme"
             >
               <div className="project-block">
@@ -50,7 +51,7 @@ class CaseStudies extends Component {
               <div className="project-block">
                 <div className="image-box">
                   <figure className="image">
-                    <img height={250} width={469}  src={CIMG2} alt="" />
+                    <img height={250} width={469} src={CIMG2} alt="" />
                   </figure>
                   <div className="overlay-box">
                     <Link to="/project-detail">
@@ -79,7 +80,9 @@ class CaseStudies extends Component {
                 <div className="text-box">
                   <span className="tag">CMS DEVELOPMENT</span>
                   <h3>
-                    <Link to="/project-detail">WORDPRESS, SHOPIFY, AND WIX</Link>
+                    <Link to="/project-detail">
+                      WORDPRESS, SHOPIFY, AND WIX
+                    </Link>
                   </h3>
                 </div>
               </div>

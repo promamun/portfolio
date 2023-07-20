@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import React, { Component } from "react";
 import OwlCarousel from "react-owl-carousel";
 import CIMG1 from "../../assets/images/clients/client-1.png";
@@ -8,8 +9,6 @@ import CIMG5 from "../../assets/images/clients/client-5.png";
 import CIMG6 from "../../assets/images/clients/1.png";
 import CIMG7 from "../../assets/images/clients/4.png";
 import CIMG8 from "../../assets/images/clients/5.png";
-
-
 
 class Clients extends Component {
   render() {
@@ -29,58 +28,58 @@ class Clients extends Component {
               >
                 <li className="slide-item">
                   <figure className="image-box">
-                    <a href="#">
+                    <Link to="#">
                       <img src={CIMG1} alt="" />
-                    </a>
+                    </Link>
                   </figure>
                 </li>
                 <li className="slide-item">
                   <figure className="image-box">
-                    <a href="#">
+                    <Link to="#">
                       <img src={CIMG2} alt="" />
-                    </a>
+                    </Link>
                   </figure>
                 </li>
                 <li className="slide-item">
                   <figure className="image-box">
-                    <a href="#">
+                    <Link to="#">
                       <img src={CIMG3} alt="" />
-                    </a>
+                    </Link>
                   </figure>
                 </li>
                 <li className="slide-item">
                   <figure className="image-box">
-                    <a href="#">
+                    <Link to="#">
                       <img src={CIMG4} alt="" />
-                    </a>
+                    </Link>
                   </figure>
                 </li>
                 <li className="slide-item">
                   <figure className="image-box">
-                    <a href="#">
+                    <Link to="#">
                       <img src={CIMG5} alt="" />
-                    </a>
+                    </Link>
                   </figure>
                 </li>
                 <li className="slide-item">
                   <figure className="image-box">
-                    <a href="#">
+                    <Link to="#">
                       <img src={CIMG6} alt="" />
-                    </a>
+                    </Link>
                   </figure>
                 </li>
                 <li className="slide-item">
                   <figure className="image-box">
-                    <a href="#">
+                    <Link to="#">
                       <img src={CIMG7} alt="" />
-                    </a>
+                    </Link>
                   </figure>
                 </li>
                 <li className="slide-item">
                   <figure className="image-box">
-                    <a href="#">
+                    <Link to="#">
                       <img src={CIMG8} alt="" />
-                    </a>
+                    </Link>
                   </figure>
                 </li>
               </OwlCarousel>

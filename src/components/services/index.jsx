@@ -9,7 +9,7 @@ import { Helmet } from "react-helmet";
 class Index extends Component {
   render() {
     const BgImage = {
-      backgroundImage: `url(images/background/22.png)`,
+      backgroundImage: `url(images/background/22.png)`
     };
     return (
       <div>

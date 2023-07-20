@@ -81,7 +81,13 @@ class ContactFrom extends Component {
                           <TextArea name="message" placeholder="Massage" />
                         </div>
                         <div className="col-lg-12 col-md-12 col-sm-12 form-group text-left">
-                          <Button type={'submit'} className={'theme-btn btn-style-one'} name={'submit-form'}>{'Send Now'}</Button>
+                          <Button
+                            type={"submit"}
+                            className={"theme-btn btn-style-one"}
+                            name={"submit-form"}
+                          >
+                            {"Send Now"}
+                          </Button>
                         </div>
                       </div>
                     </form>
@@ -95,10 +101,7 @@ class ContactFrom extends Component {
                   data-wow-duration="100ms"
                 >
                   <div className="image" data-depth="0.30">
-                    <img
-                      src={img}
-                      alt="ContactFrom Image"
-                    />
+                    <img src={img} alt="ContactFrom Image" />
                   </div>
                 </div>
               </div>

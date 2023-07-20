@@ -70,10 +70,15 @@ class Service extends Component {
                         </div>
                         <div className="text-box">
                           <h4>
-                            <Link to="/blog-detail">Social Media Marketing</Link>
+                            <Link to="/blog-detail">
+                              Social Media Marketing
+                            </Link>
                           </h4>
                           <p>
-                            Elevate Your Brand's Digital Presence. Our social media marketing services unlock the power of social platforms to drive brand awareness, engagement, and achieve impactful results..
+                            Elevate Your Brand's Digital Presence. Our social
+                            media marketing services unlock the power of social
+                            platforms to drive brand awareness, engagement, and
+                            achieve impactful results..
                           </p>
                         </div>
                       </div>
@@ -93,7 +98,8 @@ class Service extends Component {
                             <Link to="/blog-detail">SEO Optimization</Link>
                           </h4>
                           <p>
-                            Boost Your Online Visibility and Drive Organic Traffic.
+                            Boost Your Online Visibility and Drive Organic
+                            Traffic.
                           </p>
                         </div>
                       </div>
@@ -113,7 +119,9 @@ class Service extends Component {
                             <Link to="/blog-detail">Facebook Marketing</Link>
                           </h4>
                           <p>
-                            Harness the Power of Facebook for Business Growth. Unlock the potential of the world's largest social media platform
+                            Harness the Power of Facebook for Business Growth.
+                            Unlock the potential of the world's largest social
+                            media platform
                           </p>
                         </div>
                       </div>
@@ -127,10 +135,7 @@ class Service extends Component {
                   >
                     <div className="image-box">
                       <figure>
-                        <img
-                          src={ALLIMG1}
-                          alt="service center"
-                        />
+                        <img src={ALLIMG1} alt="service center" />
                       </figure>
                     </div>
                   </div>
@@ -152,7 +157,8 @@ class Service extends Component {
                             <Link to="/blog-detail">Web Development</Link>
                           </h4>
                           <p>
-                            Building websites that drive growth, engage customers, Make brand.
+                            Building websites that drive growth, engage
+                            customers, Make brand.
                           </p>
                         </div>
                       </div>
@@ -172,7 +178,10 @@ class Service extends Component {
                             <Link to="/blog-detail">Frontend Development</Link>
                           </h4>
                           <p>
-                            Frontend development expertise brings websites and applications to life, combining cutting-edge technologies, intuitive design, and seamless interactions.
+                            Frontend development expertise brings websites and
+                            applications to life, combining cutting-edge
+                            technologies, intuitive design, and seamless
+                            interactions.
                           </p>
                         </div>
                       </div>
@@ -192,7 +201,9 @@ class Service extends Component {
                             <Link to="/blog-detail">CMS Development</Link>
                           </h4>
                           <p>
-                            WordPress, Shopify, and Wix development websites, seamlessly integrating powerful E-commerce functionalities In a Short Time.
+                            WordPress, Shopify, and Wix development websites,
+                            seamlessly integrating powerful E-commerce
+                            functionalities In a Short Time.
                           </p>
                         </div>
                       </div>

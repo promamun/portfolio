@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import {Helmet} from "react-helmet";
+import { Helmet } from "react-helmet";
 
 class NotFound extends Component {
   render() {
@@ -43,9 +43,7 @@ class NotFound extends Component {
     return (
       <div>
         <Helmet>
-          <title>
-            404 Error
-          </title>
+          <title>404 Error</title>
         </Helmet>
         <section className="page-title" style={BgImage}>
           <div id="stars" />

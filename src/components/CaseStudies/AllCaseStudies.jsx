@@ -43,19 +43,19 @@ class AllCaseStudies extends Component {
                             <Link to="/project-detail">
                               <i className="fas fa-arrow-right"></i>
                             </Link>
-                            <a
-                              href={AllIMG1}
+                            <Link
+                              to={AllIMG1}
                               className="lightbox-image"
                               data-fancybox="gallery"
                             >
                               <i className="fa fa-search"></i>
-                            </a>
+                            </Link>
                           </div>
                           <h5>
-                            <a href="#">
+                            <Link to="#">
                               Construction <br />
                               Management Process
-                            </a>
+                            </Link>
                           </h5>
                         </div>
                       </div>
@@ -82,19 +82,19 @@ class AllCaseStudies extends Component {
                             <Link to="/project-detail">
                               <i className="fas fa-arrow-right"></i>
                             </Link>
-                            <a
-                              href={AllIMG2}
+                            <Link
+                              to={AllIMG2}
                               className="lightbox-image"
                               data-fancybox="gallery"
                             >
                               <i className="fa fa-search"></i>
-                            </a>
+                            </Link>
                           </div>
                           <h5>
-                            <a href="#">
+                            <Link to="#">
                               Construction <br />
                               Management Process
-                            </a>
+                            </Link>
                           </h5>
                         </div>
                       </div>
@@ -121,19 +121,19 @@ class AllCaseStudies extends Component {
                             <Link to="/project-detail">
                               <i className="fas fa-arrow-right"></i>
                             </Link>
-                            <a
-                              href={AllIMG3}
+                            <Link
+                              to={AllIMG3}
                               className="lightbox-image"
                               data-fancybox="gallery"
                             >
                               <i className="fa fa-search"></i>
-                            </a>
+                            </Link>
                           </div>
                           <h5>
-                            <a href="#">
+                            <Link to="#">
                               Construction <br />
                               Management Process
-                            </a>
+                            </Link>
                           </h5>
                         </div>
                       </div>
@@ -160,19 +160,19 @@ class AllCaseStudies extends Component {
                             <Link to="/project-detail">
                               <i className="fas fa-arrow-right"></i>
                             </Link>
-                            <a
-                              href={AllIMG4}
+                            <Link
+                              to={AllIMG4}
                               className="lightbox-image"
                               data-fancybox="gallery"
                             >
                               <i className="fa fa-search"></i>
-                            </a>
+                            </Link>
                           </div>
                           <h5>
-                            <a href="#">
+                            <Link to="#">
                               Construction <br />
                               Management Process
-                            </a>
+                            </Link>
                           </h5>
                         </div>
                       </div>
@@ -199,19 +199,19 @@ class AllCaseStudies extends Component {
                             <Link to="/project-detail">
                               <i className="fas fa-arrow-right"></i>
                             </Link>
-                            <a
-                              href={AllIMG5}
+                            <Link
+                              to={AllIMG5}
                               className="lightbox-image"
                               data-fancybox="gallery"
                             >
                               <i className="fa fa-search"></i>
-                            </a>
+                            </Link>
                           </div>
                           <h5>
-                            <a href="#">
+                            <Link to="#">
                               Construction <br />
                               Management Process
-                            </a>
+                            </Link>
                           </h5>
                         </div>
                       </div>
@@ -238,19 +238,19 @@ class AllCaseStudies extends Component {
                             <Link to="/project-detail">
                               <i className="fas fa-arrow-right"></i>
                             </Link>
-                            <a
-                              href={AllIMG6}
+                            <Link
+                              to={AllIMG6}
                               className="lightbox-image"
                               data-fancybox="gallery"
                             >
                               <i className="fa fa-search"></i>
-                            </a>
+                            </Link>
                           </div>
                           <h5>
-                            <a href="#">
+                            <Link to="#">
                               Construction <br />
                               Management Process
-                            </a>
+                            </Link>
                           </h5>
                         </div>
                       </div>
@@ -277,19 +277,19 @@ class AllCaseStudies extends Component {
                             <Link to="/project-detail">
                               <i className="fas fa-arrow-right"></i>
                             </Link>
-                            <a
-                              href={AllIMG7}
+                            <Link
+                              to={AllIMG7}
                               className="lightbox-image"
                               data-fancybox="gallery"
                             >
                               <i className="fa fa-search"></i>
-                            </a>
+                            </Link>
                           </div>
                           <h5>
-                            <a href="#">
+                            <Link to="#">
                               Construction <br />
                               Management Process
-                            </a>
+                            </Link>
                           </h5>
                         </div>
                       </div>
@@ -316,19 +316,19 @@ class AllCaseStudies extends Component {
                             <Link to="/project-detail">
                               <i className="fas fa-arrow-right"></i>
                             </Link>
-                            <a
-                              href={AllIMG8}
+                            <Link
+                              to={AllIMG8}
                               className="lightbox-image"
                               data-fancybox="gallery"
                             >
                               <i className="fa fa-search"></i>
-                            </a>
+                            </Link>
                           </div>
                           <h5>
-                            <a href="#">
+                            <Link to="#">
                               Construction <br />
                               Management Process
-                            </a>
+                            </Link>
                           </h5>
                         </div>
                       </div>
@@ -338,9 +338,9 @@ class AllCaseStudies extends Component {
               </div>
             </div>
             <div className="btn-box text-center">
-              <a href="project.html" className="theme-btn btn-style-one">
+              <Link to="project.html" className="theme-btn btn-style-one">
                 <span className="txt">View All Project</span>
-              </a>
+              </Link>
             </div>
           </div>
         </section>

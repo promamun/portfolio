@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 
 class Location extends Component {
   render() {
@@ -44,7 +45,7 @@ class Location extends Component {
                           <h4>Email / Phone</h4>
                           <p>+1 (800) 581 3645 11</p>
                           <p>
-                            <a href="#">mail@example.com</a>
+                            <Link to="#">mail@example.com</Link>
                           </p>
                         </div>
                       </div>

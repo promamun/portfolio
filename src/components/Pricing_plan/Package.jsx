@@ -16,7 +16,7 @@ function Thumbnail({
     <>
       <div className="price-block col-lg-4 col-md-6 col-sm-12">
         <div className="inner-box">
-          <div className="packge-plan" style={{backgroundImage}}>
+          <div className="packge-plan" style={{ backgroundImage }}>
             <h6>{thumb1Title} </h6>
             <div className="price">{thumb1Price} </div>
             <span className="plan-text">{thumb1Month}</span>
