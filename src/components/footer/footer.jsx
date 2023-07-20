@@ -222,7 +222,8 @@ class Footer extends Component {
                             </li>
                             <li>
                               <span className="icon fas fa-map-marker-alt" />
-                              28 Green Tower, Street Name, New York
+                              SBI colony, 6th street, anant nagar, Thoraipakkam,
+                              Chennai One,Pin-600097 India
                             </li>
                             <li>
                               <span className="icon fas fa-envelope" />
