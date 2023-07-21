@@ -3,6 +3,8 @@ import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
 import ProjectAdd from "./ProjectAdd";
 import ProjectList from "./Data/data";
+import ProjrctView from "./ProjrctView";
+import ProjectList1 from "./Data/dataPro";
 
 const Projects = () => {
   const BgImage = {
@@ -41,7 +43,14 @@ const Projects = () => {
                     title={item.title}
                     title1={item.title1}
                     image={item.image}
-                    
+                  />
+                ))}
+
+                {ProjectList1.map((item) => (
+                  <ProjrctView
+                    title={item.title}
+                    title1={item.title1}
+                    image={item.image}
                   />
                 ))}
               </div>
