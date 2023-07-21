@@ -11,6 +11,16 @@ const ProjectList = [
   },
   {
     image: "images/gallery/8.jpg",
+    title: "Digital Work",
+    title1: "Construction  Management Process"
+  },
+  {
+    image: "images/gallery/6.jpg",
+    title: "CMS",
+    title1: "Construction  Management Process"
+  },
+  {
+    image: "images/gallery/8.jpg",
     title: "Mobile App Vister",
     title1: "Construction  Management Process"
   },
@@ -39,13 +49,6 @@ const ProjectList = [
     title: "Strategy",
     title1: "Construction  Management Process"
   }
- 
- 
- 
- 
- 
- 
-  
 ];
 
 export default ProjectList;

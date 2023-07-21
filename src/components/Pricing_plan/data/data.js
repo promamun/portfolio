@@ -1,5 +1,5 @@
 const subscription = [
-  {
+    {
     backgroundImage: "url('images/resource/price-shape-1.png')",
     thumb1Title: "Starting - CMS",
     thumb1Price: "$300",
