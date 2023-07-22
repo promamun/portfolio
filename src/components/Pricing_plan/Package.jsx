@@ -9,7 +9,6 @@ function Thumbnail({
   thumb1Social,
   thumb1Optimize,
   thumb1Support,
-  thumb1BuyNow,
   backgroundImage
 }) {
   return (
@@ -29,11 +28,6 @@ function Thumbnail({
               <li>{thumb1Optimize} </li>
               <li>{thumb1Support} </li>
             </ul>
-            <div className="buy-btn-area text-left">
-              <a href="#" className="theme-btn btn-style-two buy-btn">
-                <span className="txt">{thumb1BuyNow}</span>
-              </a>
-            </div>
           </div>
         </div>
       </div>

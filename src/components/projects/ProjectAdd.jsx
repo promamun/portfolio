@@ -37,7 +37,6 @@ function ProjectAdd({ title, title1, image }) {
           </div>
         </div>
       </div>
-      
     </>
   );
 }

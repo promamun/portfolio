@@ -18,8 +18,7 @@ const ProjectList1 = [
     image: "images/gallery/13.jpg",
     title: "Strategy",
     title1: "Construction  Management Process"
-  },
- 
+  }
 ];
 
 export default ProjectList1;

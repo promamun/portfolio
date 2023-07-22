@@ -18,9 +18,7 @@ const ProjectList = [
     image: "images/gallery/12.jpg",
     title: "Mobile App",
     title1: "Construction  Management Process"
-  },
- 
- 
+  }
 ];
 
 export default ProjectList;

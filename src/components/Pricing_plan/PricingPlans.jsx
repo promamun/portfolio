@@ -1,6 +1,6 @@
 import React from "react";
 import Package from "./Package";
-import subscription from "./data/data";
+import subscription from "./data/WebsiteCreation";
 
 function PricingPlans({ pricingTitle, packageTitle }) {
   return (

@@ -9,7 +9,6 @@ const subscription = [
     thumb1Social: "Basic websites with simple functionality",
     thumb1Optimize: "Fully Mobile Compatiblen",
     thumb1Support: "24/7 Support",
-    thumb1BuyNow: "Buy Now",
     pricingTitle: "Our Pricing Plans",
     packageTitle: "Website Creation"
   },
@@ -23,7 +22,6 @@ const subscription = [
     thumb1Social: "Some Functionality",
     thumb1Optimize: "Fully all device response",
     thumb1Support: "Some Graphic content",
-    thumb1BuyNow: "Buy Now",
     pricingTitle: "Our Pricing Plans",
     packageTitle: "Website Creation"
   },
@@ -33,12 +31,11 @@ const subscription = [
     thumb1Price: "$1500+",
     thumb1Month: "/PROJECT",
     thumb1Analytics:
-      "Html, CSS, JavaScript, vuejs, database, MySQL, MongoDB, Expressjs, Reactjs, Nodejs, etc.",
+   "Html, CSS, JavaScript, vuejs, database, MySQL, MongoDB, Expressjs, Reactjs, Nodejs, etc.",
     thumb1Keywords: "Unlimited pages website a unique loo",
     thumb1Social: "Some Advanced Functionality",
     thumb1Optimize: "1 Free Optimization",
     thumb1Support: "24/7 Support",
-    thumb1BuyNow: "Buy Now",
     pricingTitle: "Our Pricing Plans",
     packageTitle: "Website Creation"
   }
