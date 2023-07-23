@@ -1,8 +1,24 @@
-import React from "react";
+import React, {useEffect} from "react";
 import NavBar from "./navbar/navbar";
 import Footer from "./footer/footer";
 
 export default function Layout({ children }) {
+    // useEffect hook to handle the preloader on component mount
+    useEffect(() => {
+        handlePreloader();
+    }, []);
+
+    // Function to hide the preloader
+    const handlePreloader = () => {
+        const preloader = document.querySelector('.preloader');
+        if (preloader) {
+            preloader.style.transition = 'opacity 0.5s';
+            preloader.style.opacity = '0';
+            setTimeout(() => {
+                preloader.style.display = 'none';
+            }, 500);
+        }
+    };
   return (
     <>
       <NavBar />
