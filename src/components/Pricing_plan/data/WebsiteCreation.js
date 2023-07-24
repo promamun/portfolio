@@ -1,4 +1,4 @@
-const subscription = [
+const Subscription = [
   {
     backgroundImage: "url('images/resource/price-shape-1.png')",
     thumb1Title: "Starting - CMS",
@@ -41,4 +41,4 @@ const subscription = [
   }
 ];
 
-export default subscription;
+export default Subscription;
