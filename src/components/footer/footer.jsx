@@ -65,8 +65,8 @@ class Footer extends Component {
                             </div>
                             <div className="text-box">
                               <p>
-                                28 Green Tower, <br />
-                                Street Name, New York
+                                SBI colony, 6th street <br />
+                                Chennai , India.
                               </p>
                             </div>
                           </div>
