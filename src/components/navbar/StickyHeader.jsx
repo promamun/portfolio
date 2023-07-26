@@ -3,6 +3,13 @@ import {Link, useLocation} from "react-router-dom";
 import DTMLogo from "../../DTM_Logo.png";
 
 const StickyHeader = () => {
+    const scrollToTop = () => {
+        // Smooth scroll to the top of the page
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth',
+        });
+    };
     const handleToggleSideNav = () => {
         document.body.classList.toggle("active-side-nav");
     };
@@ -53,6 +60,7 @@ const StickyHeader = () => {
                                         <li
                                             key={link.path}
                                             className={location.pathname === link.path ? "current" : ""}
+                                            onClick={scrollToTop}
                                         >
                                             <Link to={link.path} className="nav-link">
                                                 {link.label}

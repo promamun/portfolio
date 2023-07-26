@@ -327,6 +327,7 @@ class Team extends Component {
             </OwlCarousel>
           </div>
         </section>
+
       </div>
     );
   }

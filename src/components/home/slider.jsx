@@ -77,19 +77,19 @@ class Slider extends Component {
                 <div className="row clearfix">
                   <div className="content-column col-lg-6 col-md-12 col-sm-12">
                     <div className="inner-column">
-                      <div className="video-link">
-                        <Link
-                          to="https://www.youtube.com/watch?v=Fvae8nxzVz4"
-                          data-fancybox="gallery"
-                          data-caption=""
-                        >
-                          <span
-                            className="icon fa fa-play"
-                            aria-hidden="true"
-                          />
-                          <i className="ripple" />
-                        </Link>
-                      </div>
+                      {/*<div className="video-link">*/}
+                      {/*  <Link*/}
+                      {/*    to="https://www.youtube.com/watch?v=Fvae8nxzVz4"*/}
+                      {/*    data-fancybox="gallery"*/}
+                      {/*    data-caption=""*/}
+                      {/*  >*/}
+                      {/*    <span*/}
+                      {/*      className="icon fa fa-play"*/}
+                      {/*      aria-hidden="true"*/}
+                      {/*    />*/}
+                      {/*    <i className="ripple" />*/}
+                      {/*  </Link>*/}
+                      {/*</div>*/}
                       <h1>
                         We Create Website
                         <br />
@@ -126,19 +126,19 @@ class Slider extends Component {
                 <div className="row clearfix">
                   <div className="content-column col-lg-6 col-md-12 col-sm-12">
                     <div className="inner-column">
-                      <div className="video-link">
-                        <Link
-                          to="https://www.youtube.com/watch?v=Fvae8nxzVz4"
-                          data-fancybox="gallery"
-                          data-caption=""
-                        >
-                          <span
-                            className="icon fa fa-play"
-                            aria-hidden="true"
-                          />
-                          <i className="ripple" />
-                        </Link>
-                      </div>
+                      {/*<div className="video-link">*/}
+                      {/*  <Link*/}
+                      {/*    to="https://www.youtube.com/watch?v=Fvae8nxzVz4"*/}
+                      {/*    data-fancybox="gallery"*/}
+                      {/*    data-caption=""*/}
+                      {/*  >*/}
+                      {/*    <span*/}
+                      {/*      className="icon fa fa-play"*/}
+                      {/*      aria-hidden="true"*/}
+                      {/*    />*/}
+                      {/*    <i className="ripple" />*/}
+                      {/*  </Link>*/}
+                      {/*</div>*/}
                       <h1>
                         We Provide Brilliant Marketing
                         <br />
@@ -175,19 +175,19 @@ class Slider extends Component {
                 <div className="row clearfix">
                   <div className="content-column col-lg-6 col-md-12 col-sm-12">
                     <div className="inner-column">
-                      <div className="video-link">
-                        <Link
-                          to="https://www.youtube.com/watch?v=Fvae8nxzVz4"
-                          data-fancybox="gallery"
-                          data-caption=""
-                        >
-                          <span
-                            className="icon fa fa-play"
-                            aria-hidden="true"
-                          />
-                          <i className="ripple" />
-                        </Link>
-                      </div>
+                      {/*<div className="video-link">*/}
+                      {/*  <Link*/}
+                      {/*    to="https://www.youtube.com/watch?v=Fvae8nxzVz4"*/}
+                      {/*    data-fancybox="gallery"*/}
+                      {/*    data-caption=""*/}
+                      {/*  >*/}
+                      {/*    <span*/}
+                      {/*      className="icon fa fa-play"*/}
+                      {/*      aria-hidden="true"*/}
+                      {/*    />*/}
+                      {/*    <i className="ripple" />*/}
+                      {/*  </Link>*/}
+                      {/*</div>*/}
                       <h1>
                         We Bring You
                         <br />

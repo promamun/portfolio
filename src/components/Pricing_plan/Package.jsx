@@ -1,6 +1,6 @@
 import React from "react";
 
-function Thumbnail({
+function Package({
   thumb1Title,
   thumb1Price,
   thumb1Month,
@@ -35,4 +35,4 @@ function Thumbnail({
   );
 }
 
-export default Thumbnail;
+export default Package;

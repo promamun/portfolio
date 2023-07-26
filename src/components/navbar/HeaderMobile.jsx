@@ -18,6 +18,10 @@ export default function Header() {
   ];
   const handleToggleMobileSideNav = () => {
     document.body.classList.toggle("mobile-menu-visible");
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth',
+    });
   };
   return (
     <div>
