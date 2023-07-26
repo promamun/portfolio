@@ -1,10 +1,10 @@
 import React, { Component } from "react";
 import OwlCarousel from "react-owl-carousel";
 import TSIMG1 from "../../assets/images/resource/testimonial.png";
-import TSIMG2 from "../../assets/images/resource/thumb-7.jpg";
-import TSIMG3 from "../../assets/images/resource/thumb.png";
-import TSIMG4 from "../../assets/images/resource/thumb.png";
-import TSIMG5 from "../../assets/images/resource/thumb.png";
+import TSIMG2 from "../../assets/images/resource/alex.png";
+import TSIMG3 from "../../assets/images/resource/client_gsbd.png";
+import TSIMG4 from "../../assets/images/resource/WilliamSmith.png";
+import TSIMG5 from "../../assets/images/resource/8-business-woman-girl-png-image.png";
 
 class Testimonials extends Component {
   render() {
@@ -38,12 +38,12 @@ class Testimonials extends Component {
                   <div className="testimonial-block">
                     <div className="inner-box">
                       <div className="text">
-                      Collaborating with this agency on our renovation tiles
-                      website has been extraordinary. They have metamorphosed
-                      our obsolete website into a visually captivating
-                      platform that flawlessly presents our tile products. The
-                      team's proficiency, meticulousness, and innovative
-                      approach have genuinely amazed us."
+                        Collaborating with this agency on our renovation tiles
+                        website has been extraordinary. They have metamorphosed
+                        our obsolete website into a visually captivating
+                        platform that flawlessly presents our tile products. The
+                        team's proficiency, meticulousness, and innovative
+                        approach have genuinely amazed us."
                       </div>
                       <div className="icon-quote">
                         <i className="flaticon flaticon-quote" />
@@ -54,7 +54,9 @@ class Testimonials extends Component {
                         </div>
                         <div className="text-box">
                           <h4 className="name">Alex</h4>
-                          <span className="designation">Business Owner (USA)</span>
+                          <span className="designation">
+                            Business Owner (USA)
+                          </span>
                         </div>
                       </div>
                     </div>
@@ -62,10 +64,12 @@ class Testimonials extends Component {
                   <div className="testimonial-block">
                     <div className="inner-box">
                       <div className="text">
-                        “Working with Reuss is always an absolute joy, both
-                        personally and professionally. Tommy is an amazing
-                        speaker; her experience, expertise and genuine passion
-                        for what she does is obvious in every word he says.”
+                        "We are highly amazed by the logistic website crafted by
+                        this agency. They flawlessly grasped our business
+                        requirements and designed a user-friendly interface that
+                        simplifies operations. The team's professionalism,
+                        responsiveness, and outstanding outcomes have gone
+                        beyond our expectations."
                       </div>
                       <div className="icon-quote">
                         <i className="flaticon flaticon-quote" />
@@ -75,8 +79,10 @@ class Testimonials extends Component {
                           <img src={TSIMG3} alt="" />
                         </div>
                         <div className="text-box">
-                          <h4 className="name">Megan Mori</h4>
-                          <span className="designation">Marketing Manager</span>
+                          <h4 className="name">MD. SHAH ALAM</h4>
+                          <span className="designation">
+                            Business Owner (BANGLADESH)
+                          </span>
                         </div>
                       </div>
                     </div>
@@ -84,10 +90,17 @@ class Testimonials extends Component {
                   <div className="testimonial-block">
                     <div className="inner-box">
                       <div className="text">
-                        “Working with Reuss is always an absolute joy, both
-                        personally and professionally. Tommy is an amazing
-                        speaker; her experience, expertise and genuine passion
-                        for what she does is obvious in every word he says.”
+                        "We are absolutely awestruck by the logistic website
+                        meticulously crafted by this extraordinary agency. With
+                        impeccable precision, they effortlessly grasped our
+                        unique business requirements, weaving them into a
+                        stunning and user-friendly interface that elegantly
+                        simplifies operations. The team's unwavering
+                        professionalism, lightning-fast responsiveness, and
+                        exceptional results have not just met, but truly
+                        exceeded our wildest expectations. A heartfelt
+                        appreciation to the remarkable talents behind this
+                        remarkable endeavor."
                       </div>
                       <div className="icon-quote">
                         <i className="flaticon flaticon-quote" />
@@ -97,8 +110,11 @@ class Testimonials extends Component {
                           <img src={TSIMG4} alt="" />
                         </div>
                         <div className="text-box">
-                          <h4 className="name">Megan Mori</h4>
-                          <span className="designation">Marketing Manager</span>
+                          <h4 className="name">William Smith</h4>
+                          <span className="designation">
+                
+                            Business Owner (CANADA)
+                          </span>
                         </div>
                       </div>
                     </div>
@@ -106,10 +122,14 @@ class Testimonials extends Component {
                   <div className="testimonial-block">
                     <div className="inner-box">
                       <div className="text">
-                        “Working with Reuss is always an absolute joy, both
-                        personally and professionally. Tommy is an amazing
-                        speaker; her experience, expertise and genuine passion
-                        for what she does is obvious in every word he says.”
+                        "Their profound mastery of online marketing strategies
+                        and extensive industry knowledge has been instrumental
+                        in propelling us to soaring heights. They have deftly
+                        shaped our brand's presence in the digital realm,
+                        leading to heightened visibility and a surge in website
+                        traffic. We wholeheartedly endorse their services to any
+                        enterprise seeking to enrich their online footprint and
+                        foster business expansion."
                       </div>
                       <div className="icon-quote">
                         <i className="flaticon flaticon-quote" />
@@ -119,8 +139,8 @@ class Testimonials extends Component {
                           <img src={TSIMG5} alt="" />
                         </div>
                         <div className="text-box">
-                          <h4 className="name">Megan Mori</h4>
-                          <span className="designation">Marketing Manager</span>
+                          <h4 className="name"> Syang chung fu</h4>
+                          <span className="designation">Business Owner (CHINA)</span>
                         </div>
                       </div>
                     </div>
