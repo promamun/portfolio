@@ -8,6 +8,7 @@ import PopinImg from "../../assets/images/team/Popin.jpg";
 import FarhanImg from "../../assets/images/team/Farhan.jpg";
 import Shakib from "../../assets/images/team/Shakib.jpg";
 import JeanBuagas from "../../assets/images/team/9.jpg";
+import Sharif_Ujjaman from "../../assets/images/team/Sharif_Ujjaman.jpg";
 
 class Team extends Component {
   render() {
@@ -226,7 +227,7 @@ class Team extends Component {
                     <li>
                       <Link
                         target={"_blank"}
-                        to="https://www.facebook.com/muhammad.sakib.3139241"
+                        to="#"
                       >
                         <i className="fab fa-facebook-f" />
                       </Link>
@@ -234,7 +235,7 @@ class Team extends Component {
                     <li>
                       <Link
                         target={"_blank"}
-                        to="https://twitter.com/MdSakib90893202"
+                        to="#"
                       >
                         <i className="fab fa-twitter" />
                       </Link>
@@ -286,6 +287,40 @@ class Team extends Component {
                       <Link to="/team">Jean S. Buagas</Link>
                     </h4>
                     <span className="designation">Marketing Assistant</span>
+                  </div>
+                </div>
+              </div>
+              <div className="team-block team-block-2">
+                <div className="inner-box">
+                  <div className="image-box">
+                    <div className="image">
+                      <Link to="/team">
+                        <img src={Sharif_Ujjaman} alt="" />
+                      </Link>
+                    </div>
+                  </div>
+                  <ul className="social-links">
+                    <li>
+                      <Link to="#">
+                        <i className="fab fa-facebook-f" />
+                      </Link>
+                    </li>
+                    <li>
+                      <Link to="#">
+                        <i className="fab fa-twitter" />
+                      </Link>
+                    </li>
+                    <li>
+                      <Link to="#">
+                        <i className="fab fa-dribbble" />
+                      </Link>
+                    </li>
+                  </ul>
+                  <div className="text-box">
+                    <h4 className="name">
+                      <Link to="/team">Sharif Ujjaman</Link>
+                    </h4>
+                    <span className="designation">Senior Media Buyer</span>
                   </div>
                 </div>
               </div>

@@ -89,18 +89,18 @@ class ContactFrom extends Component {
       <LoadingOverlay active={this.state.isLoading} spinner text="Loading ...">
         <div>
           <section className="contact-section altrenate">
-            <div className="pattern-layer-one" style={BgImage}></div>
-            <div className="pattern-layer-two" style={BgImage5}></div>
-            <div className="pattern-layer-three" style={BgImage6}></div>
-            <div className="pattern-layer-four" style={BgImage}></div>
-            <div className="pattern-layer-five" style={BgImage1}></div>
-            <div className="pattern-layer-six" style={BgImage2}></div>
-            <div className="pattern-layer-seven" style={BgImage8}></div>
-            <div className="pattern-layer-eight" style={BgImage5}></div>
-            <div className="pattern-layer-nine" style={BgImage10}></div>
-            <div className="pattern-layer-ten" style={BgImage9}></div>
-            <div className="pattern-layer-eleven" style={BgImage3}></div>
-            <div className="pattern-layer-tweleve" style={BgImage4}></div>
+            <div className="pattern-layer-one" style={BgImage} />
+            <div className="pattern-layer-two" style={BgImage5} />
+            <div className="pattern-layer-three" style={BgImage6} />
+            <div className="pattern-layer-four" style={BgImage} />
+            <div className="pattern-layer-five" style={BgImage1} />
+            <div className="pattern-layer-six" style={BgImage2} />
+            <div className="pattern-layer-seven" style={BgImage8} />
+            <div className="pattern-layer-eight" style={BgImage5} />
+            <div className="pattern-layer-nine" style={BgImage10} />
+            <div className="pattern-layer-ten" style={BgImage9} />
+            <div className="pattern-layer-eleven" style={BgImage3} />
+            <div className="pattern-layer-tweleve" style={BgImage4} />
             <div className="auto-container">
               <div className="row">
                 <div className="form-column col-lg-6 col-md-12 col-sm-12">

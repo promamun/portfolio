@@ -35,6 +35,11 @@ const teamData = [
     image: "../TEAMIMAGE/9.jpg",
     name: "Jean S.Buagas",
     designation: "Marketing Assistant"
+  },
+  {
+    image: "../TEAMIMAGE/Sharif_Ujjaman.jpg",
+    name: "Sharif Ujjaman",
+    designation: "Senior Media Buyer"
   }
 ];
 

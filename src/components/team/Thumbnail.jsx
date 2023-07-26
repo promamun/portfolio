@@ -15,12 +15,12 @@ function Thumbnail({ name, designation, image }) {
           </div>
           <ul className="social-links">
             <li>
-              <Link target="_blank" to="https://www.facebook.com/Mdmamun6160">
+              <Link target="_blank" to="#">
                 <i className="fab fa-facebook-f" />
               </Link>
             </li>
             <li>
-              <Link target="_blank" to="https://twitter.com/MamunPro">
+              <Link target="_blank" to="#">
                 <i className="fab fa-twitter" />
               </Link>
             </li>
