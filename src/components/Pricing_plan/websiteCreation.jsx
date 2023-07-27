@@ -1,8 +1,8 @@
 import React from "react";
-import Package from "./Package";
+import Package from "./websitePackage";
 import subscription from "./data/WebsiteCreation";
 
-function PricingPlans({ pricingTitle, packageTitle }) {
+function websiteCreation({ pricingTitle, packageTitle }) {
   return (
     <div>
       <section className="pricing-section">
@@ -40,4 +40,4 @@ function PricingPlans({ pricingTitle, packageTitle }) {
     </div>
   );
 }
-export default PricingPlans;
+export default websiteCreation;

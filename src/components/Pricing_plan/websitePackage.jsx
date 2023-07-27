@@ -1,7 +1,7 @@
 import React from "react";
 import {Link} from "react-router-dom";
 
-function Package({
+function websitePackage({
   thumb1Title,
   thumb1Price,
   thumb1Month,
@@ -41,4 +41,4 @@ function Package({
   );
 }
 
-export default Package;
+export default websitePackage;

@@ -1,5 +1,5 @@
 import React from "react";
-import PricingPlans from "./PricingPlans";
+import PricingPlans from "./websiteCreation";
 import BroadCamp from "../broadCamp/BroadCamp";
 import { Helmet } from "react-helmet";
 import PriceCategoryTwo from "./PriceCategoryTwo";
