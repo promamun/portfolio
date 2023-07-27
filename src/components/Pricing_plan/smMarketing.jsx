@@ -1,5 +1,5 @@
 import React from "react";
-import PackageTwo from "./PackageTwo";
+import PackageTwo from "./smMarketingPackage";
 import SocialMarketing from "./data/SocialMideaMarketing";
 
 function PriceCategoryTwo({ packageTitle }) {

@@ -1,5 +1,5 @@
 import React from "react";
-import PackageThree from "./PackageThree";
+import PackageThree from "./PaidAdsPackage";
 import PaidaddMarketing from "./data/PaidAdsMarketing";
 
 function PriceCategoryThree({ packageTitle }) {

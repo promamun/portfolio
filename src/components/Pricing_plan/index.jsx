@@ -2,8 +2,8 @@ import React from "react";
 import PricingPlans from "./websiteCreation";
 import BroadCamp from "../broadCamp/BroadCamp";
 import { Helmet } from "react-helmet";
-import PriceCategoryTwo from "./PriceCategoryTwo";
-import PriceCategoryThree from "./PriceCategoryThree";
+import PriceCategoryTwo from "./smMarketing";
+import PriceCategoryThree from "./PaidAdsMarketing";
 export default function index() {
   const BgImage = {
     backgroundImage: `url(images/background/22.png)`
@@ -16,7 +16,7 @@ export default function index() {
       <BroadCamp name="Pricing Plans" bgImageStyle={BgImage} />
       <PricingPlans
         pricingTitle="Our Pricing Plans"
-        packageTitle="React Web App Development (MERN)"
+        packageTitle="Website Creation"
       />
       <PriceCategoryTwo packageTitle="Social Media Marketing"/>
       <PriceCategoryThree packageTitle="Paid Ads Marketing"/>
