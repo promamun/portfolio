@@ -16,7 +16,7 @@ export default function index() {
       <BroadCamp name="Pricing Plans" bgImageStyle={BgImage} />
       <PricingPlans
         pricingTitle="Our Pricing Plans"
-        packageTitle="Website Creation"
+        packageTitle="React Web App Development (MERN)"
       />
       <PriceCategoryTwo packageTitle="Social Media Marketing"/>
       <PriceCategoryThree packageTitle="Paid Ads Marketing"/>

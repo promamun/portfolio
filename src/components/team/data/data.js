@@ -56,6 +56,15 @@ const teamData = [
   },
   {
     bgImage: `team-block team-block-2`,
+    image: "../TEAMIMAGE/Sharif_Ujjaman.jpg",
+    facebook: "#",
+    twitter: "#",
+    dribbble: "#",
+    name: "Sharif Ujjaman",
+    designation: "Senior Media Buyer"
+  },
+  {
+    bgImage: `team-block team-block-3`,
     image: "../TEAMIMAGE/9.jpg",
     facebook: "#",
     twitter: "#",

@@ -18,16 +18,20 @@ function websiteCreation({ pricingTitle, packageTitle }) {
                   <div className="row clearfix">
                     {subscription.map((data) => (
                       <Package
-                        thumb1Title={data.thumb1Title}
-                        thumb1Price={data.thumb1Price}
-                        thumb1Month={data.thumb1Month}
-                        thumb1Analytics={data.thumb1Analytics}
-                        thumb1Keywords={data.thumb1Keywords}
-                        thumb1Social={data.thumb1Social}
-                        thumb1Optimize={data.thumb1Optimize}
-                        thumb1Support={data.thumb1Support}
-                        thumb1BuyNow={data.thumb1BuyNow}
-                        backgroundImage={data.backgroundImage}
+                          id={data.id}
+                          Title={data.Title}
+                          Price={data.Price}
+                          PT={data.PT}
+                          PD={data.PD}
+                          PD1={data.PD1}
+                          PD2={data.PD2}
+                          PD3={data.PD3}
+                          PD4={data.PD4}
+                          PD5={data.PD5}
+                          PD6={data.PD6}
+                          PD7={data.PD7}
+                          PDRevision={data.PDRevision}
+                          PDSupport={data.PDSupport}
                       />
                     ))}
                   </div>

@@ -4,6 +4,7 @@ import TeamMembers from "./TeamMembers";
 import Manager from "./manager";
 import { Helmet } from "react-helmet";
 import Janin from "../../assets/images/team/Janin1.png"
+import {Link} from "react-router-dom";
 
 class Index extends Component {
   render() {
@@ -34,6 +35,11 @@ class Index extends Component {
       };const crossIcon10 = {
           backgroundImage: `url(images/main-banner/banner-icon-10.png)`
       };
+      const FontSize = {
+          fontSize:'25px',
+          fontStyle: `italic`,
+          color: '#00d084',
+      }
     return (
       <div>
         <Helmet>
@@ -96,18 +102,15 @@ class Index extends Component {
                               data-wow-duration="300ms"
                           >
                               <div className="sec-title">
-                                  <h6 className="subtitle">Experience Shear With Your</h6>
-                                  <h2>Discuss projects, Share ideas and get work done</h2>
+                                  <h6 className="subtitle">The Write ToolBox Admin <strong>"Janine Holman"</strong> Collaborate With Us</h6>
+                                  <h2>Discuss project requirements, Share Insights and get work done</h2>
                               </div>
                               <p>
-                                  Sola Ut enim ad minim veniam, quis nostrud exercitation
-                                  ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-                                  aute irure dolor in reprehender it in voluptate velit esse
-                                  cillum dolore eu fugiat nulla pariatur.
+                                  <strong style={FontSize}>Janine Holman, </strong>Is a great versatile personality to work with.. She is an instructor/trainer on several learning platforms. Also an author of multiple books.. We really feel joyous and grateful to have her on board & will proceed together to add extreme values and impact in to our organization.
                               </p>
-                              <a href="#" className="theme-btn btn-style-two"
-                              ><span className="txt">Get Started</span></a
-                              >
+                              <Link to="#" className="theme-btn btn-style-two">
+                                  <span className="txt">Get Started</span>
+                              </Link>
                           </div>
                       </div>
                   </div>

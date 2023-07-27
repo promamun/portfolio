@@ -1,4 +1,4 @@
-import eact from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 
 function Thumbnail({ name, designation, image,facebook,twitter,dribbble,bgImage }) {
