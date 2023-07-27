@@ -17,9 +17,9 @@ export default function index() {
       <PricingPlans
         pricingTitle="Our Pricing Plans"
         packageTitle="Website Creation"
-      ></PricingPlans>
-      <PriceCategoryTwo packageTitle="Social Media Marketing"></PriceCategoryTwo>
-      <PriceCategoryThree packageTitle="Paid Ads Marketing"></PriceCategoryThree>
+      />
+      <PriceCategoryTwo packageTitle="Social Media Marketing"/>
+      <PriceCategoryThree packageTitle="Paid Ads Marketing"/>
     </div>
   );
 }

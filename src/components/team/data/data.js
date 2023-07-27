@@ -1,46 +1,21 @@
-// TEAM IMAGE has been taken from public folder//
-const teamData = [
-  {
-    image: "../TEAMIMAGE/Mamun_Pro_Main.png",
-    name: "Mamun Pro",
-    designation: "Project & Marketing Manager"
-  },
-  {
-    image: "../TEAMIMAGE/Ramiz.jpg",
-    name: "Ramij Ahmed",
-    designation: "Technical Lead (MNC)"
-  },
-  {
-    image: "../TEAMIMAGE/Avijit.jpg",
-    name: "Avijit Samanta",
-    designation: "Full Stack Developer(MERN) "
-  },
-  {
-    image: "../TEAMIMAGE/Farhan.jpg",
-    name: "Farhan Ahmed",
-    designation: "Frontend Developer (React.js Bootstrap Flex)"
-  },
-  {
-    id: 5,
-    image: "../TEAMIMAGE/Popin.jpg",
-    name: "Moinul Islam",
-    designation: "PHP & Laravel Expert"
-  },
-  {
-    image: "../TEAMIMAGE/Shakib.jpg",
-    name: "Muhammad Shakib",
-    designation: "Digital Marketing Expart(SEO Specialist)"
-  },
-  {
-    image: "../TEAMIMAGE/9.jpg",
-    name: "Jean S.Buagas",
-    designation: "Marketing Assistant"
-  },
-  {
-    image: "../TEAMIMAGE/Sharif_Ujjaman.jpg",
-    name: "Sharif Ujjaman",
-    designation: "Senior Media Buyer"
-  }
-];
-
-export default teamData;
+const TeamData = [
+    {
+        bgImage: `team-block `,
+        image: "../TEAMIMAGE/Mamun_Pro_Main.png",
+        facebook: "#",
+        twitter: "#",
+        dribbble: "#",
+        name: "Mamun Pro",
+        designation: "Project & Marketing Manager"
+    },
+    {
+        bgImage: `team-block team-block-1 `,
+        image: "../TEAMIMAGE/Ramiz.jpg",
+        facebook: "#",
+        twitter: "#",
+        dribbble: "#",
+        name: "Ramij Ahmed",
+        designation: "Technical Lead (MNC)"
+    }
+]
+export default TeamData

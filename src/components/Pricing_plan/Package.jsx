@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from "react-router-dom";
 
 function Package({
   thumb1Title,
@@ -28,6 +29,11 @@ function Package({
               <li>{thumb1Optimize} </li>
               <li>{thumb1Support} </li>
             </ul>
+            <div className="buy-btn-area text-left">
+              <Link to="/contact" className="theme-btn btn-style-two buy-btn">
+                <span className="txt">Contact Us</span>
+              </Link>
+            </div>
           </div>
         </div>
       </div>

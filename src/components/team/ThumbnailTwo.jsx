@@ -1,10 +1,17 @@
-import eact from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 
-function Thumbnail({ name, designation, image }) {
+function ThumbnailTwo({
+  image,
+  facebook,
+  twitter,
+  dribbble,
+  name,
+  designation
+}) {
   return (
     <>
-      <div className="team-block col-lg-3 col-md-6 col-sm-12">
+      <div className="team-block team-block-1">
         <div className="inner-box">
           <div className="image-box">
             <div className="image">
@@ -15,18 +22,18 @@ function Thumbnail({ name, designation, image }) {
           </div>
           <ul className="social-links">
             <li>
-              <Link target="_blank" to="#">
-                <i className="fab fa-facebook-f" />
-              </Link>
-            </li>
-            <li>
-              <Link target="_blank" to="#">
-                <i className="fab fa-twitter" />
+              <Link to="#">
+                <i className={facebook} />
               </Link>
             </li>
             <li>
               <Link to="#">
-                <i className="fab fa-dribbble" />
+                <i className={twitter} />
+              </Link>
+            </li>
+            <li>
+              <Link to="#">
+                <i className={dribbble} />
               </Link>
             </li>
           </ul>
@@ -42,4 +49,4 @@ function Thumbnail({ name, designation, image }) {
   );
 }
 
-export default Thumbnail;
+export default ThumbnailTwo;
