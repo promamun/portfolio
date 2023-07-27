@@ -23,7 +23,11 @@ function TeamMembers() {
           <div className="row">
             {teamData.map((data) => (
               <Thumbnail
+                bgImage={data.bgImage}
                 image={data.image}
+                facebook={data.facebook}
+                twitter={data.twitter}
+                dribbble={data.dribbble}
                 name={data.name}
                 designation={data.designation}
               />
