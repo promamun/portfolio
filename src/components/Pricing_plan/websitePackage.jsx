@@ -42,7 +42,7 @@ function websitePackage({
               <li className="active">{PD}</li>
               <li className="active">{PD1}</li>
               <li className="active">{PD2}</li>
-              <li className="active">{PD3} </li>
+              <li className="active">{PD3}</li>
               <li className="active">{PD4}</li>
               <li className="active">{PD5}</li>
               <li className="active">{PD6}</li>

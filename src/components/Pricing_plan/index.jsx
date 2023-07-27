@@ -4,7 +4,7 @@ import BroadCamp from "../broadCamp/BroadCamp";
 import { Helmet } from "react-helmet";
 import CMS from "./websiteCMSCreation";
 import PriceCategoryTwo from "./smMarketing";
-import PriceCategoryThree from "./PaidAdsMarketing";
+import GoogleAds from "./GoogleAds";
 
 export default function index() {
   const BgImage = {
@@ -18,8 +18,8 @@ export default function index() {
       <BroadCamp name="Pricing Plans" bgImageStyle={BgImage} />
       <PricingPlans pricingTitle="Our Pricing Plans" packageTitle="React Web App Development (MERN)"/>
         <CMS packageTitle="WordPress Web Application Development(CMS)"/>
-      <PriceCategoryTwo packageTitle="Social Media Marketing"/>
-      <PriceCategoryThree packageTitle="Paid Ads Marketing"/>
+      <PriceCategoryTwo packageTitle="Facebook Marketing"/>
+      <GoogleAds packageTitle="Google Ads Marketing"/>
     </div>
   );
 }
