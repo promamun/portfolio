@@ -1,15 +1,15 @@
-const Subscription = [
+const CMS = [
   {
     id:1,
     Title: "Starter",
-    Price: "299",
+    Price: "199",
     PT:"Per Project",
-    PD: "Design Customization. You'll get a customized color scheme or layout for your site.",
-    PD1: "4 pages website a Responsive Design",
-    PD2: "Premium Websites Offering Advanced Functionality and Quality",
+    PD: "Design Customization. Template based design",
+    PD1: "5 pages website a Responsive Design",
+    PD2: "Basic Websites Offering Advanced Functionality and Quality",
     PD3: "Fully Mobile Responsive",
     PD4: "Custom Requirements Available",
-    PD5: "3 days delivery",
+    PD5: "2 days delivery",
     PDRevision: "Unlimited Revision",
     PDSupport: "24/7/365 Support",
   },
@@ -18,12 +18,12 @@ const Subscription = [
     Title: "Standard",
     Price: "699",
     PT:"Per Project",
-    PD: "Design Customization. You'll get a customized color scheme or layout for your site.",
+    PD: "Design Customization. Template based design",
     PD1: "10 pages website a Responsive Design",
-    PD2: "Premium Websites Offering Advanced Functionality and Quality",
+    PD2: "Premium Websites Offering High Functionality",
     PD3: "Fully Mobile Responsive",
     PD4: "Custom Requirements Available",
-    PD5: "7 days delivery",
+    PD5: "5 days delivery",
     PDRevision: "Unlimited Revision",
     PDSupport: "24/7/365 Support",
   },
@@ -38,11 +38,9 @@ const Subscription = [
     PD3: "Fully Responsive in All Devises(Mobile & Tab)",
     PD4: "Custom Requirements Available",
     PD5: "15 days delivery",
-    PD6: "Build frontend+backend from scratch",
-    PD7: "End-to-end core development",
     PDRevision: "Unlimited Revision",
     PDSupport: "24/7/365 Support",
   }
 ];
 
-export default Subscription;
+export default CMS;
