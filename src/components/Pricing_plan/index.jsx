@@ -2,9 +2,10 @@ import React from "react";
 import PricingPlans from "./websiteCreation";
 import BroadCamp from "../broadCamp/BroadCamp";
 import { Helmet } from "react-helmet";
-import PriceCategoryTwo from "./PriceCategoryTwo";
-import PriceCategoryThree from "./PriceCategoryThree";
 import CMS from "./websiteCMSCreation";
+import PriceCategoryTwo from "./smMarketing";
+import PriceCategoryThree from "./PaidAdsMarketing";
+
 export default function index() {
   const BgImage = {
     backgroundImage: `url(images/background/22.png)`
