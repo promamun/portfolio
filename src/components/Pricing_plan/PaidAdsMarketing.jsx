@@ -15,19 +15,22 @@ function PriceCategoryThree({ packageTitle }) {
               <div className="tab active-tab">
                 <div className="content">
                   <div className="row clearfix">
-                    {PaidaddMarketing.map((item) => (
+                    {PaidaddMarketing.map((data) => (
                       <PackageThree
-                        backgroundImage={item.backgroundImage}
-                        thumb3Title={item.thumb3Title}
-                        thumb3Price={item.thumb3Price}
-                        thumb3Month={item.thumb3Month}
-                        thumb3Analytics={item.thumb3Analytics}
-                        thumb3Keywords={item.thumb3Keywords}
-                        thumb3Social={item.thumb3Social}
-                        thumb3Optimize={item.thumb3Optimize}
-                        thumb3Support={item.thumb3Support}
-                        pricingTitle={item.pricingTitle}
-                        packageTitle={item.packageTitle}
+                      id={data.id}
+                      Title={data.Title}
+                      Price={data.Price}
+                      PT={data.PT}
+                      PD={data.PD}
+                      PD1={data.PD1}
+                      PD2={data.PD2}
+                      PD3={data.PD3}
+                      PD4={data.PD4}
+                      PD5={data.PD5}
+                      PD6={data.PD6}
+                      PD7={data.PD7}
+                      PDRevision={data.PDRevision}
+                      PDSupport={data.PDSupport}
                       />
                     ))}
                   </div>
