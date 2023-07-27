@@ -7,11 +7,12 @@ function ThumbnailTwo({
   twitter,
   dribbble,
   name,
-  designation
+  designation,
+  bgImage
 }) {
   return (
     <>
-      <div className="team-block team-block-1">
+      <div className={bgImage}>
         <div className="inner-box">
           <div className="image-box">
             <div className="image">
@@ -22,18 +23,18 @@ function ThumbnailTwo({
           </div>
           <ul className="social-links">
             <li>
-              <Link to="#">
-                <i className={facebook} />
+              <Link to={facebook}>
+                <i className="fab fa-facebook-f" />
               </Link>
             </li>
             <li>
-              <Link to="#">
-                <i className={twitter} />
+              <Link to={twitter}>
+                <i className="fab fa-twitter"/>
               </Link>
             </li>
             <li>
-              <Link to="#">
-                <i className={dribbble} />
+              <Link to={dribbble}>
+                <i className="fab fa-dribbble" />
               </Link>
             </li>
           </ul>

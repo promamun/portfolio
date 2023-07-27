@@ -34,6 +34,7 @@ class Team extends Component {
                   dribbble={items.dribbble}
                   name={items.name}
                   designation={items.designation}
+                  bgImage={items.bgImage}
                 />
               ))}
             </OwlCarousel>

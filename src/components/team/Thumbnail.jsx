@@ -1,10 +1,11 @@
 import eact from "react";
 import { Link } from "react-router-dom";
 
-function Thumbnail({ name, designation, image }) {
+function Thumbnail({ name, designation, image,facebook,twitter,dribbble,bgImage }) {
+const defaultClass="col-lg-3 col-md-6 col-sm-12"
   return (
     <>
-      <div className="team-block col-lg-3 col-md-6 col-sm-12">
+      <div className={`${bgImage} ${defaultClass}`} >
         <div className="inner-box">
           <div className="image-box">
             <div className="image">
@@ -15,17 +16,17 @@ function Thumbnail({ name, designation, image }) {
           </div>
           <ul className="social-links">
             <li>
-              <Link target="_blank" to="#">
+              <Link target="_blank" to={facebook}>
                 <i className="fab fa-facebook-f" />
               </Link>
             </li>
             <li>
-              <Link target="_blank" to="#">
+              <Link target="_blank" to={twitter}>
                 <i className="fab fa-twitter" />
               </Link>
             </li>
             <li>
-              <Link to="#">
+              <Link to={dribbble} >
                 <i className="fab fa-dribbble" />
               </Link>
             </li>
