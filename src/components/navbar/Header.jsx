@@ -22,7 +22,9 @@ const Header = ({className,classOuter}) => {
     { path: "/contact", label: "Contact" },
     // { path: "/about", label: "About" }
   ];
-
+  const imgSize= {
+    maxHeight:'53px',
+  }
   return (
       <div className="header-lower">
         <div className="main-box clearfix">
@@ -31,9 +33,8 @@ const Header = ({className,classOuter}) => {
               <Link to="/">
                 <img
                     id="logo"
-                    height={75}
-                    width={142}
                     src={DTMLogo}
+                    style={imgSize}
                     alt="DTM Logo"
                     title="DTM Logo"
                 />

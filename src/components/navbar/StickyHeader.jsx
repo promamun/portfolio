@@ -1,8 +1,11 @@
 import React from 'react'
 import {Link, useLocation} from "react-router-dom";
-import DTMLogo from "../../DTM_Logo.png";
+import DTMLogo from "../../DTM_Logo2.png";
 
 const StickyHeader = () => {
+    const imgSize= {
+        maxHeight:'53px',
+    }
     const scrollToTop = () => {
         // Smooth scroll to the top of the page
         window.scrollTo({
@@ -38,8 +41,7 @@ const StickyHeader = () => {
                         <div className="logo">
                             <Link to="/">
                                 <img src={DTMLogo}
-                                     height={75}
-                                     width={142}
+                                     style={imgSize}
                                      alt=""
                                      title=""
                                 />

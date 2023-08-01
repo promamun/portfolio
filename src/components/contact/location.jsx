@@ -19,8 +19,7 @@ class Location extends Component {
                         <div className="text-box">
                           <h4>Time</h4>
                           <p>
-                            10:00am to 6:00pm <br />
-                            Sunday Closed
+                            Always Open
                           </p>
                         </div>
                       </div>
@@ -32,7 +31,8 @@ class Location extends Component {
                         </div>
                         <div className="text-box">
                           <h4>Location</h4>
-                          <p>13005 Greenville Avenue California, TX 70240</p>
+                          <p>2124 NE19th Street, #F240 <br />
+                            Gresham, OR 97030</p>
                         </div>
                       </div>
                     </div>
@@ -43,9 +43,9 @@ class Location extends Component {
                         </div>
                         <div className="text-box">
                           <h4>Email / Phone</h4>
-                          <p>+1 (800) 581 3645 11</p>
+                          <p>+1 (971) 231-9745</p>
                           <p>
-                            <Link to="#">mail@example.com</Link>
+                            <Link to="#">support@devtechmasters.com</Link>
                           </p>
                         </div>
                       </div>

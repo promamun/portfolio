@@ -6,6 +6,9 @@ import StickyHeader from "./StickyHeader";
 import HeaderMobile from "./HeaderMobile"
 
 const Navbar = () => {
+  const imgSize= {
+    maxHeight:'53px',
+  }
   const handleToggleSideNav = () => {
     document.body.classList.toggle("active-side-nav");
   };
@@ -66,7 +69,7 @@ const Navbar = () => {
                 >
                   <div className="nav-logo">
                     <Link to="/">
-                      <img src={DTMLogo} alt="" title="" className="mCS_img_loaded"/>
+                      <img src={DTMLogo} style={imgSize} alt="" title="" className="mCS_img_loaded"/>
                       </Link>
                     </div>
                   <div className="menu-outer">
@@ -77,11 +80,18 @@ const Navbar = () => {
                   <div className="options-box clearfix">
                     <div className="social-box">
                       <ul className="social-icons">
-                        <li><a href="#"><i className="fab fa-facebook-f"/></a></li>
-                        <li><a href="#"><i className="fab fa-pinterest-p"/></a></li>
-                        <li><a href="#"><i className="fab fa-twitter"/></a></li>
-                        <li><a href="#"><i className="fab fa-google-plus-g"/></a></li>
-                        <li><a href="#"><i className="fab fa-dribbble"/></a></li>
+                        <li>
+                          <Link target='_blank' to="https://www.facebook.com/techdtm"><i className="fab fa-facebook-f"/></Link>
+                        </li>
+                        <li>
+                          <Link target={'_blank'} to="https://www.instagram.com/devtechmasters"><i className="fab fa-instagram"/></Link>
+                        </li>
+                        <li>
+                          <Link to="#"><i className="fab fa-linkedin"/></Link>
+                        </li>
+                        <li>
+                          <Link target={'_blank'} to="https://www.youtube.com/@DevTechMasters"><i className="fab fa-youtube"/></Link>
+                        </li>
                       </ul>
                     </div>
                   </div>
@@ -99,7 +109,7 @@ const Navbar = () => {
           <div className="about-sec">
             <div className="logo">
               <Link to="/">
-                <img src={DTMLogo} alt="" title=""/>
+                <img src={DTMLogo} style={imgSize} alt="" title=""/>
               </Link>
             </div>
             <div className="title"><h2>About Us</h2></div>
@@ -113,25 +123,24 @@ const Navbar = () => {
             <Link to="/about" className="theme-btn btn-style-one" onClick={handleToggleSideNav}>
               <span className="txt">Learn More</span>
             </Link>
-            >
           </div>
           <div className="contact-info-box">
             <ul className="info-list">
               <li>support@devtechmasters.com</li>
-              <li>+1 (845) 579-2174 </li>
+              <li>+1 (971) 231-9745 </li>
             </ul>
             <ul className="social-links">
               <li>
-                <Link to="#"><i className="fab fa-facebook-f"/></Link>
+                <Link target='_blank' to="https://www.facebook.com/techdtm"><i className="fab fa-facebook-f"/></Link>
               </li>
               <li>
-                <Link to="#"><i className="fab fa-pinterest-p"/></Link>
+                <Link target={'_blank'} to="https://www.instagram.com/devtechmasters"><i className="fab fa-instagram"/></Link>
               </li>
               <li>
-                <Link to="#"><i className="fab fa-twitter"/></Link>
+                <Link to="#"><i className="fab fa-linkedin"/></Link>
               </li>
               <li>
-                <Link to="#"><i className="fab fa-dribbble"/></Link>
+                <Link target={'_blank'} to="https://www.youtube.com/@DevTechMasters"><i className="fab fa-youtube"/></Link>
               </li>
             </ul>
           </div>

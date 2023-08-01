@@ -2,7 +2,7 @@ const SocialMarketing = [
   {
     id: 1,
     Title: "Good Plan",
-    Price: "$400",
+    Price: "400",
     PT: "/MONTH",
     PD: "Facebook - Instagram - Twitter - Any Social Account.",
     PD1: "Two Social Account Setup & manage",
@@ -16,7 +16,7 @@ const SocialMarketing = [
   {
     id: 2,
     Title: "Better Plan",
-    Price: "$00",
+    Price: "500",
     PT: "/MONTH",
     PD: "Facebook - Instagram - Twitter - Any Social Account.",
     PD1: "Two Social Account Setup & manage",
@@ -31,7 +31,7 @@ const SocialMarketing = [
   {
     id: 3,
     Title: "Best Plan",
-    Price: "$700",
+    Price: "700",
     PT: "/MONTH",
     PD: "Facebook - Instagram - Twitter - Any Social Account.",
     PD1: "Two Social Account Setup & manage",

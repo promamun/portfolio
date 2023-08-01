@@ -2,7 +2,7 @@ const CMS = [
   {
     id:1,
     Title: "Starter",
-    Price: "199",
+    Price: "500",
     PT:"Per Project",
     PD: "Design Customization. Template based design",
     PD1: "5 pages website a Responsive Design",
@@ -16,7 +16,7 @@ const CMS = [
   {
     id:2,
     Title: "Standard",
-    Price: "499",
+    Price: "800",
     PT:"Per Project",
     PD: "Design Customization. Template based design",
     PD1: "10 pages website a Responsive Design",
@@ -30,7 +30,7 @@ const CMS = [
   {
     id:3,
     Title: "Premium Pro",
-    Price: "999",
+    Price: "1500",
     PT:"Per Project",
     PD: "Design Customization",
     PD1: "15 pages website a Responsive Design",

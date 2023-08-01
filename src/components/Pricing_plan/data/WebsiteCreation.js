@@ -2,7 +2,7 @@ const Subscription = [
   {
     id:1,
     Title: "Starter",
-    Price: "299",
+    Price: "1500",
     PT:"Per Project",
     PD: "Design Customization. You'll get a customized color scheme or layout for your site.",
     PD1: "4 pages website a Responsive Design",
@@ -16,7 +16,7 @@ const Subscription = [
   {
     id:2,
     Title: "Standard",
-    Price: "699",
+    Price: "2500",
     PT:"Per Project",
     PD: "Design Customization. You'll get a customized color scheme or layout for your site.",
     PD1: "10 pages website a Responsive Design",
@@ -30,7 +30,7 @@ const Subscription = [
   {
     id:3,
     Title: "Premium Pro",
-    Price: "1499",
+    Price: "3500",
     PT:"Per Project",
     PD: "Design Customization",
     PD1: "15 pages website a Responsive Design",

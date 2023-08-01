@@ -53,7 +53,7 @@ class Footer extends Component {
                               <i className="flaticon flaticon-communication" />
                             </div>
                             <div className="text-box">
-                              <p>+1 (845) 579-2174 </p>
+                              <p>+1 (971) 231-9745 </p>
                               <Link to="mailto:support@devtechmasters.com">
                                 support@devtechmasters.com
                               </Link>
@@ -65,8 +65,8 @@ class Footer extends Component {
                             </div>
                             <div className="text-box">
                               <p>
-                                SBI colony, 6th street <br />
-                                Chennai , India.
+                                2124 NE19th Street, #F240 <br />
+                                Gresham, OR 97030
                               </p>
                             </div>
                           </div>
@@ -83,8 +83,6 @@ class Footer extends Component {
                           <figure>
                             <Link to="/">
                               <img
-                                height={75}
-                                width={142}
                                 src={Logo}
                                 alt="DTM"
                               />
@@ -218,12 +216,12 @@ class Footer extends Component {
                           <ul className="list-style-one">
                             <li>
                               <span className="icon fas fa-envelope" />
-                              +1 (845) 579-2174
+                              +1 (971) 231-9745
                             </li>
                             <li>
                               <span className="icon fas fa-map-marker-alt" />
-                              SBI colony, 6th street, anant nagar, Thoraipakkam,
-                              Chennai One,Pin-600097 India
+                              2124 NE19th Street, #F240
+                              Gresham, OR 97030
                             </li>
                             <li>
                               <span className="icon fas fa-envelope" />
@@ -244,30 +242,22 @@ class Footer extends Component {
                 <div className="social-links">
                   <ul className="social-icon-two">
                     <li>
-                      <Link to="#">
-                        <i className="fab fa-facebook-f" />
-                      </Link>
+                      <Link target='_blank' to="https://www.facebook.com/techdtm"><i className="fab fa-facebook-f"/></Link>
                     </li>
                     <li>
-                      <Link to="#">
-                        <i className="fab fa-pinterest-p" />
-                      </Link>
+                      <Link target={'_blank'} to="https://www.instagram.com/devtechmasters"><i className="fab fa-instagram"/></Link>
                     </li>
                     <li>
-                      <Link to="#">
-                        <i className="fab fa-twitter" />
-                      </Link>
+                      <Link to="#"><i className="fab fa-linkedin"/></Link>
                     </li>
                     <li>
-                      <Link to="#">
-                        <i className="fab fa-dribbble" />
-                      </Link>
+                      <Link target={'_blank'} to="https://www.youtube.com/@DevTechMasters"><i className="fab fa-youtube"/></Link>
                     </li>
                   </ul>
                 </div>
                 <div className="copyright-text">
                   <p>
-                    Copyright © {currentDate} Portfolio by{" "}
+                    Copyright © {currentDate} Agency by{" "}
                     <Link to="#">DevTechMasters.</Link> All right reserved
                   </p>
                 </div>

@@ -65,7 +65,7 @@ const teamData = [
   },
   {
     bgImage: `team-block team-block-3`,
-    image: "../TEAMIMAGE/9.jpg",
+    image: "../TEAMIMAGE/Jean_Buagas.png",
     facebook: "#",
     twitter: "#",
     dribbble: "#",
