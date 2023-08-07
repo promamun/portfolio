@@ -5,6 +5,7 @@ import Manager from "./manager";
 import { Helmet } from "react-helmet";
 import Janin from "../../assets/images/team/Janin1.png"
 import {Link} from "react-router-dom";
+import Button from "../contact/Button";
 
 class Index extends Component {
   render() {
@@ -91,7 +92,7 @@ class Index extends Component {
                                       <li><i className="fas fa-star"></i></li>
                                       <li><i className="fas fa-star"></i></li>
                                   </ul>
-                                  <h6>SEO Agency <br/>Of The Years</h6>
+                                  <h6>LMS <br/>Of The Years</h6>
                               </div>
                           </div>
                       </div>
@@ -108,9 +109,7 @@ class Index extends Component {
                               <p>
                                   <strong style={FontSize}>Janine Holman, </strong>Is a great versatile personality to work with.. She is an instructor/trainer on several learning platforms. Also an author of multiple books.. We really feel joyous and grateful to have her on board & will proceed together to add extreme values and impact in to our organization.
                               </p>
-                              <Link to="#" className="theme-btn btn-style-two">
-                                  <span className="txt">Get Started</span>
-                              </Link>
+                              <Button To="#" className="theme-btn btn-style-two" children="Learn More"/>
                           </div>
                       </div>
                   </div>
