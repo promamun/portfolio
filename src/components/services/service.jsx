@@ -1,9 +1,14 @@
-import React, { Component } from "react";
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import ALLIMG1 from "../../assets/images/resource/service-center.png";
+import WOW from "wowjs";
 
-class Service extends Component {
-  render() {
+export default function Service() {
+    useEffect(() => {
+      new WOW.WOW({
+        live: false,
+      }).init();
+    }, []);
     const BgImage = {
       backgroundImage: `url(images/background/10.png)`
     };
@@ -217,6 +222,3 @@ class Service extends Component {
       </div>
     );
   }
-}
-
-export default Service;

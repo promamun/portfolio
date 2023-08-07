@@ -5,6 +5,10 @@ import { Helmet } from "react-helmet";
 import CMS from "./websiteCMSCreation";
 import PriceCategoryTwo from "./smMarketing";
 import GoogleAds from "./GoogleAds";
+import PriceCategoryThree from "./PaidAdsMarketing";
+import WordPress from "./wordpress/WordPress";
+import Shopify from "./shopify/Shopify";
+import Laravel from "./laravel/Laravel";
 
 export default function index() {
   const BgImage = {
@@ -20,6 +24,11 @@ export default function index() {
         <CMS packageTitle="WordPress Web Application Development(CMS)"/>
       <PriceCategoryTwo packageTitle="Facebook Marketing"/>
       <GoogleAds packageTitle="Google Ads Marketing"/>
+      <PriceCategoryTwo packageTitle="Social Media Marketing" />
+      <PriceCategoryThree packageTitle="Paid Ads Marketing" />
+      <WordPress packageTitle="Word Press" />
+      <Shopify packageTitle="Shopify" />
+      <Laravel packageTitle="Laravel" />
     </div>
   );
 }

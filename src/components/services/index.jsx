@@ -1,12 +1,12 @@
 import React, { Component } from "react";
 import Solutions from "../home/Solutions";
 import AllService from "./service";
-import Analytics from "./Analytics";
 import ContactFrom from "../contact/ContactFrom";
 import BroadCamp from "../broadCamp/BroadCamp";
 import { Helmet } from "react-helmet";
 import DigitalMarketingService from "./DigitalMarketingService";
-import Progress from "../home/progress";
+import Button from "../contact/Button";
+import {Col, Container, Row} from "reactstrap"
 
 class Index extends Component {
   render() {
@@ -34,18 +34,40 @@ class Index extends Component {
                           <div className="sec-title text-center">
                               <h6 className="subtitle">More With Us</h6>
                               <h2>
-                                  You want to showcase your website <br/>
-                                  in top join with us
+                                  You want to Analysis your website <br/>
+                                  BY top Developer
                               </h2>
-                              <a href="#" className="theme-btn btn-style-one"
-                              ><span className="txt">Get Started</span></a
-                              >
+                              <section className="get-started-form">
+                                  <Container>
+                                      <Row>
+                                          <Col lg="8" md='12' className="offset-lg-2">
+                                              <div
+                                                  className="form-area wow fadeInDown"
+                                                  data-wow-delay="100ms"
+                                                  data-wow-duration="100ms"
+                                              >
+                                                  <form
+                                                      method="post"
+                                                  >
+                                                      <div className="form-group">
+                                                          <input
+                                                              type="text"
+                                                              name="getstarted"
+                                                              placeholder="http://yoursite.com"
+                                                          />
+                                                          <Button type="submit" children="Submit For Analysis" className="theme-btn btn-style-one"/>
+                                                      </div>
+                                                  </form>
+                                              </div>
+                                          </Col>
+                                      </Row>
+                                  </Container>
+                              </section>
                           </div>
                       </div>
                   </div>
               </div>
           </section>
-          <Progress />
           <DigitalMarketingService/>
         <ContactFrom />
       </div>

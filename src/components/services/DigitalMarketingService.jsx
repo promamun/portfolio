@@ -1,14 +1,7 @@
 import React from 'react'
-
 export default function DigitalMarketingService() {
     const BgImg = {
         backgroundImage:`url(images/background/17.png)`,
-    }
-    const Style = {
-        visibility: 'visible',
-        animationDuration: '1500ms',
-    animationDelay: '0ms',
-    animationName: 'fadeInLeft',
     }
   return (
     <>
