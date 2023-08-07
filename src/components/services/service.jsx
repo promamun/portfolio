@@ -55,8 +55,7 @@ export default function Service() {
           <div className="sec-title text-center light">
             <h6 className="subtitle">Best Service For You</h6>
             <h2>
-              Web Design & Development <br />
-              Digital Marketing & SEO
+              Web Design & Development
             </h2>
           </div>
           <div className="inner-container">
@@ -166,9 +165,7 @@ export default function Service() {
                           Our agency pioneers in MERN (MongoDB, Express, React,
                           Node.js) stack development, bringing cutting-edge,
                           interactive web solutions to life. With our expertise
-                          in React web development, we create dynamic,
-                          feature-rich, and high-performance websites that
-                          elevate your digital presence.
+                          in React web development.
                         </p>
                       </div>
                     </div>
@@ -192,10 +189,7 @@ export default function Service() {
                         <p>
                           Experience high-performance web applications with our
                           Golang backend expertise. Scalable, concurrent, and
-                          secure solutions for your digital success.From speedy
-                          response times to future-ready scalability, our Golang
-                          backend development drives your application's
-                          efficiency and growth.
+                          secure solutions for your digital success.
                         </p>
                       </div>
                     </div>
@@ -221,8 +215,7 @@ export default function Service() {
                           Streamline your online presence with our expert Django
                           team. We build secure, scalable, and versatile web
                           applications, ensuring rapid development and seamless
-                          integration. Experience the efficiency of Python
-                          Django and revolutionize your digital journey.
+                          integration.
                         </p>
                       </div>
                     </div>
