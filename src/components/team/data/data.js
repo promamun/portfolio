@@ -20,7 +20,7 @@ const teamData = [
   },
   {
     bgImage: `team-block team-block-2`,
-    image: "../TEAMIMAGE/Avijit.jpg",
+    image: "../TEAMIMAGE/Avijit.png",
     facebook: "#",
     twitter: "#",
     dribbble: "#",
@@ -29,7 +29,7 @@ const teamData = [
   },
   {
     bgImage: `team-block team-block-3`,
-    image: "../TEAMIMAGE/Farhan.jpg",
+    image: "../TEAMIMAGE/Farhan.png",
     facebook: "#",
     twitter: "#",
     dribbble: "#",
@@ -56,7 +56,7 @@ const teamData = [
   },
   {
     bgImage: `team-block team-block-2`,
-    image: "../TEAMIMAGE/Sharif_Ujjaman.jpg",
+    image: "../TEAMIMAGE/Sharif_Ujjaman.png",
     facebook: "#",
     twitter: "#",
     dribbble: "#",
