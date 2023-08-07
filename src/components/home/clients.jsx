@@ -5,7 +5,6 @@ import CIMG1 from "../../assets/images/clients/client-1.png";
 import CIMG2 from "../../assets/images/clients/client-2.png";
 import CIMG3 from "../../assets/images/clients/client-3.png";
 import CIMG4 from "../../assets/images/clients/client-4.png";
-import CIMG5 from "../../assets/images/clients/client-5.png";
 import CIMG6 from "../../assets/images/clients/1.png";
 import CIMG7 from "../../assets/images/clients/4.png";
 import CIMG8 from "../../assets/images/clients/5.png";
@@ -42,22 +41,15 @@ class Clients extends Component {
                 </li>
                 <li className="slide-item">
                   <figure className="image-box">
-                    <Link to="#">
+                    <Link to="https://pmre.buet.ac.bd/">
                       <img src={CIMG3} alt="" />
                     </Link>
                   </figure>
                 </li>
                 <li className="slide-item">
                   <figure className="image-box">
-                    <Link to="#">
+                    <Link to="https://www.ramnarotary.org/">
                       <img src={CIMG4} alt="" />
-                    </Link>
-                  </figure>
-                </li>
-                <li className="slide-item">
-                  <figure className="image-box">
-                    <Link to="#">
-                      <img src={CIMG5} alt="" />
                     </Link>
                   </figure>
                 </li>
