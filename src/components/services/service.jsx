@@ -80,8 +80,7 @@ export default function Service() {
                           We create dynamic, secure, and scalable websites using
                           Laravel/PHP. Our expert team delivers feature-rich web
                           solutions with optimal performance and user-centric
-                          design. Unlock your digital potential with us for
-                          unprecedented success
+                          design.
                         </p>
                       </div>
                     </div>
@@ -189,7 +188,7 @@ export default function Service() {
                         <p>
                           Experience high-performance web applications with our
                           Golang backend expertise. Scalable, concurrent, and
-                          secure solutions for your digital success.
+                          secure solutions for your digital success.From speedy
                         </p>
                       </div>
                     </div>
@@ -206,16 +205,12 @@ export default function Service() {
                       </div>
                       <div className="text-box">
                         <h4>
-                          <Link to="/blog-detail">
-                            Python Django Framework <br />
-                            Empowering Web Solutions
-                          </Link>
+                          <Link to="/blog-detail">Python/Django Framework<br/>WebDevelopment</Link>
                         </h4>
                         <p>
                           Streamline your online presence with our expert Django
                           team. We build secure, scalable, and versatile web
-                          applications, ensuring rapid development and seamless
-                          integration.
+                          applications.
                         </p>
                       </div>
                     </div>
