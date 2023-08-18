@@ -63,15 +63,15 @@ const teamData = [
     name: "Sharif Ujjaman",
     designation: "Senior Media Buyer"
   },
-  {
-    bgImage: `team-block team-block-3`,
-    image: "../TEAMIMAGE/Jean_Buagas.png",
-    facebook: "#",
-    twitter: "#",
-    dribbble: "#",
-    name: "Jean S.Buagas",
-    designation: "Marketing Assistant"
-  }
+  // {
+  //   bgImage: `team-block team-block-3`,
+  //   image: "../TEAMIMAGE/Jean_Buagas.png",
+  //   facebook: "#",
+  //   twitter: "#",
+  //   dribbble: "#",
+  //   name: "Jean S.Buagas",
+  //   designation: "Marketing Assistant"
+  // }
 ];
 
 export default teamData;
