@@ -11,6 +11,7 @@ import CaseStudies from "./components/CaseStudies";
 import Team from "./components/team/index";
 import Pricing from "./components/Pricing_plan/index";
 import FreeConsultation from "./components/FreeConsultation/Index";
+import ServiceDetails from "./components/services/ServiceDetails";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
             <Route exact path="/projects" Component={Projects} />
             <Route exact path="/about" Component={About} />
             <Route exact path="/service" Component={Services} />
+            <Route exact path="/service-details" Component={ServiceDetails} />
             <Route exact path="/contact" Component={Contact} />
             <Route exact path="/case-studies" Component={CaseStudies} />
             <Route exact path="/team" Component={Team} />
