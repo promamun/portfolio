@@ -189,7 +189,7 @@ export default function Service() {
                         <p>
                           Experience high-performance web applications with our
                           Golang backend expertise. Scalable, concurrent, and
-                          secure solutions for your digital success.From speedy
+                          secure solutions for your digital success.
                         </p>
                       </div>
                     </div>
