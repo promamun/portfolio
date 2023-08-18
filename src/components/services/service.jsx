@@ -55,8 +55,7 @@ export default function Service() {
           <div className="sec-title text-center light">
             <h6 className="subtitle">Best Service For You</h6>
             <h2>
-              Web Design & Development <br />
-              Digital Marketing & SEO
+              Web Design & Development
             </h2>
           </div>
           <div className="inner-container">

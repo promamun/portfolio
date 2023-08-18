@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import Solutions from "../home/Solutions";
-import AllService from "./service";
+import AllService from "./AllService";
+import WebService from "./service";
 import ContactFrom from "../contact/ContactFrom";
 import BroadCamp from "../broadCamp/BroadCamp";
 import { Helmet } from "react-helmet";
@@ -22,8 +22,8 @@ class Index extends Component {
           <title>Service</title>
         </Helmet>
         <BroadCamp name="Service" bgImageStyle={BgImage} />
-        <Solutions />
-        <AllService />
+        {/* <AllService /> */}
+        <WebService />
         <section className="get-started-sec" style={BgImg1}>
           <div className="auto-container">
             <div className="row">
