@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-export default function AllServiceloop({id,title}) {
+export default function AllServiceloop({id,title,short_des,description}) {
     const BgImage = {
         backgroundImage: `url('images/services/9.png')`,
       };
@@ -12,7 +12,7 @@ export default function AllServiceloop({id,title}) {
         backgroundImage: `url('images/services/10.png')`,
       };
   return (
-    <div>
+    <>
       <div
         className="invseted-cloumn col-lg-6 col-md-12 wow fadeInRight"
         data-wow-delay="400ms"
@@ -27,11 +27,7 @@ export default function AllServiceloop({id,title}) {
               <Link to="#">{title} </Link>
             </h4>
             <p>
-              Your Ultimate Resource for Accelerating Online Visits. Our
-              dedicated team of experts empowers your digital presence through
-              strategic insights and proven techniques, directing a surge of
-              engaged visitors to your website and maximizing your online
-              impact.
+             {short_des}
             </p>
             <Link to="#" className="readmore">
               Read More
@@ -39,6 +35,6 @@ export default function AllServiceloop({id,title}) {
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 }
