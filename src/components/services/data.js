@@ -2,6 +2,7 @@ const ServiceData = [
   {
     id: 1,
     title: "MERN Stack Development",
+    slug: "mern-stack-development",
     short_des:
       "At DevTechMasters, we specialize in crafting cutting-edge web applications using the MERN stack, a powerful combination of technologies including MongoDB, Express.js, React, and Node.js.",
     description:
@@ -10,6 +11,7 @@ const ServiceData = [
   {
     id: 2,
     title: "MERN Stack Development",
+    slug: "mern-stack-development",
     short_des:
       "At DevTechMasters, we specialize in crafting cutting-edge web applications using the MERN stack, a powerful combination of technologies including MongoDB, Express.js, React, and Node.js.",
     description:
@@ -18,6 +20,7 @@ const ServiceData = [
   {
     id: 3,
     title: "MERN Stack Development",
+    slug: "mern-stack-development",
     short_des:
       "At DevTechMasters, we specialize in crafting cutting-edge web applications using the MERN stack, a powerful combination of technologies including MongoDB, Express.js, React, and Node.js.",
     description:

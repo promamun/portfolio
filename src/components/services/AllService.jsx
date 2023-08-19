@@ -31,6 +31,7 @@ export default function AllService() {
                 title={data.title}
                 short_des={data.short_des}
                 description={data.description}
+                slug={data.slug}
               />
             ))}
             

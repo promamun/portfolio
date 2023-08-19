@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-export default function AllServiceloop({id,title,short_des,description}) {
+export default function AllServiceloop({id,title,short_des,description,slug}) {
     const BgImage = {
         backgroundImage: `url('images/services/9.png')`,
       };
@@ -24,7 +24,7 @@ export default function AllServiceloop({id,title,short_des,description}) {
           </div>
           <div className="text-box">
             <h4>
-              <Link to="#">{title} </Link>
+              <Link to={`/service/${slug}`}>{title} </Link>
             </h4>
             <p>
              {short_des}

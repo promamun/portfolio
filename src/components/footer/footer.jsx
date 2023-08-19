@@ -13,7 +13,7 @@ class Footer extends Component {
   render() {
     const currentDate = new Date().getFullYear();
     const BgImage = {
-      backgroundImage: `url(images/background/6.png)`
+      backgroundImage: `url(/images/background/6.png)`
     };
     return (
       <div>
