@@ -16,7 +16,7 @@ export default function AllServiceloop({id,title,short_des,slug,image}) {
           </div>
           <div className="text-box">
             <h4>
-            <Link to={`/service/${slug}/${id}`}>{title} </Link>
+            <Link to={`/service/${slug}`}>{title} </Link>
             </h4>
             <p>
              {short_des}
