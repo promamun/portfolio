@@ -2,7 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 export default function AllServiceloop({id,title,short_des,slug,image}) {
-   
   return (
     <>
       <div
