@@ -2,7 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 export default function AllServiceloop({id,title,short_des,slug,image}) {
-   
   return (
     <>
       <div
@@ -21,7 +20,7 @@ export default function AllServiceloop({id,title,short_des,slug,image}) {
             <p>
              {short_des}
             </p>
-            <Link to="#" className="readmore">
+            <Link to={`/service/${slug}`} className="readmore">
               Read More
             </Link>
           </div>

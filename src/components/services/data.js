@@ -3,7 +3,8 @@ const ServiceData = [
     id: 1,
     title: "Top Rated MERN Stack Web App Development",
     slug: "top-rated-mern-stack-web-app-development",
-    image: "images/services/8.png",
+    image: "/images/services/8.png",
+    BgImage:'/images/background/mern.png',
     short_des:
       "Unlock Unparalleled Digital Success with DevTechMasters: Your Ultimate Destination for Top Rated MERN Stack Web App Development.",
     description:
@@ -72,7 +73,8 @@ const ServiceData = [
     id: 2,
     title: "Expert Golang Backend Development Services",
     slug: "golang-backend-development-services",
-    image: "images/services/9.png",
+    image: "/images/services/9.png",
+    BgImage:'/images/background/golan.png',
     short_des:
       "Empower Your Digital Ecosystem with Expert Golang Backend Development Services from DevTechMasters.",
     description:
@@ -144,6 +146,7 @@ const ServiceData = [
     title: "Python Django Web Development Services",
     slug: "python-digango-web-development-services",
     image: "images/services/10.png",
+    BgImage:'/images/background/paython.png',
     short_des:
       "Embark on a Journey of Digital Brilliance with DevTechMasters' Tailored Python Django Web Development Services.",
     description:
@@ -194,7 +197,8 @@ const ServiceData = [
     id: 4,
     title: "Laravel PHP Web Development Services",
     slug: "laravel-php-web-development-services",
-    image: "images/services/22.png",
+    image: "/images/services/22.png",
+    BgImage:'/images/background/laravel.png',
     short_des:
       "Elevate Your Digital Presence with Expert Laravel PHP Web Development Services from DevTechMasters.",
     description:
@@ -245,7 +249,8 @@ const ServiceData = [
     id: 5,
     title: "Custom WordPress and Wix Web Solutions",
     slug: "custom-wordPress-and-wix-web-solutions",
-    image: "images/services/23.png",
+    image: "/images/services/23.png",
+    BgImage:'/images/background/cms.png',
     short_des:
       "Elevate Your Digital Presence with Expert WordPress Web Development Services from DevTechMasters.",
     description:
@@ -304,7 +309,8 @@ const ServiceData = [
     id: 6,
     title: "Expert Shopify Ecommerce Web Development Services",
     slug: "shopify-ecommerce-web-development-services",
-    image: "images/services/24.png",
+    image: "/images/services/24.png",
+    BgImage:'/images/background/shopify.png',
     short_des:
       "Empower Your Ecommerce Presence with Expert Shopify Ecommerce Web Development Services from DevTechMasters.",
     description:

@@ -3,6 +3,7 @@ import BroadCamp from "../broadCamp/BroadCamp";
 import { useParams } from "react-router-dom";
 import ServiceData from "./data";
 import Error404 from "../404/NotFound";
+import {Helmet} from "react-helmet";
 
 function findServiceBySlug(data, slug) {
   return data.find((item) => item.slug === slug);
@@ -26,11 +27,14 @@ export default function ServiceDetails() {
   }
 
   const BgImage = {
-    backgroundImage: `url(/images/background/22.png)`
+    backgroundImage: `url(${data.BgImage})`
   };
 
   return (
     <>
+      <Helmet>
+        <title>{data.title}</title>
+      </Helmet>
       <BroadCamp name="Service Details" bgImageStyle={BgImage} />
       <div className="sidebar-page-container">
         <div className="auto-container">
@@ -43,9 +47,6 @@ export default function ServiceDetails() {
                     data-wow-delay="0ms"
                     data-wow-duration="0ms"
                   >
-                    <div className="image" data-depth="0.30">
-                      <img src="/images/services/20.png" alt="" />
-                    </div>
                   </div>
                   <h2>{data.title}</h2>
                   <div className="text">
