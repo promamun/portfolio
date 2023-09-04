@@ -1,10 +1,10 @@
 import React, { Component } from "react";
 import OwlCarousel from "react-owl-carousel";
-import WebsiteBanner from "../../assets/images/main-banner/1.png";
 import SocialBanner from "../../assets/images/services/4.png";
 import SeoBanner from "../../assets/images/services/6.png";
 import Button from "../contact/Button";
-import { Link } from "react-router-dom";
+import SlideZone from "./SlideZone";
+import SlideData from "./data/data";
 
 class Slider extends Component {
   render() {
@@ -72,153 +72,14 @@ class Slider extends Component {
             ]}
             className="main-slider-carousel owl-carousel owl-theme"
           >
-            <div className="slide">
-              <div className="auto-container">
-                <div className="row clearfix">
-                  <div className="content-column col-lg-6 col-md-12 col-sm-12">
-                    <div className="inner-column">
-                      {/*<div className="video-link">*/}
-                      {/*  <Link*/}
-                      {/*    to="https://www.youtube.com/watch?v=Fvae8nxzVz4"*/}
-                      {/*    data-fancybox="gallery"*/}
-                      {/*    data-caption=""*/}
-                      {/*  >*/}
-                      {/*    <span*/}
-                      {/*      className="icon fa fa-play"*/}
-                      {/*      aria-hidden="true"*/}
-                      {/*    />*/}
-                      {/*    <i className="ripple" />*/}
-                      {/*  </Link>*/}
-                      {/*</div>*/}
-                      <h1>
-                        We Create Website
-                        <br />
-                        For Your Business
-                      </h1>
-                      <p>
-                        Building websites that drive growth, engage customers,
-                        <br />
-                        and prospects across the entire web That elevate your
-                        brand.
-                      </p>
-                      <div className="btns-box">
-                        <Button
-                          To={"/pricing-plans"}
-                          className={"theme-btn btn-style-one"}
-                        >
-                          {"Started"}
-                        </Button>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="image-column col-lg-6 col-md-12 col-sm-12">
-                    <div className="inner-column parallax-scene-2">
-                      <div className="image" data-depth="0.30">
-                        <img src={WebsiteBanner} alt="Main Banner" />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="slide">
-              <div className="auto-container">
-                <div className="row clearfix">
-                  <div className="content-column col-lg-6 col-md-12 col-sm-12">
-                    <div className="inner-column">
-                      {/*<div className="video-link">*/}
-                      {/*  <Link*/}
-                      {/*    to="https://www.youtube.com/watch?v=Fvae8nxzVz4"*/}
-                      {/*    data-fancybox="gallery"*/}
-                      {/*    data-caption=""*/}
-                      {/*  >*/}
-                      {/*    <span*/}
-                      {/*      className="icon fa fa-play"*/}
-                      {/*      aria-hidden="true"*/}
-                      {/*    />*/}
-                      {/*    <i className="ripple" />*/}
-                      {/*  </Link>*/}
-                      {/*</div>*/}
-                      <h1>
-                        We Provide Brilliant Marketing
-                        <br />
-                        For Your Business
-                      </h1>
-                      <p>
-                        We build effective strategies to help you deliver
-                        exceptional results
-                        <br />
-                        and stand out in the dynamic world of social media.
-                      </p>
-                      <div className="btns-box">
-                        <Button
-                          To={"/pricing-plans"}
-                          className={"theme-btn btn-style-one"}
-                        >
-                          {"Get Started"}
-                        </Button>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="image-column col-lg-6 col-md-12 col-sm-12">
-                    <div className="inner-column parallax-scene-2">
-                      <div className="image" data-depth="0.30">
-                        <img src={SocialBanner} alt="Main Banner" />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="slide">
-              <div className="auto-container">
-                <div className="row clearfix">
-                  <div className="content-column col-lg-6 col-md-12 col-sm-12">
-                    <div className="inner-column">
-                      {/*<div className="video-link">*/}
-                      {/*  <Link*/}
-                      {/*    to="https://www.youtube.com/watch?v=Fvae8nxzVz4"*/}
-                      {/*    data-fancybox="gallery"*/}
-                      {/*    data-caption=""*/}
-                      {/*  >*/}
-                      {/*    <span*/}
-                      {/*      className="icon fa fa-play"*/}
-                      {/*      aria-hidden="true"*/}
-                      {/*    />*/}
-                      {/*    <i className="ripple" />*/}
-                      {/*  </Link>*/}
-                      {/*</div>*/}
-                      <h1>
-                        We Bring You
-                        <br />
-                        #Top10 Using SEO
-                      </h1>
-                      <p>
-                        Unlock Your Business's Online Visibility. Drives your
-                        business Into #Top10 of search engine rankings.
-                        <br />
-                        attracting more traffic, leads, and success.
-                      </p>
-                      <div className="btns-box">
-                        <Button
-                          To={"/pricing-plans"}
-                          className={"theme-btn btn-style-one"}
-                        >
-                          {"Get Started"}
-                        </Button>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="image-column col-lg-6 col-md-12 col-sm-12">
-                    <div className="inner-column parallax-scene-2">
-                      <div className="image" data-depth="0.30">
-                        <img src={SeoBanner} alt="Main Banner" />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+            {SlideData.map((item) => (
+              <SlideZone
+                id={item.id}
+                key={item.id}
+                title={item.title}
+                title1={item.title1}
+              />
+            ))}
           </OwlCarousel>
         </section>
       </>

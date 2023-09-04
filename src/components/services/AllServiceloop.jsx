@@ -1,16 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-export default function AllServiceloop({id,title,short_des,description}) {
-    const BgImage = {
-        backgroundImage: `url('images/services/9.png')`,
-      };
-      const BgImage1 = {
-        backgroundImage: `url('images/services/8.png')`,
-      };
-      const BgImage2 = {
-        backgroundImage: `url('images/services/10.png')`,
-      };
+export default function AllServiceloop({id,title,short_des,slug,image}) {
+   
   return (
     <>
       <div
@@ -18,13 +10,13 @@ export default function AllServiceloop({id,title,short_des,description}) {
         data-wow-delay="400ms"
       >
         <div className="invested-box">
-          <div className="icon-box" style={BgImage}>
-            <div className="count count-2">02</div>
-            <i className="flaticon flaticon-statistic" />
+          <div className="icon-box" style={{ backgroundImage: `url(${image})`}}>
+            <div className="count count-2">{id}</div>
+            
           </div>
           <div className="text-box">
             <h4>
-              <Link to="#">{title} </Link>
+            <Link to={`/service/${slug}/${id}`}>{title} </Link>
             </h4>
             <p>
              {short_des}
