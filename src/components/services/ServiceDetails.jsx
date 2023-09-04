@@ -2,42 +2,54 @@ import React, { useEffect, useState } from "react";
 import BroadCamp from "../broadCamp/BroadCamp";
 import { useParams } from "react-router-dom";
 import ServiceData from "./data";
+import Error404 from "../404/NotFound";
+import {Helmet} from "react-helmet";
 
+function findServiceBySlug(data, slug) {
+  return data.find((item) => item.slug === slug);
+}
 export default function ServiceDetails() {
-  let id = useParams()?.id;
-  const slug = useParams()?.slug;
+  const { slug } = useParams();
+  const [data, setData] = useState(null);
 
   useEffect(() => {
-    id = parseInt(id);
-    console.log(ServiceData[id - 1]);
-    console.log(slug);
-  }, [id]);
-  const [data, setData] = useState(ServiceData[id - 1]);
+    const service = findServiceBySlug(ServiceData, slug);
+    if (service) {
+      setData(service);
+    } else {
+      // Handle the case where the slug doesn't match any data
+    }
+  }, [slug]);
+
+  if (!data) {
+    // Handle loading state or error state
+    return <Error404 />;
+  }
 
   const BgImage = {
-    backgroundImage: `url(/images/background/22.png)`
+    backgroundImage: `url(${data.BgImage})`
   };
 
   return (
     <>
+      <Helmet>
+        <title>{data.title}</title>
+      </Helmet>
       <BroadCamp name="Service Details" bgImageStyle={BgImage} />
-      <div class="sidebar-page-container">
-        <div class="auto-container">
-          <div class="row clearfix">
-            <div class="content-side col-lg-12 col-md-12 col-sm-12">
-              <div class="service-detail">
-                <div class="inner-box">
+      <div className="sidebar-page-container">
+        <div className="auto-container">
+          <div className="row clearfix">
+            <div className="content-side col-lg-12 col-md-12 col-sm-12">
+              <div className="service-detail">
+                <div className="inner-box">
                   <div
-                    class="image-box parallax-scene-2 wow fadeInUp"
+                    className="image-box parallax-scene-2 wow fadeInUp"
                     data-wow-delay="0ms"
                     data-wow-duration="0ms"
                   >
-                    <div class="image" data-depth="0.30">
-                      <img src="/images/services/20.png" alt="" />
-                    </div>
                   </div>
                   <h2>{data.title}</h2>
-                  <div class="text">
+                  <div className="text">
                     <p>{data.description}</p>
                     <h3>
                       <strong>{data.question}</strong>
@@ -95,13 +107,13 @@ export default function ServiceDetails() {
                     <p>{data.empire2}</p>
                     <p>{data.empire3}</p>
                     <p>{data.empire4}</p>
-                    <div class="two-column row">
-                      <div class="column col-lg-6 col-md-6 col-sm-12">
-                        <div class="image">
+                    <div className="two-column row">
+                      <div className="column col-lg-6 col-md-6 col-sm-12">
+                        <div className="image">
                           <img src="/images/services/21.jpg" alt="" />
                         </div>
                       </div>
-                      <div class="column col-lg-6 col-md-6 col-sm-12">
+                      <div className="column col-lg-6 col-md-6 col-sm-12">
                         <h4>Important Facts</h4>
                         <ul>
                           <li>The Problem</li>
@@ -126,7 +138,7 @@ export default function ServiceDetails() {
                     <p>{data.support4}</p>
                     <h4>{data.elevate} </h4>
                     <p>{data.lastdiscription}</p>
-                    <ul class="single-list">
+                    <ul className="single-list">
                       <li>Various Analysis Options</li>
                       <li>
                         Page Load Details (time, size, number of requests)
