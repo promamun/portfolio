@@ -22,7 +22,7 @@ class Index extends Component {
           <title>Service</title>
         </Helmet>
         <BroadCamp name="Service" bgImageStyle={BgImage} />
-        {/* <AllService /> */}
+        <AllService />
         <WebService />
         <section className="get-started-sec" style={BgImg1}>
           <div className="auto-container">

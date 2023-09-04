@@ -13,7 +13,7 @@ class Footer extends Component {
   render() {
     const currentDate = new Date().getFullYear();
     const BgImage = {
-      backgroundImage: `url(images/background/6.png)`
+      backgroundImage: `url(/images/background/6.png)`
     };
     return (
       <div>
@@ -82,10 +82,7 @@ class Footer extends Component {
                         <div className="footer-logo">
                           <figure>
                             <Link to="/">
-                              <img
-                                src={Logo}
-                                alt="DTM"
-                              />
+                              <img src={Logo} alt="DTM" />
                             </Link>
                           </figure>
                         </div>
@@ -220,8 +217,7 @@ class Footer extends Component {
                             </li>
                             <li>
                               <span className="icon fas fa-map-marker-alt" />
-                              2124 NE19th Street, #F240
-                              Gresham, OR 97030
+                              2124 NE19th Street, #F240 Gresham, OR 97030
                             </li>
                             <li>
                               <span className="icon fas fa-envelope" />
@@ -242,16 +238,33 @@ class Footer extends Component {
                 <div className="social-links">
                   <ul className="social-icon-two">
                     <li>
-                      <Link target='_blank' to="https://www.facebook.com/techdtm"><i className="fab fa-facebook-f"/></Link>
+                      <Link
+                        target="_blank"
+                        to="https://www.facebook.com/techdtm"
+                      >
+                        <i className="fab fa-facebook-f" />
+                      </Link>
                     </li>
                     <li>
-                      <Link target={'_blank'} to="https://www.instagram.com/devtechmasters"><i className="fab fa-instagram"/></Link>
+                      <Link
+                        target={"_blank"}
+                        to="https://www.instagram.com/devtechmasters"
+                      >
+                        <i className="fab fa-instagram" />
+                      </Link>
                     </li>
                     <li>
-                      <Link to="#"><i className="fab fa-linkedin"/></Link>
+                      <Link to="#">
+                        <i className="fab fa-linkedin" />
+                      </Link>
                     </li>
                     <li>
-                      <Link target={'_blank'} to="https://www.youtube.com/@DevTechMasters"><i className="fab fa-youtube"/></Link>
+                      <Link
+                        target={"_blank"}
+                        to="https://www.youtube.com/@DevTechMasters"
+                      >
+                        <i className="fab fa-youtube" />
+                      </Link>
                     </li>
                   </ul>
                 </div>
