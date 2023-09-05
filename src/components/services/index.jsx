@@ -6,13 +6,10 @@ import BroadCamp from "../broadCamp/BroadCamp";
 import { Helmet } from "react-helmet";
 import DigitalMarketingService from "./DigitalMarketingService";
 import Button from "../contact/Button";
-import { Col, Container, Row } from "reactstrap";
+import { Col, Container, Row } from "react-bootstrap";
 
 class Index extends Component {
   render() {
-    const BgImage = {
-      backgroundImage: `url(images/background/22.png)`
-    };
     const BgImg1 = {
       backgroundImage: `url(images/background/11.png)`
     };
@@ -21,7 +18,7 @@ class Index extends Component {
         <Helmet>
           <title>Service</title>
         </Helmet>
-        <BroadCamp name="Service" bgImageStyle={BgImage} />
+        <BroadCamp name="Service" />
         <AllService />
         <WebService />
         <section className="get-started-sec" style={BgImg1}>

@@ -5,15 +5,12 @@ import { Helmet } from "react-helmet";
 
 class Index extends Component {
   render() {
-    const BgImage = {
-      backgroundImage: `url(images/background/22.png)`
-    };
     return (
       <div>
         <Helmet>
           <title>Case Studies</title>
         </Helmet>
-        <BroadCamp name={"Case-Studies"} bgImageStyle={BgImage} />
+        <BroadCamp name={"Case-Studies"}/>
         <CaseStudies />
       </div>
     );

@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
+import {Container} from "react-bootstrap";
 
 class NotFound extends Component {
   render() {
@@ -49,7 +50,7 @@ class NotFound extends Component {
           <div id="stars" />
           <div id="stars2" />
           <div id="stars3" />
-          <div className="auto-container">
+          <Container>
             <div className="inner-container clearfix">
               <div className="title-box">
                 <h1>404 Page Not Found</h1>
@@ -61,7 +62,7 @@ class NotFound extends Component {
                 </ul>
               </div>
             </div>
-          </div>
+          </Container>
         </section>
         <section className="error-section">
           <div className="pattern-layer-one" style={bannerIcon10} />

@@ -6,9 +6,9 @@ import { Helmet } from "react-helmet";
 
 class Index extends Component {
   render() {
-    const BgImage = {
-      backgroundImage: `url(images/background/22.png)`
-    };
+      const BgImage={
+          backgroundImage:`url(/images/background/freeConsultation.png)`
+      }
     return (
       <div>
         <Helmet>

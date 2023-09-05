@@ -8,15 +8,12 @@ import ProjectList1 from "./Data/dataPro";
 import BrodCamp from "../broadCamp/BroadCamp"
 
 const Projects = () => {
-  const BgImage = {
-    backgroundImage: `url(images/background/22.png)`
-  };
   return (
     <div>
       <Helmet>
         <title>Projects</title>
       </Helmet>
-      <BrodCamp name={'Our Great Projects'} bgImageStyle={BgImage}/>
+      <BrodCamp name={'Our Great Projects'}/>
       <section className="projects-section style-two">
         <div className="auto-container">
           <div className="sec-title text-center">

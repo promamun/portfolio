@@ -3,6 +3,7 @@ const ServiceData = [
     id: 1,
     title: "Top Rated MERN Stack Web App Development",
     slug: "top-rated-mern-stack-web-app-development",
+    category:"Web Design & Development",
     image: "/images/services/8.png",
     BgImage:'/images/background/mern.png',
     short_des:
@@ -73,6 +74,7 @@ const ServiceData = [
     id: 2,
     title: "Expert Golang Backend Development Services",
     slug: "golang-backend-development-services",
+    category:"Web Design & Development",
     image: "/images/services/9.png",
     BgImage:'/images/background/golan.png',
     short_des:
@@ -145,6 +147,7 @@ const ServiceData = [
     id: 3,
     title: "Python Django Web Development Services",
     slug: "python-digango-web-development-services",
+    category:"Web Design & Development",
     image: "images/services/10.png",
     BgImage:'/images/background/paython.png',
     short_des:
@@ -197,6 +200,7 @@ const ServiceData = [
     id: 4,
     title: "Laravel PHP Web Development Services",
     slug: "laravel-php-web-development-services",
+    category:"Web Design & Development",
     image: "/images/services/22.png",
     BgImage:'/images/background/laravel.png',
     short_des:
@@ -249,6 +253,7 @@ const ServiceData = [
     id: 5,
     title: "Custom WordPress and Wix Web Solutions",
     slug: "custom-wordPress-and-wix-web-solutions",
+    category:"Web Design & Development",
     image: "/images/services/23.png",
     BgImage:'/images/background/cms.png',
     short_des:
@@ -309,6 +314,7 @@ const ServiceData = [
     id: 6,
     title: "Expert Shopify Ecommerce Web Development Services",
     slug: "shopify-ecommerce-web-development-services",
+    category:"Web Design & Development",
     image: "/images/services/24.png",
     BgImage:'/images/background/shopify.png',
     short_des:
