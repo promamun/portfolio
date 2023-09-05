@@ -12,7 +12,6 @@ export default function AllServiceloop({id,title,short_des,slug,image}) {
         <div className="invested-box">
           <div className="icon-box" style={{ backgroundImage: `url(${image})`}}>
             <div className="count count-2">{id}</div>
-            
           </div>
           <div className="text-box">
             <h4>
