@@ -5,13 +5,14 @@ import ServiceData from "./data";
 import Error404 from "../404/NotFound";
 import {Helmet} from "react-helmet";
 
-function findServiceBySlug(data, slug) {
-  return data.find((item) => item.slug === slug);
-}
+
 export default function ServiceDetails() {
   const { slug } = useParams();
   const [data, setData] = useState(null);
 
+  function findServiceBySlug(data, slug) {
+    return data.find((item) => item.slug === slug);
+  }
   useEffect(() => {
     const service = findServiceBySlug(ServiceData, slug);
     if (service) {
