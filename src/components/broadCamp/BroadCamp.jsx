@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import {Container} from "react-bootstrap";
 
 const BroadCamp = ({ name, bgImageStyle }) => {
   const sectionStyle = {
@@ -12,7 +13,7 @@ const BroadCamp = ({ name, bgImageStyle }) => {
         <div id="stars" />
         <div id="stars2" />
         <div id="stars3" />
-        <div className="auto-container">
+        <Container>
           <div className="inner-container clearfix">
             <div className="title-box">
               <h1>{name}</h1>
@@ -24,7 +25,7 @@ const BroadCamp = ({ name, bgImageStyle }) => {
               </ul>
             </div>
           </div>
-        </div>
+        </Container>
       </section>
     </>
   );
