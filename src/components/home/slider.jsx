@@ -78,6 +78,7 @@ class Slider extends Component {
                 key={item.id}
                 title={item.title}
                 title1={item.title1}
+                image={item.image}
               />
             ))}
           </OwlCarousel>
