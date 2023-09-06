@@ -2,7 +2,7 @@ import React from "react";
 import Button from "../contact/Button";
 import WebsiteBanner from "../../assets/images/main-banner/1.png";
 
-function SlideZone({ title, title1 }) {
+function SlideZone({ title, title1,image }) {
   return (
     <>
       <div className="slide">
@@ -38,7 +38,7 @@ function SlideZone({ title, title1 }) {
             <div className="image-column col-lg-6 col-md-12 col-sm-12">
               <div className="inner-column parallax-scene-2">
                 <div className="image" data-depth="0.30">
-                  <img src={WebsiteBanner} alt="Main Banner" />
+                  <img src={image} alt="Main Banner" />
                 </div>
               </div>
             </div>

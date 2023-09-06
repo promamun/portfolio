@@ -5,21 +5,16 @@ import { Helmet } from "react-helmet";
 import CMS from "./websiteCMSCreation";
 import FBMarketing from "./smMarketing";
 import GoogleAds from "./GoogleAds";
-import PriceCategoryThree from "./PaidAdsMarketing";
-import WordPress from "./wordpress/WordPress";
 import Shopify from "./shopify/Shopify";
 import Laravel from "./laravel/Laravel";
 
 export default function index() {
-  const BgImage = {
-    backgroundImage: `url(images/background/22.png)`
-  };
   return (
     <div>
       <Helmet>
         <title>Pricing Plans</title>
       </Helmet>
-      <BroadCamp name="Pricing Plans" bgImageStyle={BgImage} />
+      <BroadCamp name="Pricing Plans" />
       <PricingPlans pricingTitle="Our Pricing Plans" packageTitle="React Web App Development (MERN)"/>
         <CMS packageTitle="WordPress Web Application Development(CMS)"/>
         <Shopify packageTitle="Shopify Store Design(CMS)"/>

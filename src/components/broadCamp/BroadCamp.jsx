@@ -1,14 +1,19 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import {Container} from "react-bootstrap";
 
 const BroadCamp = ({ name, bgImageStyle }) => {
+  const sectionStyle = {
+    backgroundImage: `url(/images/background/22.png)`,
+    ...(bgImageStyle || {}), // Merge with provided bgImageStyle or an empty object
+  };
   return (
-    <div>
-      <section className="page-title" style={bgImageStyle}>
+    <>
+      <section className="page-title" style={sectionStyle}>
         <div id="stars" />
         <div id="stars2" />
         <div id="stars3" />
-        <div className="auto-container">
+        <Container>
           <div className="inner-container clearfix">
             <div className="title-box">
               <h1>{name}</h1>
@@ -20,9 +25,9 @@ const BroadCamp = ({ name, bgImageStyle }) => {
               </ul>
             </div>
           </div>
-        </div>
+        </Container>
       </section>
-    </div>
+    </>
   );
 };
 

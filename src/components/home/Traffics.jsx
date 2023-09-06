@@ -1,18 +1,19 @@
 import React, { Component } from "react";
 import TrafficImg1 from "../../assets/images/resource/about-img.png";
 import { Link } from "react-router-dom";
+import {Col, Container, Row,} from "react-bootstrap";
 
 class Traffics extends Component {
   render() {
     const BgImage = {
-      backgroundImage: `url(images/background/1.png)`
+      backgroundImage: `url(/images/background/1.png)`
     };
     return (
       <div>
         <section className="about-section" style={BgImage}>
-          <div className="auto-container">
-            <div className="row">
-              <div className="image-column col-lg-6 col-md-12 col-sm-12">
+          <Container>
+            <Row>
+              <Col lg='6' md='12' sm='12' className="image-column">
                 <div className="inner-column">
                   <div className="image-box">
                     <figure className="alphabet-img wow fadeInRight">
@@ -20,8 +21,8 @@ class Traffics extends Component {
                     </figure>
                   </div>
                 </div>
-              </div>
-              <div className="content-column col-lg-5 offset-lg-1 col-md-12 col-sm-12">
+              </Col>
+              <Col lg='5' md='12' sm='12' className="content-column offset-lg-1">
                 <div className="inner-column wow fadeInLeft">
                   <div className="content-box">
                     <div className="sec-title text-left">
@@ -51,9 +52,9 @@ class Traffics extends Component {
                     </div>
                   </div>
                 </div>
-              </div>
-            </div>
-          </div>
+              </Col>
+            </Row>
+          </Container>
         </section>
       </div>
     );

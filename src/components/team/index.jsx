@@ -4,14 +4,10 @@ import TeamMembers from "./TeamMembers";
 import Manager from "./manager";
 import { Helmet } from "react-helmet";
 import Janin from "../../assets/images/team/Janin1.png"
-import {Link} from "react-router-dom";
 import Button from "../contact/Button";
 
 class Index extends Component {
   render() {
-    const BgImage = {
-      backgroundImage: `url(images/background/22.png)`
-    };
       const crossIcon = {
           backgroundImage: `url(images/main-banner/cross-icon.png)`
       };
@@ -19,22 +15,11 @@ class Index extends Component {
           backgroundImage: `url(images/main-banner/banner-icon-1.png)`
       };const crossIcon2 = {
           backgroundImage: `url(images/main-banner/banner-icon-2.png)`
-      };const crossIcon3 = {
-          backgroundImage: `url(images/main-banner/banner-icon-3.png)`
       };const crossIcon4 = {
           backgroundImage: `url(images/main-banner/banner-icon-4.png)`
-      };const crossIcon5 = {
-          backgroundImage: `url(images/main-banner/banner-icon-5.png)`
-      };const crossIcon6 = {
+      };
+      const crossIcon6 = {
           backgroundImage: `url(images/main-banner/banner-icon-6.png)`
-      };const crossIcon7 = {
-          backgroundImage: `url(images/main-banner/banner-icon-7.png)`
-      };const crossIcon8 = {
-          backgroundImage: `url(images/main-banner/banner-icon-8.png)`
-      };const crossIcon9 = {
-          backgroundImage: `url(images/main-banner/banner-icon-9.png)`
-      };const crossIcon10 = {
-          backgroundImage: `url(images/main-banner/banner-icon-10.png)`
       };
       const FontSize = {
           fontSize:'25px',
@@ -46,7 +31,7 @@ class Index extends Component {
         <Helmet>
           <title>Team</title>
         </Helmet>
-        <BroadCamp name={"Team"} bgImageStyle={BgImage} />
+        <BroadCamp name={"Team"} />
         <Manager />
           <section className="experince-sec">
               <div
