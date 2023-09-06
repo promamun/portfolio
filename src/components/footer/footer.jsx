@@ -8,6 +8,8 @@ import Project3 from "../../assets/images/resource/work-thumb-2.jpg";
 import Project4 from "../../assets/images/resource/work-thumb-2.jpg";
 import Project5 from "../../assets/images/resource/work-thumb-3.jpg";
 import Project6 from "../../assets/images/resource/work-thumb-3.jpg";
+import {Col, Form, Row} from "react-bootstrap";
+import CustomInput from '../contact/CustomInput'
 
 class Footer extends Component {
   render() {
@@ -20,18 +22,15 @@ class Footer extends Component {
         <footer className="main-footer" style={BgImage}>
           <div className="auto-container">
             <div className="widgets-section">
-              <div className="row">
-                <div className="newslatter-column col-xl-12 col-lg-12 col-md-12 col-sm-12">
+              <Row>
+                <Col xl={'12'} lg={'12'} md={'12'} sm={'12'} className="newslatter-column">
                   <div className="inner-column">
-                    <div className="row clearfix">
-                      <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                    <Row className="clearfix">
+                      <Col xl={'6'} lg={'6'} md={'12'} sm={'12'}>
                         <div className="newslatter-form">
-                          <form
-                            method="post"
-                            action="https://expert-themes.com/html/sola/blog.html"
-                          >
-                            <div className="form-group">
-                              <input
+                          <Form>
+                            <Form.Group>
+                              <CustomInput
                                 type="text"
                                 name="email"
                                 placeholder="Enter Your Email Address ......."
@@ -42,11 +41,11 @@ class Footer extends Component {
                               >
                                 {"Submit Now"}
                               </Button>
-                            </div>
-                          </form>
+                            </Form.Group>
+                          </Form>
                         </div>
-                      </div>
-                      <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                      </Col>
+                      <Col xl={'6'} lg={'6'} md={'12'} sm={'12'}>
                         <div className="contact-box-footer">
                           <div className="content-block">
                             <div className="icon-box">
@@ -71,13 +70,13 @@ class Footer extends Component {
                             </div>
                           </div>
                         </div>
-                      </div>
-                    </div>
+                      </Col>
+                    </Row>
                   </div>
-                </div>
-                <div className="big-column col-xl-6 col-lg-12 col-md-12 col-sm-12">
-                  <div className="row">
-                    <div className="footer-column col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                </Col>
+                <Col xl={'6'} lg={'12'} md={'12'} sm={'12'} className="big-column">
+                  <Row >
+                    <Col xl={'6'} lg={'6'} md={'6'} sm={'12'} className="footer-column">
                       <div className="footer-widget about-widget">
                         <div className="footer-logo">
                           <figure>
@@ -95,8 +94,8 @@ class Footer extends Component {
                           </p>
                         </div>
                       </div>
-                    </div>
-                    <div className="footer-column col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                    </Col>
+                    <Col xl={'6'} lg={'6'} md={'6'} sm={'12'} className="footer-column">
                       <div className="footer-widget gallery-widget">
                         <h4 className="widget-title">Projects</h4>
                         <div className="widget-content">
@@ -158,12 +157,12 @@ class Footer extends Component {
                           </div>
                         </div>
                       </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="big-column col-xl-6 col-lg-12 col-md-12 col-sm-12">
-                  <div className="row clearfix">
-                    <div className="footer-column col-xl-7 col-lg-6 col-md-6 col-sm-12">
+                    </Col>
+                  </Row>
+                </Col>
+                <Col xl={'6'} lg={'12'} md={'12'} sm={'12'} className="big-column">
+                  <Row className="clearfix">
+                    <Col xl={'7'} lg={'6'} md={'6'} sm={'12'} className="footer-column">
                       <div className="footer-widget links-widget">
                         <h4 className="widget-title">Useful links</h4>
                         <div className="widget-content">
@@ -205,8 +204,8 @@ class Footer extends Component {
                           </ul>
                         </div>
                       </div>
-                    </div>
-                    <div className="footer-column col-xl-5 col-lg-6 col-md-6 col-sm-12">
+                    </Col>
+                    <Col xl={'5'} lg={'6'} md={'6'} sm={'12'} className="footer-column">
                       <div className="footer-widget contact-widget">
                         <h4 className="widget-title">Contacts</h4>
                         <div className="widget-content">
@@ -226,10 +225,10 @@ class Footer extends Component {
                           </ul>
                         </div>
                       </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+                    </Col>
+                  </Row>
+                </Col>
+              </Row>
             </div>
           </div>
           <div className="footer-bottom">
@@ -271,7 +270,7 @@ class Footer extends Component {
                 <div className="copyright-text">
                   <p>
                     Copyright © {currentDate} Agency by{" "}
-                    <Link to="#">DevTechMasters.</Link> All right reserved
+                    <Link to="/">DevTechMasters.</Link> All right reserved
                   </p>
                 </div>
               </div>

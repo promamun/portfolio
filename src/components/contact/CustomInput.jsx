@@ -2,7 +2,7 @@ import React from "react";
 
 function CustomInput({ type, placeholder, onChange, value }) {
   return (
-    <div>
+    <>
       <input
         type={type}
         placeholder={placeholder}
@@ -10,7 +10,7 @@ function CustomInput({ type, placeholder, onChange, value }) {
         value={value}
         onChange={onChange}
       />
-    </div>
+    </>
   );
 }
 

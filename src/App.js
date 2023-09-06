@@ -29,7 +29,7 @@ function App() {
             <Route exact path="/case-studies" Component={CaseStudies} />
             <Route exact path="/team" Component={Team} />
             <Route exact path="/pricing-plans" Component={Pricing} />
-            <Route 
+            <Route
               exact
               path="/free-consultation"
               Component={FreeConsultation}

@@ -4,6 +4,7 @@ import Banner from "../../assets/images/main-banner/5.png";
 import Banner1 from "../../assets/images/services/4.png";
 import Button from "../contact/Button";
 import { Helmet } from "react-helmet";
+import {Col, Row} from "react-bootstrap";
 
 class ComingSoon extends Component {
   render() {
@@ -42,8 +43,8 @@ class ComingSoon extends Component {
                 </Link>
               </li>
             </ul>
-            <div className="row">
-              <div className="content-column col-lg-6 col-md-12 col-sm-12">
+            <Row>
+              <Col lg={'6'} md={'12'} sm={'12'} className="content-column">
                 <div className="content-inner">
                   <h1>This Page under construction. </h1>
                   <p>
@@ -56,8 +57,8 @@ class ComingSoon extends Component {
                     className={"theme-btn btn-style-one"}
                   />
                 </div>
-              </div>
-              <div className="image-column col-lg-6 col-md-12 col-sm-12">
+              </Col>
+              <Col lg={'6'} md={'12'} sm={'12'} className="image-column">
                 <div className="image-box">
                   <img className="image-bg" src={Banner} alt="banner image" />
                   <img
@@ -66,8 +67,8 @@ class ComingSoon extends Component {
                     alt="banner image"
                   />
                 </div>
-              </div>
-            </div>
+              </Col>
+            </Row>
           </div>
         </section>
       </div>

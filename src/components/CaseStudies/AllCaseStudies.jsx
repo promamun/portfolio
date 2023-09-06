@@ -8,6 +8,7 @@ import AllIMG6 from "../../assets/images/gallery/11.jpg";
 import AllIMG7 from "../../assets/images/gallery/12.jpg";
 import AllIMG8 from "../../assets/images/gallery/13.jpg";
 import { Link } from "react-router-dom";
+import {Col, Row} from "react-bootstrap";
 
 class AllCaseStudies extends Component {
   render() {
@@ -22,8 +23,8 @@ class AllCaseStudies extends Component {
           </div>
           <div className="container-fluid">
             <div className="inner-container">
-              <div className="row">
-                <div className="col-xl-2 col-lg-4 col-md-12 col-sm-12">
+              <Row >
+                <Col xl='2' lg='4' md='12' sm='12'>
                   <div className="project-block-two">
                     <div className="image-box">
                       <figure className="image">
@@ -61,8 +62,8 @@ class AllCaseStudies extends Component {
                       </div>
                     </div>
                   </div>
-                </div>
-                <div className="col-xl-4 col-lg-8 col-md-12 col-sm-12">
+                </Col>
+                <Col xl='4' lg='8' md='12' sm='12' className="col-xl-4 col-lg-8 col-md-12 col-sm-12">
                   <div className="project-block-two">
                     <div className="image-box">
                       <figure className="image">
@@ -100,8 +101,8 @@ class AllCaseStudies extends Component {
                       </div>
                     </div>
                   </div>
-                </div>
-                <div className="col-xl-4 col-lg-8 col-md-12 col-sm-12">
+                </Col>
+                <Col xl='4' lg='8' md='12' sm='12'>
                   <div className="project-block-two">
                     <div className="image-box">
                       <figure className="image">
@@ -139,8 +140,8 @@ class AllCaseStudies extends Component {
                       </div>
                     </div>
                   </div>
-                </div>
-                <div className="col-xl-2 col-lg-4 col-md-12 col-sm-12">
+                </Col>
+                <Col xl='2' lg='4' md='12' sm='12'>
                   <div className="project-block-two">
                     <div className="image-box">
                       <figure className="image">
@@ -178,8 +179,8 @@ class AllCaseStudies extends Component {
                       </div>
                     </div>
                   </div>
-                </div>
-                <div className="col-xl-4 col-lg-8 col-md-12 col-sm-12">
+                </Col>
+                <Col xl='4' lg='8' md='12' sm='12'>
                   <div className="project-block-two">
                     <div className="image-box">
                       <figure className="image">
@@ -217,8 +218,8 @@ class AllCaseStudies extends Component {
                       </div>
                     </div>
                   </div>
-                </div>
-                <div className="col-xl-2 col-lg-4 col-md-12 col-sm-12">
+                </Col>
+                <Col xl='2' lg='4' md='12' sm='12'>
                   <div className="project-block-two">
                     <div className="image-box">
                       <figure className="image">
@@ -256,8 +257,8 @@ class AllCaseStudies extends Component {
                       </div>
                     </div>
                   </div>
-                </div>
-                <div className="col-xl-2 col-lg-4 col-md-12 col-sm-12">
+                </Col>
+                <Col xl='2' lg='4' md='12' sm='12'>
                   <div className="project-block-two">
                     <div className="image-box">
                       <figure className="image">
@@ -295,8 +296,8 @@ class AllCaseStudies extends Component {
                       </div>
                     </div>
                   </div>
-                </div>
-                <div className="col-xl-4 col-lg-8 col-md-12 col-sm-12">
+                </Col>
+                <Col xl='4' lg='8' md='12' sm='12'>
                   <div className="project-block-two">
                     <div className="image-box">
                       <figure className="image">
@@ -334,8 +335,8 @@ class AllCaseStudies extends Component {
                       </div>
                     </div>
                   </div>
-                </div>
-              </div>
+                </Col>
+              </Row>
             </div>
             <div className="btn-box text-center">
               <Link to="project.html" className="theme-btn btn-style-one">

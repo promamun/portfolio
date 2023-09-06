@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
+import {Col, Row} from "react-bootstrap";
 
 class Location extends Component {
   render() {
@@ -7,11 +8,11 @@ class Location extends Component {
       <div>
         <section className="contact-page-section">
           <div className="auto-container">
-            <div className="row">
-              <div className="contact-column col-lg-12 col-md-12 col-sm-12">
+            <Row>
+              <Col lg={'12'} md={'12'} sm={'12'} className="contact-column">
                 <div className="contact-info">
-                  <div className="row">
-                    <div className="info-block col-lg-4 col-md-4 col-sm-12">
+                  <Row>
+                    <Col lg={'4'} md={'4'} sm={'12'} className="info-block">
                       <div className="inner">
                         <div className="icon-box">
                           <i className="flaticon flaticon-stopwatch" />
@@ -23,8 +24,8 @@ class Location extends Component {
                           </p>
                         </div>
                       </div>
-                    </div>
-                    <div className="info-block col-lg-4 col-md-4 col-sm-12">
+                    </Col>
+                    <Col lg={'4'} md={'4'} sm={'12'} className="info-block">
                       <div className="inner">
                         <div className="icon-box">
                           <i className="flaticon flaticon-pin" />
@@ -35,8 +36,8 @@ class Location extends Component {
                             Gresham, OR 97030</p>
                         </div>
                       </div>
-                    </div>
-                    <div className="info-block col-lg-4 col-md-4 col-sm-12">
+                    </Col>
+                    <Col lg={'4'} md={'4'} sm={'12'} className="info-block">
                       <div className="inner">
                         <div className="icon-box">
                           <i className="flaticon flaticon-call" />
@@ -49,11 +50,11 @@ class Location extends Component {
                           </p>
                         </div>
                       </div>
-                    </div>
-                  </div>
+                    </Col>
+                  </Row>
                 </div>
-              </div>
-            </div>
+              </Col>
+            </Row>
           </div>
         </section>
       </div>
