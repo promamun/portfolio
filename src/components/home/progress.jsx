@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import ProImage1 from "../../assets/images/resource/progress-1.png";
+import {Col, Container, Row} from "react-bootstrap";
 class Progress extends Component {
   parentRef = React.createRef();
   componentDidMount() {
@@ -16,9 +17,9 @@ class Progress extends Component {
       <div>
         <section className="progress-sec">
           <div className="progress-bg" />
-          <div className="container">
-            <div className="row">
-              <div className="content-column col-lg-6 col-md-12 col-sm-12">
+          <Container>
+            <Row>
+              <Col lg={'6'} md={'12'} sm={'12'} className="content-column">
                 <div className="content-box">
                   <div className="sec-title text-left">
                     <h6 className="subtitle">Our Benefits</h6>
@@ -193,8 +194,8 @@ class Progress extends Component {
                     </div>
                   </div>
                 </div>
-              </div>
-              <div className="image-cloumn col-lg-6 col-md-12 col-sm-12">
+              </Col>
+              <Col lg={'6'} md={'12'} sm={'12'} className="image-cloumn">
                 <div className="image-box">
                   <figure>
                     <img src={ProImage1} alt="progress image" />
@@ -203,9 +204,9 @@ class Progress extends Component {
                   <div className="animated-img-2" />
                   <div className="animated-img-3" />
                 </div>
-              </div>
-            </div>
-          </div>
+              </Col>
+            </Row>
+          </Container>
         </section>
       </div>
     );

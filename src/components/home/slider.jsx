@@ -5,6 +5,7 @@ import SeoBanner from "../../assets/images/services/6.png";
 import Button from "../contact/Button";
 import SlideZone from "./SlideZone";
 import SlideData from "./data/data";
+import CrossIconBrodcamp from "../broadCamp/CrossIconBrodcamp";
 
 class Slider extends Component {
   render() {
@@ -50,6 +51,7 @@ class Slider extends Component {
     return (
       <>
         <section className="banner-section banner-slider" style={MainBanner}>
+          {/*<CrossIconBrodcamp bgBanner4/>*/}
           <div className="pattern-layer-one" style={CrossIcon} />
           <div className="pattern-layer-two" style={BannerIcon5} />
           <div className="pattern-layer-three" style={BannerIcon6} />

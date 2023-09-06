@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import {Col, Row} from "react-bootstrap";
 
 function HappyClients() {
   const [counted, setCounted] = useState(false);
@@ -59,8 +60,8 @@ function HappyClients() {
       >
         <div className="auto-container">
           <div className="fact-counter">
-            <div className="row">
-              <div className="counter-column col-lg-3 col-md-6 col-sm-12 wow fadeInUp">
+            <Row>
+              <Col lg={'3'} md={'6'} sm={'12'} className="counter-column wow fadeInUp">
                 <div className="count-box">
                   <div className="icon-box">
                     <span className="flaticon flaticon-project-management" />
@@ -79,9 +80,9 @@ function HappyClients() {
                     <h3 className="counter-title">Finished Projects</h3>
                   </div>
                 </div>
-              </div>
-              <div
-                className="counter-column col-lg-3 col-md-6 col-sm-12 wow fadeInUp"
+              </Col>
+              <Col lg={'3'} md={'6'} sm={'12'}
+                className="counter-column wow fadeInUp"
                 data-wow-delay="400ms"
               >
                 <div className="count-box">
@@ -102,9 +103,9 @@ function HappyClients() {
                     <h3 className="counter-title">Award View</h3>
                   </div>
                 </div>
-              </div>
-              <div
-                className="counter-column col-lg-3 col-md-6 col-sm-12 wow fadeInUp"
+              </Col>
+              <Col lg={'3'} md={'6'} sm={'12'}
+                className="counter-column wow fadeInUp"
                 data-wow-delay="800ms"
               >
                 <div className="count-box">
@@ -125,9 +126,9 @@ function HappyClients() {
                     <h3 className="counter-title">Years Experience</h3>
                   </div>
                 </div>
-              </div>
-              <div
-                className="counter-column col-lg-3 col-md-6 col-sm-12 wow fadeInUp"
+              </Col>
+              <Col lg={'3'} md={'6'} sm={'12'}
+                className="counter-column wow fadeInUp"
                 data-wow-delay="1200ms"
               >
                 <div className="count-box">
@@ -147,8 +148,8 @@ function HappyClients() {
                     <h3 className="counter-title">Happy Clients</h3>
                   </div>
                 </div>
-              </div>
-            </div>
+              </Col>
+            </Row>
           </div>
         </div>
       </div>
