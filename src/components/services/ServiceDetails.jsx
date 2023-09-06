@@ -7,6 +7,7 @@ import {Helmet} from "react-helmet";
 
 
 export default function ServiceDetails() {
+  
   const { slug } = useParams();
   const [data, setData] = useState(null);
 
