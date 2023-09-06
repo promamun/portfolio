@@ -1,4 +1,6 @@
 import React from "react";
+import { Col, Row } from "react-bootstrap";
+import { Link } from "react-router-dom";
 export default function DigitalMarketingService() {
   const BgImg = {
     backgroundImage: `url(images/background/17.png)`
@@ -18,8 +20,8 @@ export default function DigitalMarketingService() {
           </div>
         </div>
         <div className="auto-container">
-          <div className="row">
-            <div className="col-lg-6 col-md-12 col-sm-12">
+          <Row>
+            <Col lg="6" md="12" sm="12">
               <div
                 className="service-block-six wow fadeInDown"
                 data-wow-delay="100ms"
@@ -28,10 +30,10 @@ export default function DigitalMarketingService() {
                 <div className="inner-box">
                   <div className="lower-content">
                     <h4>
-                      <a href="service-detail.html">
+                      <Link to="service-detail.html">
                         Social Media <br />
                         Marketing
-                      </a>
+                      </Link>
                     </h4>
                     <p>
                       Elevate Your Brand's Digital Presence. Our social media
@@ -42,13 +44,13 @@ export default function DigitalMarketingService() {
                   </div>
                   <div className="image-box">
                     <figure>
-                      <img src="images/services/16.png" alt="Service Image" />
+                      <img src="/images/services/16.png" alt="Service Image" />
                     </figure>
                   </div>
                 </div>
               </div>
-            </div>
-            <div className="col-lg-6 col-md-12 col-sm-12">
+            </Col>
+            <Col lg="6" md="12" sm="12">
               <div
                 className="service-block-six wow fadeInDown"
                 data-wow-delay="300ms"
@@ -57,10 +59,10 @@ export default function DigitalMarketingService() {
                 <div className="inner-box">
                   <div className="lower-content">
                     <h4>
-                      <a href="service-detail.html">
+                      <Link to="service-detail.html">
                         Google Ads <br />
                         Sense
-                      </a>
+                      </Link>
                     </h4>
                     <p>
                       Google Ads is a product that you can use to promote your
@@ -70,13 +72,13 @@ export default function DigitalMarketingService() {
                   </div>
                   <div className="image-box">
                     <figure>
-                      <img src="images/services/17.png" alt="Service Image" />
+                      <img src="/images/services/17.png" alt="Service Image" />
                     </figure>
                   </div>
                 </div>
               </div>
-            </div>
-            <div className="col-lg-6 col-md-12 col-sm-12">
+            </Col>
+            <Col lg="6" md="12" sm="12">
               <div
                 className="service-block-six wow fadeInDown"
                 data-wow-delay="500ms"
@@ -85,9 +87,9 @@ export default function DigitalMarketingService() {
                 <div className="inner-box">
                   <div className="lower-content">
                     <h4>
-                      <a href="service-detail.html">
+                      <Link to="service-detail.html">
                         Facebook Marketing <br />
-                      </a>
+                      </Link>
                     </h4>
                     <p>
                       The Power of Facebook for Business Growth. Unlock
@@ -98,13 +100,13 @@ export default function DigitalMarketingService() {
                   </div>
                   <div className="image-box">
                     <figure>
-                      <img src="images/services/18.png" alt="Service Image" />
+                      <img src="/images/services/18.png" alt="Service Image" />
                     </figure>
                   </div>
                 </div>
               </div>
-            </div>
-            <div className="col-lg-6 col-md-12 col-sm-12">
+            </Col>
+            <Col lg="6" md="12" sm="12">
               <div
                 className="service-block-six wow fadeInDown"
                 data-wow-delay="700ms"
@@ -113,7 +115,7 @@ export default function DigitalMarketingService() {
                 <div className="inner-box">
                   <div className="lower-content">
                     <h4>
-                      <a href="service-detail.html">SEO Optimization</a>
+                      <Link to="service-detail.html">SEO Optimization</Link>
                     </h4>
                     <p>
                       Boost Your Online Visibility and Drive Organic Traffic.
@@ -124,13 +126,13 @@ export default function DigitalMarketingService() {
                   </div>
                   <div className="image-box">
                     <figure>
-                      <img src="images/services/19.png" alt="Service Image" />
+                      <img src="/images/services/19.png" alt="Service Image" />
                     </figure>
                   </div>
                 </div>
               </div>
-            </div>
-          </div>
+            </Col>
+          </Row>
         </div>
       </section>
     </>

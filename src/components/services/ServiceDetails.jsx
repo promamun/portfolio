@@ -3,11 +3,10 @@ import BroadCamp from "../broadCamp/BroadCamp";
 import { useParams } from "react-router-dom";
 import ServiceData from "./data";
 import Error404 from "../404/NotFound";
-import {Helmet} from "react-helmet";
-
+import { Helmet } from "react-helmet";
+import { Col, Row } from "react-bootstrap";
 
 export default function ServiceDetails() {
-  
   const { slug } = useParams();
   const [data, setData] = useState(null);
 
@@ -40,16 +39,15 @@ export default function ServiceDetails() {
       <BroadCamp name="Service Details" bgImageStyle={BgImage} />
       <div className="sidebar-page-container">
         <div className="auto-container">
-          <div className="row clearfix">
-            <div className="content-side col-lg-12 col-md-12 col-sm-12">
+          <Row className="clearfix">
+            <Col lg="12" md="12" sm="12" className="content-side">
               <div className="service-detail">
                 <div className="inner-box">
                   <div
                     className="image-box parallax-scene-2 wow fadeInUp"
                     data-wow-delay="0ms"
                     data-wow-duration="0ms"
-                  >
-                  </div>
+                  ></div>
                   <h2>{data.title}</h2>
                   <div className="text">
                     <p>{data.description}</p>
@@ -109,13 +107,13 @@ export default function ServiceDetails() {
                     <p>{data.empire2}</p>
                     <p>{data.empire3}</p>
                     <p>{data.empire4}</p>
-                    <div className="two-column row">
-                      <div className="column col-lg-6 col-md-6 col-sm-12">
+                    <Row className="two-column">
+                      <Col lg="6" md="6" sm="12" className="column">
                         <div className="image">
                           <img src="/images/services/21.jpg" alt="" />
                         </div>
-                      </div>
-                      <div className="column col-lg-6 col-md-6 col-sm-12">
+                      </Col>
+                      <Col lg="6" md="6" sm="12" className="column">
                         <h4>Important Facts</h4>
                         <ul>
                           <li>The Problem</li>
@@ -128,8 +126,8 @@ export default function ServiceDetails() {
                           <li>Leadership</li>
                           <li>Sustainability</li>
                         </ul>
-                      </div>
-                    </div>
+                      </Col>
+                    </Row>
                     {/*Support */}
                     <h4>
                       Support and Maintenance: Nurturing Your Digital Investmen
@@ -150,8 +148,8 @@ export default function ServiceDetails() {
                   </div>
                 </div>
               </div>
-            </div>
-          </div>
+            </Col>
+          </Row>
         </div>
       </div>
     </>

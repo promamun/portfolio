@@ -5,7 +5,7 @@ import ProjectAdd from "./ProjectAdd";
 import ProjectList from "./Data/data";
 import ProjrctView from "./ProjrctView";
 import ProjectList1 from "./Data/dataPro";
-import BrodCamp from "../broadCamp/BroadCamp"
+import BrodCamp from "../broadCamp/BroadCamp";
 
 const Projects = () => {
   return (
@@ -13,7 +13,7 @@ const Projects = () => {
       <Helmet>
         <title>Projects</title>
       </Helmet>
-      <BrodCamp name={'Our Great Projects'}/>
+      <BrodCamp name={"Our Great Projects"} />
       <section className="projects-section style-two">
         <div className="auto-container">
           <div className="sec-title text-center">

@@ -1,11 +1,12 @@
 import React from "react";
+import { Col } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
 export default function AllServiceloop({id,title,short_des,slug,image}) {
   return (
     <>
-      <div
-        className="invseted-cloumn col-lg-6 col-md-12 wow fadeInRight"
+      <Col lg="6" md="12"
+        className="invseted-cloumn wow fadeInRight"
         data-wow-delay="400ms"
       >
         <div className="invested-box">
@@ -24,7 +25,7 @@ export default function AllServiceloop({id,title,short_des,slug,image}) {
             </Link>
           </div>
         </div>
-      </div>
+      </Col>
     </>
   );
 }

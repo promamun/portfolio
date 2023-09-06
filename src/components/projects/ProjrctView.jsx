@@ -1,9 +1,10 @@
 import React from "react";
+import { Col } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
 function ProjrctView({ title, title1, image }) {
   return (
-    <div className="col-lg-4 col-md-12 col-sm-12">
+    <Col lg="4" md="12" sm="12">
       <div className="project-block-two">
         <div className="image-box">
           <figure className="image">
@@ -35,7 +36,7 @@ function ProjrctView({ title, title1, image }) {
           </div>
         </div>
       </div>
-    </div>
+    </Col>
   );
 }
 

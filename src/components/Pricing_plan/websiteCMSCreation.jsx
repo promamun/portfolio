@@ -1,6 +1,7 @@
 import React from "react";
 import Package from "./websitePackage";
 import CMS from "./data/WebsiteCMSData";
+import { Row } from "react-bootstrap";
 
 function websiteCMSCreation({ pricingTitle, packageTitle }) {
   return (
@@ -15,26 +16,26 @@ function websiteCMSCreation({ pricingTitle, packageTitle }) {
             <div className="tabs-content">
               <div className="tab active-tab">
                 <div className="content">
-                  <div className="row clearfix">
+                  <Row className="clearfix">
                     {CMS.map((data) => (
                       <Package
-                          id={data.id}
-                          Title={data.Title}
-                          Price={data.Price}
-                          PT={data.PT}
-                          PD={data.PD}
-                          PD1={data.PD1}
-                          PD2={data.PD2}
-                          PD3={data.PD3}
-                          PD4={data.PD4}
-                          PD5={data.PD5}
-                          PD6={data.PD6}
-                          PD7={data.PD7}
-                          PDRevision={data.PDRevision}
-                          PDSupport={data.PDSupport}
+                        id={data.id}
+                        Title={data.Title}
+                        Price={data.Price}
+                        PT={data.PT}
+                        PD={data.PD}
+                        PD1={data.PD1}
+                        PD2={data.PD2}
+                        PD3={data.PD3}
+                        PD4={data.PD4}
+                        PD5={data.PD5}
+                        PD6={data.PD6}
+                        PD7={data.PD7}
+                        PDRevision={data.PDRevision}
+                        PDSupport={data.PDSupport}
                       />
                     ))}
-                  </div>
+                  </Row>
                 </div>
               </div>
             </div>

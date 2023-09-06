@@ -1,8 +1,22 @@
 import React from "react";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
+import { Col } from "react-bootstrap";
 
 function websitePackage({
-  id, Title,Price,PT,PD,PD1,PD2,PD3,PD4,PD5,PD6,PD7,PDRevision,PDSupport
+  id,
+  Title,
+  Price,
+  PT,
+  PD,
+  PD1,
+  PD2,
+  PD3,
+  PD4,
+  PD5,
+  PD6,
+  PD7,
+  PDRevision,
+  PDSupport
 }) {
   let bgImage = "url('images/resource/price-shape.png')";
   switch (id) {
@@ -26,11 +40,11 @@ function websitePackage({
       break;
   }
   const BgImg = {
-    backgroundImage: bgImage,
-  }
+    backgroundImage: bgImage
+  };
   return (
     <>
-      <div className="price-block col-lg-4 col-md-6 col-sm-12">
+      <Col lg="4" md="6" sm="12" className="price-block">
         <div className="inner-box">
           <div className="packge-plan" style={BgImg}>
             <h6>{Title} </h6>
@@ -57,7 +71,7 @@ function websitePackage({
             </div>
           </div>
         </div>
-      </div>
+      </Col>
     </>
   );
 }

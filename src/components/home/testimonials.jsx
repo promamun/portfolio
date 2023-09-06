@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import OwlCarousel from "react-owl-carousel";
+import { Col, Row } from "react-bootstrap";
 import TSIMG1 from "../../assets/images/resource/testimonial.png";
 import TSIMG2 from "../../assets/images/resource/alex.png";
 import TSIMG3 from "../../assets/images/resource/client_gsbd.png";
@@ -12,15 +13,15 @@ class Testimonials extends Component {
       <div>
         <section className="testimonial-section">
           <div className="auto-container">
-            <div className="row">
-              <div className="image-column col-lg-6 col-md-12 col-sm-12">
+            <Row>
+              <Col lg="6" md="12" sm="12" className="image-column">
                 <div className="image-box">
                   <figure>
                     <img src={TSIMG1} alt="TestimonialImage" />
                   </figure>
                 </div>
-              </div>
-              <div className="testimonial-column col-lg-6 col-md-12 col-sm-12">
+              </Col>
+              <Col lg="6" md="12" sm="12" className="testimonial-column">
                 <div className="sec-title">
                   <h6 className="subtitle">Testimonials</h6>
                   <h2>
@@ -112,7 +113,6 @@ class Testimonials extends Component {
                         <div className="text-box">
                           <h4 className="name">William Smith</h4>
                           <span className="designation">
-                
                             Business Owner (CANADA)
                           </span>
                         </div>
@@ -140,14 +140,16 @@ class Testimonials extends Component {
                         </div>
                         <div className="text-box">
                           <h4 className="name"> Syang chung fu</h4>
-                          <span className="designation">Business Owner (CHINA)</span>
+                          <span className="designation">
+                            Business Owner (CHINA)
+                          </span>
                         </div>
                       </div>
                     </div>
                   </div>
                 </OwlCarousel>
-              </div>
-            </div>
+              </Col>
+            </Row>
           </div>
         </section>
       </div>

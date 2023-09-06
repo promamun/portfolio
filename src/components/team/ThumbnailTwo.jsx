@@ -29,7 +29,7 @@ function ThumbnailTwo({
             </li>
             <li>
               <Link to={twitter}>
-                <i className="fab fa-twitter"/>
+                <i className="fab fa-twitter" />
               </Link>
             </li>
             <li>

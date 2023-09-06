@@ -1,14 +1,14 @@
 import React from "react";
 import Button from "../contact/Button";
-import WebsiteBanner from "../../assets/images/main-banner/1.png";
+import { Col, Row } from "react-bootstrap";
 
-function SlideZone({ title, title1,image }) {
+function SlideZone({ title, title1, image }) {
   return (
     <>
       <div className="slide">
         <div className="auto-container">
-          <div className="row clearfix">
-            <div className="content-column col-lg-6 col-md-12 col-sm-12">
+          <Row className="clearfix">
+            <Col lg="6" md="12" sm="12" className="content-column">
               <div className="inner-column">
                 {/*<div className="video-link">*/}
                 {/*  <Link*/}
@@ -34,15 +34,15 @@ function SlideZone({ title, title1,image }) {
                   </Button>
                 </div>
               </div>
-            </div>
-            <div className="image-column col-lg-6 col-md-12 col-sm-12">
+            </Col>
+            <Col lg="6" md="12" sm="12" className="image-column">
               <div className="inner-column parallax-scene-2">
                 <div className="image" data-depth="0.30">
                   <img src={image} alt="Main Banner" />
                 </div>
               </div>
-            </div>
-          </div>
+            </Col>
+          </Row>
         </div>
       </div>
     </>

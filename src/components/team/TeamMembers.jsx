@@ -3,6 +3,7 @@ import teamData from "./data/data";
 import Thumbnail from "./Thumbnail";
 import { Link } from "react-router-dom";
 import Img0 from "../../assets/images/resource/about-img-1.png";
+import { Col, Row } from "react-bootstrap";
 
 function TeamMembers() {
   const BgImg = {
@@ -20,7 +21,7 @@ function TeamMembers() {
               Teamwork makes the dream work.
             </h2>
           </div>
-          <div className="row">
+          <Row>
             {teamData.map((data) => (
               <Thumbnail
                 bgImage={data.bgImage}
@@ -32,13 +33,13 @@ function TeamMembers() {
                 designation={data.designation}
               />
             ))}
-          </div>
+          </Row>
         </div>
       </section>
       <section className="about-section style-two" style={BgImg}>
         <div className="auto-container">
-          <div className="row">
-            <div className="content-column col-lg-6 col-md-12 col-sm-12">
+          <Row>
+            <Col lg="6" md="12" sm="12" className="content-column">
               <div className="inner-column wow fadeInLeft">
                 <div className="content-box">
                   <div className="sec-title text-left">
@@ -79,8 +80,8 @@ function TeamMembers() {
                   </div>
                 </div>
               </div>
-            </div>
-            <div className="image-column col-lg-6 col-md-12 col-sm-12">
+            </Col>
+            <Col lg="6" md="12" sm="12" className="image-column">
               <div className="inner-column">
                 <div className="image-box">
                   <figure className="alphabet-img wow fadeInRight">
@@ -88,8 +89,8 @@ function TeamMembers() {
                   </figure>
                 </div>
               </div>
-            </div>
-          </div>
+            </Col>
+          </Row>
         </div>
       </section>
     </div>

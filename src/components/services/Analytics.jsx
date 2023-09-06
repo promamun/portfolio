@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Col, Row } from "react-bootstrap";
 
 class Analytics extends Component {
   render() {
@@ -51,8 +52,8 @@ class Analytics extends Component {
           <div className="pattern-layer-eleven" style={BgImage3}></div>
           <div className="pattern-layer-tweleve" style={BgImage4}></div>
           <div className="auto-container">
-            <div className="row">
-              <div className="image-column col-lg-6 col-md-12">
+            <Row>
+              <Col lg="6" md="12" className="image-column">
                 <div
                   className="image-box parallax-scene-3 wow fadeInLeft"
                   data-wow-delay="100ms"
@@ -62,8 +63,8 @@ class Analytics extends Component {
                     <img src="images/resource/fact-1.png" alt="Fact Image" />
                   </div>
                 </div>
-              </div>
-              <div className="counter-colum col-lg-6 col-md-12">
+              </Col>
+              <Col lg="6" md="12" className="counter-colum">
                 <div className="counter-box">
                   <div
                     className="count-box wow fadeInUp"
@@ -141,8 +142,8 @@ class Analytics extends Component {
                     </h5>
                   </div>
                 </div>
-              </div>
-            </div>
+              </Col>
+            </Row>
           </div>
         </section>
       </div>

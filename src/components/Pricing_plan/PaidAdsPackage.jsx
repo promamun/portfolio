@@ -1,5 +1,6 @@
 import React from "react";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
+import { Col } from "react-bootstrap";
 
 function PackageThree({
   id,
@@ -43,7 +44,7 @@ function PackageThree({
   };
   return (
     <>
-      <div className="price-block col-lg-4 col-md-6 col-sm-12">
+      <Col lg="4" md="6" sm="12" className="price-block">
         <div className="inner-box">
           <div className="packge-plan" style={BgImg}>
             <h6>{Title} </h6>
@@ -70,7 +71,7 @@ function PackageThree({
             </div>
           </div>
         </div>
-      </div>
+      </Col>
     </>
   );
 }

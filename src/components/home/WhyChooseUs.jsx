@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import whyImage1 from "../../assets/images/resource/faq-img.png";
+import { Col, Row } from "react-bootstrap";
 
 class WhyChooseUs extends Component {
   constructor(props) {
@@ -38,8 +39,8 @@ class WhyChooseUs extends Component {
       <div>
         <section className="faq-section">
           <div className="auto-container">
-            <div className="row">
-              <div className="image-column col-lg-6 col-md-12 col-sm-12">
+            <Row>
+              <Col lg="6" md="12" sm="12" className="image-column">
                 <div className="inner-column">
                   <div className="image-box">
                     <figure className="image">
@@ -47,8 +48,8 @@ class WhyChooseUs extends Component {
                     </figure>
                   </div>
                 </div>
-              </div>
-              <div className="accordion-column col-lg-6 col-md-12 col-sm-12">
+              </Col>
+              <Col lg="6" md="12" sm="12" className="accordion-column">
                 <div className="inner-column">
                   <div className="sec-title text-left">
                     <h6 className="subtitle">Why Choose Us</h6>
@@ -91,8 +92,8 @@ class WhyChooseUs extends Component {
                     })}
                   </ul>
                 </div>
-              </div>
-            </div>
+              </Col>
+            </Row>
           </div>
         </section>
       </div>

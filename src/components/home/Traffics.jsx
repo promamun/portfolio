@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import TrafficImg1 from "../../assets/images/resource/about-img.png";
 import { Link } from "react-router-dom";
-import {Col, Container, Row,} from "react-bootstrap";
+import { Col, Container, Row } from "react-bootstrap";
 
 class Traffics extends Component {
   render() {
@@ -13,7 +13,7 @@ class Traffics extends Component {
         <section className="about-section" style={BgImage}>
           <Container>
             <Row>
-              <Col lg='6' md='12' sm='12' className="image-column">
+              <Col lg="6" md="12" sm="12" className="image-column">
                 <div className="inner-column">
                   <div className="image-box">
                     <figure className="alphabet-img wow fadeInRight">
@@ -22,7 +22,12 @@ class Traffics extends Component {
                   </div>
                 </div>
               </Col>
-              <Col lg='5' md='12' sm='12' className="content-column offset-lg-1">
+              <Col
+                lg="5"
+                md="12"
+                sm="12"
+                className="content-column offset-lg-1"
+              >
                 <div className="inner-column wow fadeInLeft">
                   <div className="content-box">
                     <div className="sec-title text-left">

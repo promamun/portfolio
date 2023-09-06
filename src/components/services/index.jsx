@@ -23,7 +23,7 @@ class Index extends Component {
         <WebService />
         <section className="get-started-sec" style={BgImg1}>
           <div className="auto-container">
-            <div className="row">
+            <Row>
               <div className="col-12 text-center inner-box">
                 <div className="sec-title text-center">
                   <h6 className="subtitle">More With Us</h6>
@@ -61,7 +61,7 @@ class Index extends Component {
                   </section>
                 </div>
               </div>
-            </div>
+            </Row>
           </div>
         </section>
         <DigitalMarketingService />

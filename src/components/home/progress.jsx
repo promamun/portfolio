@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+
 import ProImage1 from "../../assets/images/resource/progress-1.png";
 class Progress extends Component {
   parentRef = React.createRef();

@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { Col } from "react-bootstrap";
 
 function PackageTwo({
   id,
@@ -39,12 +40,12 @@ function PackageTwo({
       break;
   }
   const BgImg = {
-    backgroundImage: bgImage,
-  }
+    backgroundImage: bgImage
+  };
 
   return (
     <>
-      <div className="price-block col-lg-4 col-md-6 col-sm-12">
+      <Col lg="4" md="6" sm="125" className="price-block">
         <div className="inner-box">
           <div className="packge-plan" style={BgImg}>
             <h6>{Title} </h6>
@@ -71,7 +72,7 @@ function PackageTwo({
             </div>
           </div>
         </div>
-      </div>
+      </Col>
     </>
   );
 }

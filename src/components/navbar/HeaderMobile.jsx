@@ -1,5 +1,5 @@
-import React from 'react'
-import {Link, useLocation} from "react-router-dom";
+import React from "react";
+import { Link, useLocation } from "react-router-dom";
 
 export default function Header() {
   const location = useLocation();
@@ -20,24 +20,24 @@ export default function Header() {
     document.body.classList.toggle("mobile-menu-visible");
     window.scrollTo({
       top: 0,
-      behavior: 'smooth',
+      behavior: "smooth"
     });
   };
   return (
     <div>
-        <ul className="navigation clearfix">
-          {navigationLinks.map((link) => (
-              <li
-                  key={link.path}
-                  className={location.pathname === link.path ? "current" : ""}
-                  onClick={handleToggleMobileSideNav}
-              >
-                <Link to={link.path} className="nav-link">
-                  {link.label}
-                </Link>
-              </li>
-          ))}
-        </ul>
+      <ul className="navigation clearfix">
+        {navigationLinks.map((link) => (
+          <li
+            key={link.path}
+            className={location.pathname === link.path ? "current" : ""}
+            onClick={handleToggleMobileSideNav}
+          >
+            <Link to={link.path} className="nav-link">
+              {link.label}
+            </Link>
+          </li>
+        ))}
+      </ul>
     </div>
-  )
+  );
 }

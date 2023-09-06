@@ -1,21 +1,22 @@
 import React from "react";
 import ServiceData from "./data";
 import AllServiceloop from "./AllServiceloop";
+import { Col, Row } from "react-bootstrap";
 
 export default function AllService() {
   return (
     <div>
       <section className="invested-sec">
         <div className="auto-container">
-          <div className="row">
-            <div className="title-cloumn col-lg-6 col-md-12 wow fadeInLeft">
+          <Row>
+            <Col lg="6" md="12" className="title-cloumn wow fadeInLeft">
               <div className="sec-title text-left">
                 <h6 className="subtitle">Solutions That Matter</h6>
                 <h2>
                   Directed techniques that greatest return for money invested
                 </h2>
               </div>
-            </div>
+            </Col>
             {ServiceData.map((data) => (
               <AllServiceloop
                 key={data.id}
@@ -27,7 +28,7 @@ export default function AllService() {
                 image={data.image}
               />
             ))}
-          </div>
+          </Row>
         </div>
       </section>
     </div>

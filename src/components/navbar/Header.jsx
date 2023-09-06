@@ -1,8 +1,8 @@
-import React from 'react'
-import {Link, useLocation} from "react-router-dom";
+import React from "react";
+import { Link, useLocation } from "react-router-dom";
 import DTMLogo from "../../DTM_Logo.png";
 
-const Header = ({className,classOuter}) => {
+const Header = ({ className, classOuter }) => {
   const handleToggleSideNav = () => {
     document.body.classList.toggle("active-side-nav");
   };
@@ -19,73 +19,72 @@ const Header = ({className,classOuter}) => {
     { path: "/case-studies", label: "Case Studies" },
     { path: "/projects", label: "Projects" },
     { path: "/pricing-plans", label: "Pricing" },
-    { path: "/contact", label: "Contact" },
+    { path: "/contact", label: "Contact" }
     // { path: "/about", label: "About" }
   ];
-  const imgSize= {
-    maxHeight:'53px',
-  }
+  const imgSize = {
+    maxHeight: "53px"
+  };
   return (
-      <div className="header-lower">
-        <div className="main-box clearfix">
-          <div className="logo-box">
-            <div className="logo">
-              <Link to="/">
-                <img
-                    id="logo"
-                    src={DTMLogo}
-                    style={imgSize}
-                    alt="DTM Logo"
-                    title="DTM Logo"
-                />
-              </Link>
-            </div>
+    <div className="header-lower">
+      <div className="main-box clearfix">
+        <div className="logo-box">
+          <div className="logo">
+            <Link to="/">
+              <img
+                id="logo"
+                src={DTMLogo}
+                style={imgSize}
+                alt="DTM Logo"
+                title="DTM Logo"
+              />
+            </Link>
           </div>
-          <div className="nav-outer clearfix">
-            <div className="mobile-nav-toggler" >
-              <Link to={'/free-consultation'}
-                    className="theme-btn btn-style-two"
-              >
-                <span className="txt">Free Consultation</span>
-              </Link>
-              <span className="icon flaticon flaticon-menu" onClick={handleToggleMobileSideNav} />
-            </div>
-            <nav className="main-menu navbar-expand-md">
-              <div
-                  className="collapse show navbar-collapse clearfix"
-                  id="navbarSupportedContent"
-              >
-                <ul className="navigation clearfix">
-                  {navigationLinks.map((link) => (
-                      <li
-                          key={link.path}
-                          className={location.pathname === link.path ? "current" : ""}
-                      >
-                        <Link to={link.path} className="nav-link">
-                          {link.label}
-                        </Link>
-                      </li>
-                  ))}
-                </ul>
-              </div>
-            </nav>
-            <div className={classOuter}>
-              <div className="cart-box">
-                <div className="dropdown">
-                  <Link to={'/free-consultation'}
-                      className={className}
+        </div>
+        <div className="nav-outer clearfix">
+          <div className="mobile-nav-toggler">
+            <Link to={"/free-consultation"} className="theme-btn btn-style-two">
+              <span className="txt">Free Consultation</span>
+            </Link>
+            <span
+              className="icon flaticon flaticon-menu"
+              onClick={handleToggleMobileSideNav}
+            />
+          </div>
+          <nav className="main-menu navbar-expand-md">
+            <div
+              className="collapse show navbar-collapse clearfix"
+              id="navbarSupportedContent"
+            >
+              <ul className="navigation clearfix">
+                {navigationLinks.map((link) => (
+                  <li
+                    key={link.path}
+                    className={location.pathname === link.path ? "current" : ""}
                   >
-                    <span className="txt">Free Consultation</span>
-                  </Link>
-                </div>
-              </div>
-              <button className="nav-toggler" onClick={handleToggleSideNav}>
-                <span className="flaticon flaticon-menu"/>
-              </button>
+                    <Link to={link.path} className="nav-link">
+                      {link.label}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
             </div>
+          </nav>
+          <div className={classOuter}>
+            <div className="cart-box">
+              <div className="dropdown">
+                <Link to={"/free-consultation"} className={className}>
+                  <span className="txt">Free Consultation</span>
+                </Link>
+              </div>
+            </div>
+            <button className="nav-toggler" onClick={handleToggleSideNav}>
+              <span className="flaticon flaticon-menu" />
+            </button>
           </div>
         </div>
       </div>
+    </div>
   );
 };
-export default Header
+export default Header;

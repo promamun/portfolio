@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import ALLIMG1 from "../../assets/images/resource/service-center.png";
 import WOW from "wowjs";
+import { Col, Row } from "react-bootstrap";
 
 export default function Service() {
   useEffect(() => {
@@ -59,8 +60,8 @@ export default function Service() {
             </h2>
           </div>
           <div className="inner-container">
-            <div className="row clearfix">
-              <div className="left-column pull-left col-xl-4 col-lg-12 col-md-12 col-sm-12">
+            <Row className="clearfix">
+              <Col xl="4" lg="12" md="12" sm="12" className="left-column pull-left">
                 <div className="inner-column">
                   <div className="service-block-two">
                     <div
@@ -132,8 +133,8 @@ export default function Service() {
                     </div>
                   </div>
                 </div>
-              </div>
-              <div className="center-column col-xl-4 col-lg-12 col-md-12 col-sm-12">
+              </Col>
+              <Col  xl="4" lg="12" md="12" sm="12" className="center-column">
                 <div className="inner-column wow zoomIn" data-wow-delay="600ms">
                   <div className="image-box">
                     <figure>
@@ -141,8 +142,8 @@ export default function Service() {
                     </figure>
                   </div>
                 </div>
-              </div>
-              <div className="right-column pull-right col-xl-4 col-lg-12 col-md-12 col-sm-12">
+              </Col>
+              <Col  xl="4" lg="12" md="12" sm="12" className="right-column pull-right">
                 <div className="inner-column">
                   <div className="service-block-three">
                     <div
@@ -216,8 +217,8 @@ export default function Service() {
                     </div>
                   </div>
                 </div>
-              </div>
-            </div>
+              </Col>
+            </Row>
           </div>
         </div>
       </section>

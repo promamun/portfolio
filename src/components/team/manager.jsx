@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import TImage from "../../assets/images/resource/testimonial.png";
 import MamunPro from "../../assets/images/team/Mamun_Pro.png";
 import OwlCarousel from "react-owl-carousel";
+import { Col, Row } from "react-bootstrap";
 
 class Team extends Component {
   render() {
@@ -9,15 +10,15 @@ class Team extends Component {
       <div>
         <section className="testimonial-section">
           <div className="auto-container">
-            <div className="row">
-              <div className="image-column col-lg-6 col-md-12 col-sm-12">
+            <Row>
+              <Col lg="6" md="12" sm="12" className="image-column">
                 <div className="image-box">
                   <figure>
                     <img src={TImage} alt="Testimonial Image" />
                   </figure>
                 </div>
-              </div>
-              <div className="testimonial-column col-lg-6 col-md-12 col-sm-12">
+              </Col>
+              <Col lg="6" md="12" sm="12" className="testimonial-column">
                 <div className="sec-title">
                   <h6 className="subtitle">OUR TEAM</h6>
                   <h2>
@@ -60,8 +61,8 @@ class Team extends Component {
                     </div>
                   </div>
                 </OwlCarousel>
-              </div>
-            </div>
+              </Col>
+            </Row>
           </div>
         </section>
       </div>

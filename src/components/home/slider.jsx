@@ -1,8 +1,5 @@
 import React, { Component } from "react";
 import OwlCarousel from "react-owl-carousel";
-import SocialBanner from "../../assets/images/services/4.png";
-import SeoBanner from "../../assets/images/services/6.png";
-import Button from "../contact/Button";
 import SlideZone from "./SlideZone";
 import SlideData from "./data/data";
 
